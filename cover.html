@@ -1,0 +1,105 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <link rel="stylesheet" href="css/cover.css">
+  <link rel="stylesheet" href="css/mobile.css">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+   <!-- Optional theme -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+  <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Shojumaru" rel="stylesheet">
+  <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
+
+  <link rel="icon" type="image/png" href="http://cdn.mysitemyway.com/etc-mysitemyway/icons/legacy-previews/icons/glossy-space-icons-alphanumeric/071170-glossy-space-icon-alphanumeric-letter-ss.png" />
+  <title>My Portfolio</title>
+
+  <!-- Get the JQuery library
+  Jquery 1 & 2 are the same except JQuery 2 doesn't
+  support IE 6, 7, and 8 -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+</head>
+<body>
+  <video poster="http://i.giphy.com/ZfkO8vaCO877i.gif" id="bgvid" playsinline autoplay muted loop>
+  <!-- WCAG general accessibility recommendation is that media such as background video play through only once. Loop turned on for the purposes of illustration; if removed, the end of the video will fade in the same way created by pressing the "Pause" button  -->
+    <source src="http://i.giphy.com/ZfkO8vaCO877i.gif" type="video/webm">
+    <source src="http://i.giphy.com/ZfkO8vaCO877i.gif" type="video/mp4">
+    </video>
+    <div id="polina">
+      <div class="row" id="topheader">
+
+          <div class="col-xs-12 col-sm-12 col-md-12" id="resumeheader">
+              <h1>Stephen Popovich's</h1>
+              <h2>Portfolio</h2>
+          </div>
+
+          <div class="row">
+            <div class="col-xs-12 col-sm-4 col-md-4" id="">
+                  <button class="btn btn-default">Bio</button>
+            </div>
+            <div class="col-xs-12 col-sm-4 col-md-4" id="">
+                    <button class="btn btn-default">Resume</button>
+            </div>
+            <div class="col-xs-12 col-sm-4 col-md-4" id="">
+                  <button class="btn btn-default">Examples</button>
+            </div>
+           </div>
+
+       </div>
+
+        <button>Pause</button>
+    </div>
+
+
+  <script type="text/javascript">
+
+    // When the document is ready execute the JQuery
+    $("document").ready(function() {
+
+
+      // Get the document x and y position on click
+      $(document).click(function(e) {
+        $("#mClickXPos").val(e.pageX);
+        $("#mClickYPos").val(e.pageY);
+      });
+
+      // Get the x and y as the mouse moves
+      // Use screenX and screenY to get x and y for the screen
+      $(document).mousemove(function(e) {
+        $("#mMoveXPos").val(e.screenX);
+        $("#mMoveYPos").val(e.screenY);
+      });
+
+      // Show key pressed on the keyboard
+      // You can also use keydown() and keyup()
+      $(document).keypress(function(e){
+
+        // e.which returns the keycode which we convert into
+        // the key with fromCharCode
+        var keyPressed = String.fromCharCode(e.which)
+        $("#keyPressed").val(keyPressed);
+      });
+
+
+
+    }); <!-- End of JQuery Code -->
+
+  </script>
+
+  </div> <!-- End of wrapper -->
+
+  <!-- Most common CSS attributes
+  https://developer.mozilla.org/en-US/docs/Web/CSS/Reference
+    background, background-attachment, background-color, background-image, background-repeat, border, border-bottom, border-color, border-style, border-bottom-color, border-bottom-style, border-bottom-width, border-left-color, border-left-style, border-left-width, border-right-color, border-right-style, border-right-width, border-top-color, border-top-style, border-top-width, box-shadow, color, columns, direction, float, font-family, font-size, font-style, font-weight, height, letter-spacing, line-height, list-style-type, list-style-image, list-style-position, margin, margin-bottom, margin-top, margin-right,margin-left, opacity, padding-bottom, padding-top, padding-right, padding-left, text-align, text-decoration, text-decoration-color, text-decoration-line, text-decoration-style, text-indent, text-orientation, text-shadow, text-transform, vertical-align, visibility, width, word-spacing, z-index
+  -->
+  <link rel="javascript" href="scripts/script.js">
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,99 @@
+
+  body {
+    margin: 0;
+    background: #000;
+  }
+  video {
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      min-width: 100%;
+      min-height: 100%;
+      width: auto;
+      height: auto;
+      z-index: -100;
+      transform: translateX(-50%) translateY(-50%);
+   background: url('//demosthenes.info/assets/images/polina.jpg') no-repeat;
+    background-size: cover;
+    transition: 1s opacity;
+  }
+  .stopfade {
+     opacity: .5;
+  }
+
+  #polina {
+    font-family: Agenda-Light, Agenda Light, Agenda, Arial Narrow, sans-serif;
+    font-weight:100;
+    background: rgba(0,0,0,0.3);
+    color: white;
+    padding: 2rem;
+    width: 100%;
+    margin:2rem;
+    float: right;
+    font-size: 1.2rem;
+  }
+  h1 {
+    font-size: 3rem;
+    text-transform: uppercase;
+    margin-top: 0;
+    letter-spacing: .3rem;
+  }
+  #polina button {
+    display: block;
+    width: 80%;
+    padding: .4rem;
+    border: none;
+    margin: 1rem auto;
+    font-size: 1.3rem;
+    background: rgba(255,255,255,0.23);
+    color: #fff;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: .3s background;
+  }
+  #polina button:hover {
+     background: rgba(0,0,0,0.5);
+  }
+
+  a {
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    background:rgba(0,0,0,0.5);
+    padding: .5rem;
+    transition: .6s background;
+  }
+  a:hover{
+    background:rgba(0,0,0,0.9);
+  }
+  @media screen and (max-width: 500px) {
+    div{width:70%;}
+  }
+  @media screen and (max-device-width: 800px) {
+    html { background: url('//demosthenes.info/assets/images/polina.jpg') #000 no-repeat center center fixed; }
+    #bgvid { display: none; }
+  }
+
+  /*.container{
+    margin-left: .7%;
+    margin-right: 1%;
+    padding-left: 9px;
+  }*/
+  button{
+    background: linear-gradient(to bottom, #000000, #53346D) !important;
+    border-color: 	#00FFFF;
+    opacity: .7;
+    -webkit-box-shadow: 3px 3px 5px 5px black;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+    -moz-box-shadow:    3px 3px 5px 5px black;  /* Firefox 3.5 - 3.6 */
+    box-shadow:         3px 3px 5px 5px black;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+
+  }
+  button:hover{
+    background: -webkit-linear-gradient(bottom, #25c481, #25b7c4) !important;
+    background: linear-gradient(to top, #000000, #53346D) !important;
+    border-color: 	#00FFFF;
+    opacity: .9;
+    -webkit-box-shadow: 3px 3px 5px 5px teal;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+    -moz-box-shadow:    3px 3px 5px 5px teal;  /* Firefox 3.5 - 3.6 */
+    box-shadow:         3px 3px 5px 5px teal;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+  }
