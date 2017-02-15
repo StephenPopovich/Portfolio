@@ -400,6 +400,8 @@
     opacity: 1;
     font-size: 22px;
     color: white;
+    margin-left: 3%;
+    margin-right: 3%;
     margin-top: 4%;
     margin-bottom: 10%;
     line-height: 1.58;
@@ -577,4 +579,11 @@
     box-shadow: none;
     border: none;
     width: 100%;
+  }
+  em{
+    font-family: 'Righteous', cursive;
+    text-align: center;
+    font-style: oblique;
+    color: #00FFFF;
+    text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
   }
