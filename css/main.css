@@ -20,8 +20,11 @@
     opacity: .9;
     height: 100%;
     width: 100%;
+    margin: 0px;
     position: fixed;
     z-index: 1000;
+    padding-left: 4%;
+    padding-top: 6%;
   }
   ::-webkit-scrollbar {
     width: 12px;
@@ -286,6 +289,45 @@
     box-shadow: 3px 3px 1px 3px black;
     border: 2px groove #25b7c4 !important;
     border-radius: 5%;
+  }
+  #cf {
+    position:relative;
+    height:281px;
+    width:450px;
+    margin:0 auto;
+  }
+
+  #cf img {
+    height: 300px;
+    width: 300px;
+    /* margin-left: -54.5%; */
+    position: absolute;
+    margin-top: 11%;
+    left: 0;
+    -webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out;
+    -webkit-box-shadow: 3px 3px 5px 5px #53346D;
+    -moz-box-shadow: 3px 3px 5px 5px #53346D;
+    box-shadow: 3px 3px 5px 5px #53346D;
+
+  }
+
+  #cf img.top:hover {
+    opacity:0;
+    -webkit-box-shadow: 3px 3px 5px 5px teal;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+    -moz-box-shadow:    3px 3px 5px 5px teal;  /* Firefox 3.5 - 3.6 */
+    box-shadow:         3px 3px 5px 5px teal;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+  }
+  #cf img.top:active {
+    opacity:0;
+    -webkit-box-shadow: 3px 3px 5px 5px teal;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+    -moz-box-shadow:    3px 3px 5px 5px teal;  /* Firefox 3.5 - 3.6 */
+    box-shadow:         3px 3px 5px 5px teal;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+  }
+  div#meslide{
+
   }
   p#infocontent{
     color: #25b7c4;

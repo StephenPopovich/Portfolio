@@ -18,8 +18,10 @@
       -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
       -webkit-border-radius: 10px;
       border-radius: 10px;
+      width: 20px;
       color: #00FFFF !important;
       background: #00FFFF !important;
+      z-index: 1000;
   }
   ::-webkit-scrollbar-thumb {
       -webkit-border-radius: 10px;
@@ -27,6 +29,7 @@
       background: #53346D !important;
       border-color: #00FFFF !important;
       -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);
+      z-index: 1000;
   }
   ::-webkit-scrollbar-thumb:window-inactive {
     -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
@@ -34,6 +37,7 @@
     border-radius: 10px;
     color: #00FFFF !important;
     background: #00FFFF !important;
+    z-index: 1000;
   }
   #dvLoading{
     background: #53346D url(http://i.giphy.com/ihRk2wHfTQD72.gif) no-repeat center center;
