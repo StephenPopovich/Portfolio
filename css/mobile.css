@@ -332,7 +332,6 @@
     }
    #instagram{
 
-
     }
     #twitter{
     }
@@ -385,6 +384,10 @@
       -moz-box-shadow:    3px 3px 4px 4px black;  /* Firefox 3.5 - 3.6 */
       box-shadow:         3px 3px 4px 4px black;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
 
+    }
+    #map {
+    margin-top: 2%;
+    width: inherit !important;
     }
     #education{
       margin-top: 2%;
@@ -454,6 +457,10 @@
           line-height: 1;
           height: 300px !important;
           max-height: 300px !important;
+      }
+      ul#random{
+        display: inline-block;
+
       }
       p#slidetext{
         color: #25b7c4 !important;
@@ -575,6 +582,20 @@
       -o-transition: opacity 1s ease-in-out;
       transition: opacity 1s ease-in-out;
     }
+    #cf2 img {
+          margin-left: 27%;
+        position: absolute;
+        left: 0;
+        width: 100%;
+        margin-top: 35px;
+        -webkit-transition: opacity 1s ease-in-out;
+        -moz-transition: opacity 1s ease-in-out;
+        -o-transition: opacity 1s ease-in-out;
+        transition: opacity 1s ease-in-out;
+
+    }
+
+
     img#coin {
       display: none;
     }
