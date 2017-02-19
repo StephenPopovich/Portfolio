@@ -332,6 +332,9 @@ img.img_responsive{
 #cf img.top:hover {
   opacity:0;
 }
+#cf img.top:focus {
+  opacity:0;
+}
 img{
   cursor: pointer;
   -webkit-box-shadow: 3px 3px 4px 4px black;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */

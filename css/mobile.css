@@ -582,8 +582,14 @@
       -o-transition: opacity 1s ease-in-out;
       transition: opacity 1s ease-in-out;
     }
+    #cf img.top:hover {
+      opacity:0;
+    }
+    #cf img.top:focus {
+      opacity:0;
+    }
     #cf2 img {
-          margin-left: 27%;
+        margin-left: 27%;
         position: absolute;
         left: 0;
         width: 100%;
@@ -594,8 +600,12 @@
         transition: opacity 1s ease-in-out;
 
     }
-
-
+    #cf2 img.top:hover {
+      opacity:0;
+    }
+    #cf2 img.top:focus {
+      opacity:0;
+    }
     img#coin {
       display: none;
     }
