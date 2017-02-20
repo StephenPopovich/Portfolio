@@ -413,6 +413,13 @@
       box-shadow:         3px 3px 4px 4px #53346D;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
 
     }
+
+    iframe#c01151eae39c0f08b1d390dcb8ab2b5ba24b63688cb16f2ac52d170e37920665{
+        width: 100% !important;
+    }
+    iframe#0ed82a5720b19943fd28bf9cfce7420742866b39491aba5fb1d0ef6c05a18909{
+        width: 100% !important;
+    }
     .carousel-inner img {
        width: 100%; /* Set width to 100% */
        margin: auto;
