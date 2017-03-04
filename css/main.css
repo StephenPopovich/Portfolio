@@ -12,6 +12,9 @@
       background-size: cover;         /* Generic*/
       font-size: 16px;
   }
+  .container{
+    width: 100% !important;
+  }
   h3, p.lead{
   color: white
   }
@@ -292,8 +295,8 @@
   }
   #cf2 {
     position:relative;
-    height:281px;
-    width:450px;
+    height: 360px;
+    width: 400px;
     margin:0 auto;
   }
 
@@ -408,6 +411,7 @@
     font-style: normal;
     font-weight: 400;
     line-height: 1;
+    text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
   }
@@ -417,6 +421,9 @@
   }
   #twitter{
 
+  }
+  ul#random {
+    display: inline-block !important;
   }
   #myname{
     font-size: 40px;
@@ -481,6 +488,7 @@
     -webkit-box-shadow: 1px 1px 2px 2px black;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
     -moz-box-shadow:    1px 1px 2px 2px black;  /* Firefox 3.5 - 3.6 */
     box-shadow:         1px 1px 2px 2px black;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+    text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
 
   }
   iframe:hover{
@@ -496,7 +504,7 @@
   .carousel-inner img {
      width: 100%; /* Set width to 100% */
      margin: auto;
-     height:350px !important;
+     height:450px !important;
    }
    .carousel-indicators .active {
      width: 12px;
@@ -535,9 +543,17 @@
     .carousel-inner>.item>a>img, .carousel-inner>.item>img {
         line-height: 1;
     }
+    h3#slidecaption{
+      text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+      font-size: larger;
+      font-size: 38px;
+
+    }
     p#slidetext{
       color: #25b7c4 !important;
       font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+      text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+      font-size: 31px;
     }
 
   hr{
@@ -622,10 +638,17 @@
     border: none;
     width: 100%;
   }
+  em#frontend{
+    font-family: 'Righteous', cursive;
+    text-align: center;
+    font-style: oblique;
+    color: #00FFFF !important;
+    text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+  }
   em{
     font-family: 'Righteous', cursive;
     text-align: center;
     font-style: oblique;
-    color: #00FFFF;
+    color: gold;
     text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
   }

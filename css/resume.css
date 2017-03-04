@@ -291,7 +291,6 @@
   #myname{
     font-size: 40px;
     line-height: 33px;
-
   }
   h2#careertitle{
     color: #1C75BC;
@@ -405,6 +404,7 @@
   }
   #projectsubtitle{
     color:  #1C75BC;
+    font-size: 16px;
   }
   #projectcontent{
     font-size: 10px;
