@@ -508,6 +508,15 @@
     box-shadow:         3px 3px 4px 4px #53346D;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
 
   }
+  iframe.project{
+  width: 100% !important;
+  height: 415px !important;
+  cursor: pointer;
+  -webkit-box-shadow: 1px 1px 2px 2px black;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+  -moz-box-shadow:    1px 1px 2px 2px black;  /* Firefox 3.5 - 3.6 */
+  box-shadow:         1px 1px 2px 2px black;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+
+  }
   .carousel-inner img {
      width: 100%; /* Set width to 100% */
      margin: auto;
