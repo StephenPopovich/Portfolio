@@ -4,8 +4,6 @@
       color: 	black;
       font-color: black;
       font-size: font-family: 'PT Sans', sans-serif;
-      background: -webkit-linear-gradient(bottom, #25c481, #25b7c4) !important;
-      background: linear-gradient(to top, #25b7c4, #25c481) !important;
       -webkit-background-size: cover; /* For WebKit*/
       -moz-background-size: cover;    /* Mozilla*/
       -o-background-size: cover;      /* Opera*/
@@ -18,50 +16,8 @@
   h3, p.lead{
   color: white
   }
-  #dvLoading{
-    background: #53346D url(http://i.giphy.com/ihRk2wHfTQD72.gif) no-repeat center center;
-    opacity: .9;
-    height: 100%;
-    width: 100%;
-    margin: 0px;
-    position: fixed;
-    z-index: 1000;
-    padding-left: 4%;
-    padding-top: 6%;
-  }
-  ::-webkit-scrollbar {
-    width: 12px;
-
-  }
-  ::-webkit-scrollbar-track {
-      -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
-      -webkit-border-radius: 10px;
-      border-radius: 10px;
-      color: #00FFFF !important;
-      background: #00FFFF !important;
-  }
-  ::-webkit-scrollbar-thumb {
-      -webkit-border-radius: 10px;
-      border-radius: 10px;
-      background: #53346D !important;
-      border-color: #00FFFF !important;
-      -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);
-  }
-  ::-webkit-scrollbar-thumb:window-inactive {
-    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
-    -webkit-border-radius: 10px;
-    border-radius: 10px;
-    color: #00FFFF !important;
-    background: #00FFFF !important;
-  }
-
-  /*.container{
-    margin-left: .7%;
-    margin-right: 1%;
-    padding-left: 9px;
-  }*/
   nav.navbar.navbar-default{
-    background: linear-gradient(to bottom, #000000, #53346D) !important;
+
     width: 100%;
     border-color: 	#00FFFF;
     opacity: .7;
@@ -73,8 +29,6 @@
 
   }
   nav.navbar.navbar-default:hover{
-    background: -webkit-linear-gradient(bottom, #25c481, #25b7c4) !important;
-    background: linear-gradient(to top, #000000, #53346D) !important;
     border-color: 	#00FFFF;
     opacity: .9;
     -webkit-box-shadow: 3px 3px 5px 5px teal;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
@@ -253,27 +207,6 @@
   }
   img#mypic {
   width: 100%;
-  border: 3px groove #25b7c4 !important;
-  border-radius: 14px;
-  -webkit-transition: all 0.5s ease;
-     -moz-transition: all 0.5s ease;
-       -o-transition: all 0.5s ease;
-      -ms-transition: all 0.5s ease;
-          transition: all 0.5s ease;
-
-  }
-  img#mypic:hover {
-    border: 3px groove #25b7c4 !important;
-    border-radius: 50%;
-    -webkit-transform: rotate(360deg);
-       -moz-transform: rotate(360deg);
-         -o-transform: rotate(360deg);
-        -ms-transform: rotate(360deg);
-            transform: rotate(360deg);
-  }
-  img#mypic:active {
-  width: 100%;
-  border: 3px groove #25b7c4 !important;
   border-radius: 14px;
   -webkit-transition: all 0.5s ease;
      -moz-transition: all 0.5s ease;
@@ -284,11 +217,7 @@
   }
 
   #infocontent{
-    background: linear-gradient(to bottom, #000000, #53346D) !important;
     opacity: .85;
-    -webkit-box-shadow: 3px 3px 1px 3px black;
-    -moz-box-shadow: 3px 3px 1px 3px black;
-    box-shadow: 3px 3px 1px 3px black;
     border: 2px groove #25b7c4 !important;
     border-radius: 5%;
   }
@@ -339,7 +268,7 @@
 
   }
   p#infocontent{
-    color: #25b7c4;
+    color: black;
   }
   a#email{
     color: #25b7c4;
@@ -437,16 +366,11 @@
 
   }
   #biodiv{
-    background: linear-gradient(to bottom, #000000, #53346D) !important;
     opacity: .88;
     -webkit-background-size: cover; /* For WebKit*/
     -moz-background-size: cover;    /* Mozilla*/
     -o-background-size: cover;      /* Opera*/
     background-size: cover;         /* Generic*/
-    -webkit-box-shadow: 3px 3px 1px 3px black;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
-    -moz-box-shadow:    3px 3px 1px 3px black;  /* Firefox 3.5 - 3.6 */
-    box-shadow:         3px 3px 1px 3px black;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
-    border: 3px groove #25b7c4 !important;
     border-radius: 6%;
     height: auto;
     width: auto;
@@ -484,7 +408,7 @@
   }
   iframe#map{
      width: 400px;
-     height: 400px;
+     height: 525px;
   }
   iframe{
     width: 100% !important;
