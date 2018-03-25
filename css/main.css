@@ -165,11 +165,6 @@
        1px 1px 0 black;
   }
   .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.open>a:focus{
-    background: -webkit-linear-gradient(bottom, #25c481,  #00FFFF) !important;
-    background-color: linear-gradient(to top,  #00FFFF, #53346D) !important;
-    -webkit-box-shadow: 3px 3px 5px 5px #53346D;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
-    -moz-box-shadow:    3px 3px 5px 5px #53346D;  /* Firefox 3.5 - 3.6 */
-    box-shadow:         3px 3px 5px 5px #53346D;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
     text-shadow:
        -1px -1px 0 black,
        1px -1px 0 black,
