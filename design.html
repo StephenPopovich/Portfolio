@@ -1,0 +1,653 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="theme-color" content="#53346D">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/mobile.css">
+  <meta name="description" content="Stephen Popovich's Portfolio Website, feel free to look around :)">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+   <!-- Optional theme -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+  <link href="https://fonts.googleapis.com/css?family=Righteous|Wallpoet" rel="stylesheet">
+  <!-- font-family: 'Righteous', cursive;
+  font-family: 'Wallpoet', cursive; -->
+
+
+  <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Shojumaru" rel="stylesheet">
+  <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
+
+  <link rel="icon" type="image/png" href="http://cdn.mysitemyway.com/etc-mysitemyway/icons/legacy-previews/icons/glossy-space-icons-alphanumeric/071170-glossy-space-icon-alphanumeric-letter-ss.png" />
+  <title>Design</title>
+
+  <!-- Get the JQuery library
+  Jquery 1 & 2 are the same except JQuery 2 doesn't
+  support IE 6, 7, and 8 -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+</head>
+<body>
+
+
+  <div id="wrapper">
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+              <!-- Brand and toggle get grouped for better mobile display -->
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+
+                <!-- <a class="navbar-brand" href="#">Stephen Popovich</a> -->
+                <img id="slogo" src="http://cdn.mysitemyway.com/etc-mysitemyway/icons/legacy-previews/icons/glossy-space-icons-alphanumeric/071170-glossy-space-icon-alphanumeric-letter-ss.png" width="50" height="50">
+              </div>
+
+              <!-- Collect the nav links, forms, and other content for toggling -->
+              <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                  <li><a href="index.html">Bio</a></li>
+                  <li><a href="resume.html">Resume</a></li>
+                  <li><a href="gaming.html">Front-end</a></li>
+                  <li class="active"><a href="design.html">Design<span class="sr-only">(current)</span></a></li>
+                  <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Websites<span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                      <li><a href="http://shop.morroccomethod.com/">Morrocco Method</a></li>
+                      <li role="separator" class="divider"></li>
+                      <li><a href="http://www.morroccomethod.com/blog/">Morrocco Method Blog</a></li>
+                      <li role="separator" class="divider"></li>
+                      <li><a href="https://www.thehairshaman.com/">The Hair Shaman</a></li>
+                      <li role="separator" class="divider"></li>
+                      <li><a href="http://qigongmastery.com/">Qigong Mastery</a></li>
+                      <li role="separator" class="divider"></li>
+                      <li><a href="http://www.goodkarmabikes.org/">Good Karma Bikes</a></li>
+                      <li role="separator" class="divider"></li>
+                      <li><a href="http://www.fanfighttalk.com">Fanfighttalk</a></li>
+                      <li role="separator" class="divider"></li>
+                      <li><a href="https://www.linkedin.com/in/stephenmpopovich">Linkedin</a></li>
+                      <li role="separator" class="divider"></li>
+                      <li><a href="https://github.com/StephenPopovich">Github</a></li>
+
+                    </ul>
+                  </li>
+                </ul>
+                <!-- <form class="navbar-form navbar-left">
+
+
+                </form> -->
+                <ul class="nav navbar-nav navbar-right">
+                  <canvas id="canvas" width="50" height="50"
+                    style="background-color:none">
+                  </canvas>
+                  <!-- <li><a href="#">Link</a></li>
+                  <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                      <li><a href="#">Action</a></li>
+                      <li><a href="#">Another action</a></li>
+                      <li><a href="#">Something else here</a></li>
+                      <li role="separator" class="divider"></li>
+                      <li><a href="#">Separated link</a></li>
+                    </ul>
+                  </li> -->
+                </ul>
+              </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+          </nav>
+
+
+        <div class="container">
+
+                <div class="row"  id="">
+                  <div class="col-xs-12 col-sm-12 col-md-12">
+                    <h3 id="minititle">Designs/Sales Banners (PhotoShop)</h3>
+
+                  </div>
+
+                  <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                    <img src="pictures/Sales-Banner1.jpg" alt="Image">
+                    <img src="pictures/Sales-Banner2.jpg" alt="Image">
+                    <img src="pictures/Sales-Banner3.jpg.png" alt="Image">
+                    <img src="pictures/Sales-Banner4.jpg" alt="Image">
+                  </div>
+
+
+                </div>
+
+                <div class="row"  id="">
+                  <div class="col-xs-12 col-sm-12 col-md-12">
+                    <h3 id="minititle">Moderate in:</h3>
+
+                  </div>
+
+                  <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                    <img src="pictures/Angular.png" alt="Image">
+                    <img src="pictures/NPM.png" alt="Image">
+                    <img src="pictures/Photoshop.png" alt="Image">
+                    <img src="pictures/MySQL.png" alt="Image">
+                  </div>
+
+
+                    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+
+                  </div>
+
+                </div>
+
+
+
+                <div class="row"  id="">
+                  <div class="col-xs-12 col-sm-12 col-md-12">
+                    <h3 id="minititle">Familiar with</h3>
+                  </div>
+                  <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                    <img src="pictures/PHP.png" alt="Image">
+                    <img src="pictures/JAVA.png" alt="Image">
+                    <img src="pictures/Spring.png" alt="Image">
+                    <img src="pictures/Illustrator.png" alt="Image">
+                  </div>
+
+                  <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                    <img src="pictures/React.png" alt="Image">
+                    <img src="pictures/Python.png" alt="Image">
+                    <img src="pictures/BitBucket.png" alt="Image">
+                    <img src="pictures/Nodejs.png" alt="Image">
+                  </div>
+                </div>
+
+                <div class="row"  id="">
+                  <div class="col-xs-12 col-sm-12 col-md-12">
+                    <h3 id="minititle">Projects</h3>
+                  </div>
+                </div>
+
+                <div class="row">
+                   <div class="col-xs-12 col-sm-6 col-md-6">
+
+                       <h6>Morrocco Method</h6>
+                       <a class="website" href="http://shop.morroccomethod.com">shop.morroccomethod.com</a>
+
+                         <iframe class="project" width="100%" height="415" src="https://www.youtube.com/embed/F4vKXElJcBE" frameborder="0" allowfullscreen></iframe>
+
+                        <div id="biodiv">
+                            <p id="bio">
+                               <em>Lead Web Developer</em><br>
+                               <em id="frontend">Technologies:</em>
+                               <em id="frontend">NetSuite, HTML, CSS, SASS, LESS, Javascript, Jquery</em>
+                               <em id="frontend">Html/CSS, Bootstrap, GoDaddy</em><br>
+                               <strong>Duration: 1 year</strong>
+                               <br>
+                               <strong>A mixed martial arts news website with over 1,000 followers. A site with interviews, videos, articles, chatroom, upcoming events, podcast and more. A website I designed from scratch to bring MMA fans together and have them talk and interact during live fight events. Extremely mobile friends, design to connect fans any time and anywhere. I did all the development for this website.</strong>
+                             </p>
+
+                       </div>
+
+
+                  </div>
+
+                    <div class="col-xs-12 col-sm-6 col-md-6">
+
+                      <h6>Morrocco Method Blog</h6>
+                      <a class="website" href="http://www.morroccomethod.com/blog">www.morroccomethod.com/blog</a>
+
+                          <iframe class="project" width="100%" height="415" src="https://www.youtube.com/embed/nqahxRjtnJ4" frameborder="0" allowfullscreen></iframe>
+
+                       <div id="biodiv">
+                            <p id="bio">
+                               <em>Lead Front End Developer</em><br>
+                               <em id="frontend">Technologies:</em>
+                               <em id="frontend">WordPRess</em>
+                               <em id="frontend">Javascript, Jquery</em>
+                               <em id="frontend">Html/CSS, Bootstrap, GoDaddy</em><br>
+                               <strong>Duration: 1 Year</strong>
+                               <br>
+                               <strong>A non-profit bike shop that donates majority of their profits to foster care charities. A company that repairs, sells pairs, bikes and more. I was the lead front end developer for the redesign of the website and the UI for the front UI and admim UI portal. A volunteer position that ended after a months time, the product was completed and presented to the product owner.</strong>
+                             </p>
+
+                       </div>
+
+
+                    </div>
+
+
+                </div>
+
+                <div class="row">
+                   <div class="col-xs-12 col-sm-6 col-md-6">
+
+                     <h6>The Hair Shaman</h6>
+                     <a class="website" href="http://www.thehairshaman.com">www.thehairshaman.com</a>
+
+                         <iframe class="project" width="100%" height="415" src="https://www.youtube.com/embed/F4vKXElJcBE" frameborder="0" allowfullscreen></iframe>
+
+                        <div id="biodiv">
+                            <p id="bio">
+                               <em>Full Stack Web Developer</em><br>
+                               <em id="frontend">Technologies:</em>
+                               <em id="frontend">Javascript, Jquery</em>
+                               <em id="frontend">Html/CSS, Bootstrap, AWS</em><br>
+                               <strong>Duration: 1 Year</strong>
+                               <br>
+                               <strong>A mixed martial arts news website with over 1,000 followers. A site with interviews, videos, articles, chatroom, upcoming events, podcast and more. A website I designed from scratch to bring MMA fans together and have them talk and interact during live fight events. Extremely mobile friends, design to connect fans any time and anywhere. I did all the development for this website.</strong>
+                             </p>
+
+                       </div>
+
+
+                  </div>
+
+                    <div class="col-xs-12 col-sm-6 col-md-6">
+
+                      <h6>The Hair Shaman</h6>
+                      <a class="website" href="http://www.thehairshaman.com">www.thehairshaman.com</a>
+
+                          <iframe class="project" width="100%" height="415" src="https://www.youtube.com/embed/nqahxRjtnJ4" frameborder="0" allowfullscreen></iframe>
+
+                       <div id="biodiv">
+                            <p id="bio">
+                               <em>Lead Front End Developer</em><br>
+                               <em id="frontend">Technologies:</em>
+                               <em id="frontend">Ruby on Rails, AngularJs, MySQL</em>
+                               <em id="frontend">Javascript, Jquery</em>
+                               <em id="frontend">Html/CSS, Node.js, Bootstrap, AWS</em><br>
+                               <strong>Duration: 4 Months</strong>
+                               <br>
+                               <strong>A non-profit bike shop that donates majority of their profits to foster care charities. A company that repairs, sells pairs, bikes and more. I was the lead front end developer for the redesign of the website and the UI for the front UI and admim UI portal. A volunteer position that ended after a months time, the product was completed and presented to the product owner.</strong>
+                             </p>
+
+                       </div>
+
+
+                    </div>
+
+
+                </div>
+
+                 <div class="row">
+                    <div class="col-xs-12 col-sm-6 col-md-6">
+
+                        <h6>Fanfighttalk.com</h6>
+
+                          <iframe class="project" width="100%" height="415" src="https://www.youtube.com/embed/F4vKXElJcBE" frameborder="0" allowfullscreen></iframe>
+
+                         <div id="biodiv">
+                             <p id="bio">
+                                <em>Full Stack Web Developer</em><br>
+                                <em id="frontend">Technologies:</em>
+                                <em id="frontend">Javascript, Jquery</em>
+                                <em id="frontend">Html/CSS, Bootstrap, AWS</em><br>
+                                <strong>Duration: 2 year+</strong>
+                                <br>
+                                <strong>A mixed martial arts news website with over 1,000 followers. A site with interviews, videos, articles, chatroom, upcoming events, podcast and more. A website I designed from scratch to bring MMA fans together and have them talk and interact during live fight events. Extremely mobile friends, design to connect fans any time and anywhere. I did all the development for this website.</strong>
+                              </p>
+
+                        </div>
+
+
+                   </div>
+
+                     <div class="col-xs-12 col-sm-6 col-md-6">
+
+                         <h6>Goodkarmabikes.org</h6>
+
+                           <iframe class="project" width="100%" height="415" src="https://www.youtube.com/embed/nqahxRjtnJ4" frameborder="0" allowfullscreen></iframe>
+
+                        <div id="biodiv">
+                             <p id="bio">
+                                <em>Lead Front End Developer</em><br>
+                                <em id="frontend">Technologies:</em>
+                                <em id="frontend">Ruby on Rails, AngularJs, MySQL</em>
+                                <em id="frontend">Javascript, Jquery</em>
+                                <em id="frontend">Html/CSS, Node.js, Bootstrap, AWS</em><br>
+                                <strong>Duration: 1 month</strong>
+                                <br>
+                                <strong>A non-profit bike shop that donates majority of their profits to foster care charities. A company that repairs, sells pairs, bikes and more. I was the lead front end developer for the redesign of the website and the UI for the front UI and admim UI portal. A volunteer position that ended after a months time, the product was completed and presented to the product owner.</strong>
+                              </p>
+
+                        </div>
+
+
+                     </div>
+
+
+                 </div>
+
+
+                 <div class="row"  id="">
+                   <div class="col-xs-12 col-sm-12 col-md-12">
+                     <h3 id="minititle">Social Media</h3>
+                   </div>
+                 </div>
+
+                  <div class="row">
+                     <div class="col-xs-12 col-sm-6 col-md-6">
+                       <div id="instagram1">
+                         <h6>My Instagram</h6>
+                         <!-- InstaWidget -->
+                         <a href="https://instawidget.net/v/user/stephenpopovich" id="link-c01151eae39c0f08b1d390dcb8ab2b5ba24b63688cb16f2ac52d170e37920665">@stephenpopovich</a>
+                         <script src="https://instawidget.net/js/instawidget.js?u=c01151eae39c0f08b1d390dcb8ab2b5ba24b63688cb16f2ac52d170e37920665&width=370px"></script>
+                       </div>
+                    </div>
+
+                      <div class="col-xs-12 col-sm-6 col-md-6">
+                        <div id="instagram">
+                          <h6>Fanfighttalk's Instagram</h6>
+                          <!-- InstaWidget -->
+                          <a href="https://instawidget.net/v/user/fanfighttalk" id="link-0ed82a5720b19943fd28bf9cfce7420742866b39491aba5fb1d0ef6c05a18909">@fanfighttalk</a>
+                          <script src="https://instawidget.net/js/instawidget.js?u=0ed82a5720b19943fd28bf9cfce7420742866b39491aba5fb1d0ef6c05a18909&width=370px"></script>
+                        </div>
+                      </div>
+                  </div>
+
+
+                  <div class="row" id="">
+
+                      <div class="col-xs-12 col-sm-12 col-md-12" id="">
+                        <h3 id="minititle">Education</h3>
+                      </div>
+                  </div>
+
+                  <div class="row" id="">
+
+                     <div class="col-xs-12 col-sm-6 col-md-6" id="education">
+                       <h7>Coding Dojo, 2016</h7>
+                       <h7>Web Development</h7>
+                       <h8>Python, Lamp Stack and MEAN stack</h8>
+                        <iframe id="map" frameborder="0"
+                          src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJK-_IrBO3j4ARzF1j7PJ9I8Q&key=AIzaSyBlJ_h7EUIeIooDz-Qv7HRNh7W7Q0VgSXg" allowfullscreen>
+                        </iframe>
+                      </div>
+
+                       <div class="col-xs-12 col-sm-6 col-md-6" id="education">
+                          <h7>San Jose State, 2013</h7>
+                          <h7>Business</h7>
+                          <h8>B.S. in Business Management</h8>
+                          <iframe id="map" frameborder="0"
+                          src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJ1UPeZLjMj4ARDjQ3GXL-fzk&key=AIzaSyBn0uKsoiYvV3H3va0B399NCr0zezYLOHo" allowfullscreen>
+                          </iframe>
+                        </div>
+
+                    </div>
+
+
+                 <div class="row" id="">
+
+                     <div class="col-xs-12 col-sm-12 col-md-12" id="">
+                       <h3 id="minititle">ME</h3>
+                     </div>
+                 </div>
+
+                 <div class="row" id="">
+
+                     <div class="col-xs-12 col-sm-12 col-md-12" id="text">
+                       <h5>Pictures of me</h5>
+
+                       <div id="myCarousel3" class="carousel slide" data-ride="carousel">
+                               <!-- Indicators -->
+                               <ol class="carousel-indicators">
+                                 <li data-target="#myCarousel3" data-slide-to="0" class="active"></li>
+                                 <li data-target="#myCarousel3" data-slide-to="1"></li>
+                                 <li data-target="#myCarousel3" data-slide-to="2"></li>
+                                 <li data-target="#myCarousel3" data-slide-to="3"></li>
+                                 <li data-target="#myCarousel3" data-slide-to="4"></li>
+                                 <li data-target="#myCarousel3" data-slide-to="5"></li>
+                                 <li data-target="#myCarousel3" data-slide-to="6"></li>
+                                 <li data-target="#myCarousel3" data-slide-to="7"></li>
+                               </ol>
+
+                               <!-- Wrapper for slides -->
+                               <div class="carousel-inner" role="listbox">
+                                   <div class="item active">
+                                         <img src="pictures/pic1.png" alt="Image">
+                                     <div class="carousel-caption">
+                                       <h3 id="slidecaption">Skydiving</h3>
+                                       <p id="slidetext">for my 25th</p>
+                                     </div>
+                                   </div>
+
+                                   <div class="item">
+                                         <img src="pictures/pic2.png" alt="Image">
+                                     <div class="carousel-caption">
+                                       <h3 id="slidecaption">Best Man</h3>
+                                       <p id="slidetext">at my brother's wedding</p>
+                                     </div>
+                                   </div>
+
+                                   <div class="item">
+                                     <img src="pictures/pic3.png" alt="Image">
+                                     <div class="carousel-caption">
+                                       <h3 id="slidecaption">Universal Studios</h3>
+                                       <p id="slidetext">for my friends birthday</p>
+                                     </div>
+                                   </div>
+
+
+                                   <div class="item">
+                                     <img src="pictures/pic4.png" alt="Image">
+                                     <div class="carousel-caption">
+                                       <h3 id="slidecaption">Mission Peak</h3>
+                                       <p id="slidetext">with some friends</p>
+                                     </div>
+                                   </div>
+
+
+                                  <div class="item">
+                                    <img src="pictures/pic5.png" alt="Image">
+                                    <div class="carousel-caption">
+                                      <h3 id="slidecaption">Traveling</h3>
+                                      <p id="slidetext">with my bestfriend</p>
+                                    </div>
+                                  </div>
+
+
+                                   <div class="item">
+                                     <img src="pictures/pic6.png" alt="Image">
+                                     <div class="carousel-caption">
+                                       <h3 id="slidecaption">Holding Baby Lions</h3>
+                                       <p id="slidetext">with my cousin</p>
+                                     </div>
+                                   </div>
+
+
+                                    <div class="item">
+                                      <img src="pictures/pic7.png" alt="Image">
+                                      <div class="carousel-caption">
+                                        <h3 id="slidecaption">Italian Festival</h3>
+                                        <p id="slidetext">with my mom</p>
+                                      </div>
+                                    </div>
+
+
+                                     <div class="item">
+                                       <img src="pictures/pic8.png" alt="Image">
+                                       <div class="carousel-caption">
+                                         <h3 id="slidecaption">Bahamas</h3>
+                                         <p id="slidetext">for graduation</p>
+                                       </div>
+                                     </div>
+
+                               </div>
+
+                               <!-- Left and right controls -->
+                               <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                                 <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                                 <span class="sr-only">Previous</span>
+                               </a>
+                               <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                                 <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                                 <span class="sr-only">Next</span>
+                               </a>
+                         </div>
+                       </div>
+                  </div>
+
+                          <!-- <div class="col-xs-12 col-sm-12 col-md-12" id="cf2">
+
+                              <img class="bottom" src="./pictures/meup.jpg" />
+                              <img class="top" src="./pictures/medown.jpg" />
+
+                         </div> -->
+                  <div class="row">
+                         <div class="col-xs-12 col-sm-12 col-md-12"
+                             <h6 id="goodbye">Thank you for your consideration!</h6>
+                        </div>
+                  </div>
+
+                  <div class="row" id="">
+
+                       <div class="col-xs-12 col-sm-12 col-md-12" id="text">
+                         <h6 id="goodbye">Random Facts:</h6>
+                         <ul id="random">
+                          <li><h9>Traveled the world.</h9></li>
+                          <li><h9>Volunteered at wildlife shelters growing up.</h9></li>
+                          <li><h9>Seen all my favorite bands in concert.</h9></li>
+                          <li><h9>Been skydiving and cave grappling.</h9></li>
+                        </ul>
+
+
+
+                        </div>
+
+                  </div>
+                <!-- <div class="row">
+                  <div class="col-xs-12 col-sm-12 col-md-12" id="text">
+
+                        <img id="bye" src="http://i.giphy.com/l49FqlUguNsGDNCGk.gif" alt="">
+                  </div>
+                </div> -->
+
+
+
+        </div>
+
+  <script type="text/javascript">
+
+    // When the document is ready execute the JQuery
+    $("document").ready(function() {
+
+
+      // Get the document x and y position on click
+      $(document).click(function(e) {
+        $("#mClickXPos").val(e.pageX);
+        $("#mClickYPos").val(e.pageY);
+      });
+
+      // Get the x and y as the mouse moves
+      // Use screenX and screenY to get x and y for the screen
+      $(document).mousemove(function(e) {
+        $("#mMoveXPos").val(e.screenX);
+        $("#mMoveYPos").val(e.screenY);
+      });
+
+      // Show key pressed on the keyboard
+      // You can also use keydown() and keyup()
+      $(document).keypress(function(e){
+
+        // e.which returns the keycode which we convert into
+        // the key with fromCharCode
+        var keyPressed = String.fromCharCode(e.which)
+        $("#keyPressed").val(keyPressed);
+      });
+        var canvas = document.getElementById("canvas");
+        var ctx = canvas.getContext("2d");
+        var radius = canvas.height / 2;
+        ctx.translate(radius, radius);
+        radius = radius * 0.90
+        setInterval(drawClock, 1000);
+
+        function drawClock() {
+          drawFace(ctx, radius);
+          drawNumbers(ctx, radius);
+          drawTime(ctx, radius);
+        }
+
+        function drawFace(ctx, radius) {
+          var grad;
+          ctx.beginPath();
+          ctx.arc(0, 0, radius, 0, 2*Math.PI);
+          ctx.fillStyle = 'white';
+          ctx.fill();
+          grad = ctx.createRadialGradient(0,0,radius*0.95, 0,0,radius*1.05);
+          grad.addColorStop(0, '#333');
+          grad.addColorStop(0.5, 'white');
+          grad.addColorStop(1, '#333');
+          ctx.strokeStyle = grad;
+          ctx.lineWidth = radius*0.1;
+          ctx.stroke();
+          ctx.beginPath();
+          ctx.arc(0, 0, radius*0.1, 0, 2*Math.PI);
+          ctx.fillStyle = '#333';
+          ctx.fill();
+        }
+
+        function drawNumbers(ctx, radius) {
+          var ang;
+          var num;
+          ctx.font = radius*0.15 + "px arial";
+          ctx.textBaseline="middle";
+          ctx.textAlign="center";
+          for(num = 1; num < 13; num++){
+            ang = num * Math.PI / 6;
+            ctx.rotate(ang);
+            ctx.translate(0, -radius*0.85);
+            ctx.rotate(-ang);
+            ctx.fillText(num.toString(), 0, 0);
+            ctx.rotate(ang);
+            ctx.translate(0, radius*0.85);
+            ctx.rotate(-ang);
+          }
+        }
+
+        function drawTime(ctx, radius){
+            var now = new Date();
+            var hour = now.getHours();
+            var minute = now.getMinutes();
+            var second = now.getSeconds();
+            //hour
+            hour=hour%12;
+            hour=(hour*Math.PI/6)+
+            (minute*Math.PI/(6*60))+
+            (second*Math.PI/(360*60));
+            drawHand(ctx, hour, radius*0.5, radius*0.07);
+            //minute
+            minute=(minute*Math.PI/30)+(second*Math.PI/(30*60));
+            drawHand(ctx, minute, radius*0.8, radius*0.07);
+            // second
+            second=(second*Math.PI/30);
+            drawHand(ctx, second, radius*0.9, radius*0.02);
+        }
+
+        function drawHand(ctx, pos, length, width) {
+            ctx.beginPath();
+            ctx.lineWidth = width;
+            ctx.lineCap = "round";
+            ctx.moveTo(0,0);
+            ctx.rotate(pos);
+            ctx.lineTo(0, -length);
+            ctx.stroke();
+            ctx.rotate(-pos);
+        }
+
+
+
+    }); <!-- End of JQuery Code -->
+
+  </script>
+
+  </div> <!-- End of wrapper -->
+
+<!-- Most common CSS attributes
+https://developer.mozilla.org/en-US/docs/Web/CSS/Reference
+  background, background-attachment, background-color, background-image, background-repeat, border, border-bottom, border-color, border-style, border-bottom-color, border-bottom-style, border-bottom-width, border-left-color, border-left-style, border-left-width, border-right-color, border-right-style, border-right-width, border-top-color, border-top-style, border-top-width, box-shadow, color, columns, direction, float, font-family, font-size, font-style, font-weight, height, letter-spacing, line-height, list-style-type, list-style-image, list-style-position, margin, margin-bottom, margin-top, margin-right,margin-left, opacity, padding-bottom, padding-top, padding-right, padding-left, text-align, text-decoration, text-decoration-color, text-decoration-line, text-decoration-style, text-indent, text-orientation, text-shadow, text-transform, vertical-align, visibility, width, word-spacing, z-index
+  -->
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</body>
+</html>
