@@ -287,24 +287,12 @@
         font-family: 'Righteous', cursive;
         text-align: center;
         font-style: oblique;
-        color: #00FFFF;
-        background: linear-gradient(to bottom, #000000, #53346D) !important;
-        -webkit-box-shadow: 3px 3px 1px 3px black;
-        -moz-box-shadow: 3px 3px 1px 3px black;
-        box-shadow: 3px 3px 1px 3px black;
-        text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+        color: ;
     }
     #minititle:hover{
         text-align: center;
         font-style: oblique;
         color: #53346D;
-        -webkit-box-shadow: 3px 3px 1px 3px  #53346D;
-        -moz-box-shadow: 3px 3px 1px 3px  #53346D;
-        box-shadow: 3px 3px 1px 3px  #53346D;
-        text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
-        border-top: 1.2px groove #25b7c4 !important;
-        background: -webkit-linear-gradient(bottom, #25c481, #00FFFF) !important;
-        background-color: linear-gradient(to top, #00FFFF, #53346D) !important;
     }
     #text{
         text-align: center;
