@@ -44,9 +44,7 @@
       width: 100%;
       border-color: 	#00FFFF;
       opacity: .8;
-      -webkit-box-shadow: 3px 3px 5px 5px black;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
-      -moz-box-shadow:    3px 3px 5px 5px black;  /* Firefox 3.5 - 3.6 */
-      box-shadow:         3px 3px 5px 5px black;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+
       position: fixed;
       z-index: 100;
 
@@ -56,9 +54,7 @@
       background: linear-gradient(to top, #000000, #53346D) !important;
       border-color: 	#00FFFF;
       opacity: .9;
-      -webkit-box-shadow: 3px 3px 5px 5px teal;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
-      -moz-box-shadow:    3px 3px 5px 5px teal;  /* Firefox 3.5 - 3.6 */
-      box-shadow:         3px 3px 5px 5px teal;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+
     }
     ul.dropdown-menu {
       background-color:	#B0E0E6 !important;
@@ -73,9 +69,7 @@
       line-height: 1.42857143;
       background-color:	#B0E0E6 !important;
       white-space: nowrap;
-      -webkit-box-shadow: 3px 3px 5px 5px teal;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
-      -moz-box-shadow:    3px 3px 5px 5px teal;  /* Firefox 3.5 - 3.6 */
-      box-shadow:         3px 3px 5px 5px teal;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+
     }
     .dropdown-menu>li>a:hover {
       display: block;
@@ -85,9 +79,7 @@
       line-height: 1.42857143;
       background-color:	#B0E0E6 !important;
       white-space: nowrap;
-      -webkit-box-shadow: 3px 3px 5px 6px #53346D;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
-      -moz-box-shadow:    3px 3px 5px 6px #53346D;  /* Firefox 3.5 - 3.6 */
-      box-shadow:         3px 3px 5px 6px #53346D;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+
     }
     .dropdown-menu>li>a:focus {
       display: block;
@@ -114,14 +106,7 @@
     .navbar-default .navbar-toggle:hover {
       background: -webkit-linear-gradient(bottom, #25c481,  #00FFFF) !important;
       background-color: linear-gradient(to top,  #00FFFF, #53346D) !important;
-      -webkit-box-shadow: 3px 3px 1px 3px #53346D;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
-      -moz-box-shadow:    3px 3px 1px 3px #53346D;  /* Firefox 3.5 - 3.6 */
-      box-shadow:         3px 3px 1px 3px #53346D;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
-      text-shadow:
-         -1px -1px 0 black,
-         1px -1px 0 black,
-         -1px 1px 0 black,
-         1px 1px 0 black;
+
     }
     .icon-bar:hover{
       border-top: 1.2px groove #25b7c4 !important;
@@ -162,51 +147,23 @@
       color: #00FFFF !important;
       background: -webkit-linear-gradient(bottom, #25c481,  #00FFFF) !important;
       background-color: linear-gradient(to top,  #00FFFF, #53346D) !important;
-      -webkit-box-shadow: 3px 3px 0px 3px #53346D;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
-      -moz-box-shadow:    3px 3px 0px 3px #53346D;  /* Firefox 3.5 - 3.6 */
-      box-shadow:         3px 3px 0px 3px #53346D;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
-      text-shadow:
-         -1px -1px 0 black,
-         1px -1px 0 black,
-         -1px 1px 0 black,
-         1px 1px 0 black;
+
 
     }
     .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.open>a{
       background: -webkit-linear-gradient(bottom, #25c481,  #00FFFF) !important;
       background-color: linear-gradient(to top,  #00FFFF, #53346D) !important;
-      -webkit-box-shadow: 3px 3px 5px 5px #53346D;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
-      -moz-box-shadow:    3px 3px 5px 5px #53346D;  /* Firefox 3.5 - 3.6 */
-      box-shadow:         3px 3px 5px 5px #53346D;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
-      text-shadow:
-         -1px -1px 0 black,
-         1px -1px 0 black,
-         -1px 1px 0 black,
-         1px 1px 0 black;
+
     }
     .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.open>a:hover{
       background: -webkit-linear-gradient(bottom, #25c481,  #00FFFF) !important;
       background-color: linear-gradient(to top,  #00FFFF, #53346D) !important;
-      -webkit-box-shadow: 3px 3px 0px 3px #53346D;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
-      -moz-box-shadow:    3px 3px 0px 3px #53346D;  /* Firefox 3.5 - 3.6 */
-      box-shadow:         3px 3px 0px 3px #53346D;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
-      text-shadow:
-         -1px -1px 0 black,
-         1px -1px 0 black,
-         -1px 1px 0 black,
-         1px 1px 0 black;
+
     }
     .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.open>a:focus{
       background: -webkit-linear-gradient(bottom, #25c481,  #00FFFF) !important;
       background-color: linear-gradient(to top,  #00FFFF, #53346D) !important;
-      -webkit-box-shadow: 3px 3px 1px 3px #53346D;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
-      -moz-box-shadow:    3px 3px 1px 3px #53346D;  /* Firefox 3.5 - 3.6 */
-      box-shadow:         3px 3px 1px 3px #53346D;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
-      text-shadow:
-         -1px -1px 0 black,
-         1px -1px 0 black,
-         -1px 1px 0 black,
-         1px 1px 0 black;
+
     }
     .navbar-default .navbar-collapse, .navbar-default .navbar-form {
         /* border-color: #e7e7e7; */
@@ -218,11 +175,7 @@
       color: #f170ff;
       font-size: 16px;
       font-family: 'Righteous', cursive;
-      text-shadow:
-         -1px -1px 0 #00FFFF,
-         1px -1px 0 #00FFFF,
-         -1px 1px 0 #00FFFF,
-         1px 1px 0 #00FFFF;
+
       z-index: 10001;
       display: none;
     }
@@ -247,18 +200,12 @@
   img#mypic:hover {
       border: 3px groove #25b7c4 !important;
       border-radius: 50%;
-      -webkit-transform: rotate(360deg);
-         -moz-transform: rotate(360deg);
-           -o-transform: rotate(360deg);
-          -ms-transform: rotate(360deg);
-              transform: rotate(360deg);
+
     }
     #infocontent {
         background: linear-gradient(to bottom, #000000, #53346D) !important;
         opacity: .85;
-        -webkit-box-shadow: 3px 3px 1px 3px black;
-        -moz-box-shadow: 3px 3px 1px 3px black;
-        box-shadow: 3px 3px 1px 3px black;
+
         border: 2px groove #25b7c4 !important;
         border-radius: 5%;
         font-size: 18px;
@@ -299,7 +246,7 @@
         font-style: oblique;
         font-size: 16px;
         color: #00FFFF;
-        text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+
     }
 
     img#bye{
@@ -315,7 +262,7 @@
       font-style: normal;
       font-weight: 400;
       line-height: 1;
-      text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+
       -webkit-font-smoothing: antialiased;
       -moz-osx-font-smoothing: grayscale;
     }
@@ -336,9 +283,7 @@
       -moz-background-size: cover;    /* Mozilla*/
       -o-background-size: cover;      /* Opera*/
       background-size: cover;         /* Generic*/
-      -webkit-box-shadow: 3px 3px 1px 3px black;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
-      -moz-box-shadow:    3px 3px 1px 3px black;  /* Firefox 3.5 - 3.6 */
-      box-shadow:         3px 3px 1px 3px black;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+
       border: 3px groove #25b7c4 !important;
       border-radius: 8%;
 
@@ -370,9 +315,6 @@
     img{
       border-radius: 3px;
       cursor: pointer;
-      -webkit-box-shadow: 3px 3px 4px 4px black;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
-      -moz-box-shadow:    3px 3px 4px 4px black;  /* Firefox 3.5 - 3.6 */
-      box-shadow:         3px 3px 4px 4px black;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
 
     }
     #map {
@@ -386,9 +328,7 @@
       cursor: pointer;
       border: 3px groove #25b7c4 !important;
       border-radius: 5%;
-      -webkit-box-shadow: 1px 1px 2px 2px black;
-      -moz-box-shadow: 1px 1px 2px 2px black;
-      box-shadow: 1px 1px 2px 2px black;
+
       height: 300px !important;
       width: 300px !important;
       margin-bottom: 4%;
@@ -398,9 +338,6 @@
       cursor: pointer;
       border: 3px groove #25b7c4 !important;
       border-radius: 5%;
-      -webkit-box-shadow: 3px 3px 4px 4px #53346D;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
-      -moz-box-shadow:    3px 3px 4px 4px #53346D;  /* Firefox 3.5 - 3.6 */
-      box-shadow:         3px 3px 4px 4px #53346D;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
 
     }
 
@@ -466,7 +403,7 @@
 
       }
       h3#slidecaption{
-        text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+
         font-size: 20px;
       }
 
@@ -474,7 +411,7 @@
         color: #25b7c4 !important;
         font-size: 16px;
         font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
-        text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+
       }
       #f1_container{
         display:none;
@@ -506,7 +443,7 @@
       font-family: 'PT Sans', sans-serif !important;
       font-size: 19px !important;
       color: #00FFFF !important;
-      text-shadow: -1px -1px 0 #53346D, 1px -1px 0 #53346D, -1px 1px 0 #53346D, 1px 1px 0 #53346D;
+
 
     }
     h6{
@@ -520,19 +457,19 @@
       font-family: 'PT Sans', sans-serif !important;
       font-size: 18px !important;
       color: #00FFFF !important;
-      text-shadow: -1px -1px 0 #53346D, 1px -1px 0 #53346D, -1px 1px 0 #53346D, 1px 1px 0 #53346D;
+
     }
     h8{
       font-family: 'PT Sans', sans-serif !important;
       font-size: 16px !important;
       color: #00FFFF !important;
-      text-shadow: -1px -1px 0 #00FFFF, 1px -1px 0 #00FFFF, -1px 1px 0 #00FFFF 1px 1px 0 #00FFFF;
+
     }
     h9{
       font-family: 'PT Sans', sans-serif !important;
       font-size: 19px !important;
       color: #00FFFF !important;
-      text-shadow: -1px -1px 0 #53346D, 1px -1px 0 #53346D, -1px 1px 0 #53346D, 1px 1px 0 #53346D;
+
     }
     p {
       font-size: font-family: 'PT Sans', sans-serif !important;
@@ -637,7 +574,6 @@
      display: inherit;
      text-align: center;
      font-size: 14px;
-     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
     }
     img.main_img {
       box-shadow: none;
@@ -667,10 +603,6 @@
       -o-background-size: cover;
       background-size: cover;
       background-size: 100% 100%;
-      border: 2px groove #25b7c4 !important;
-      -webkit-box-shadow: 3px 3px 5px 6px black;
-      -moz-box-shadow: 3px 3px 5px 6px black;
-      box-shadow: 3px 3px 5px 6px black;
     }
     em {
       color: -webkit-linear-gradient(left, #25c481, #25b7c4);
@@ -688,11 +620,7 @@
     #tableheaders{
       font-size: 12px;
       font-family: 'Audiowide', cursive;
-      text-shadow:
-      -2px -2px 0 #000,
-      2px -2px 0 #000,
-      -2px 2px 0 #000,
-      2px 2px 0 #000;
+
     }
     .table{
       margin-top: 5%;
@@ -707,19 +635,13 @@
       -o-background-size: cover;      /* Opera*/
       background-size: cover;         /* Generic*/
       background-size: 100% 100%;
-      -webkit-box-shadow: 2px 2px 3px 4px teal;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
-      -moz-box-shadow:    2px 2px 3px 4px teal;  /* Firefox 3.5 - 3.6 */
-      box-shadow:         2px 2px 3px 4px teal;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+
     }
     #tabletitle{
       font-size: 12px;
       font-family: 'Bungee', cursive;
       text-align: center;
-      text-shadow:
-         -1px -1px 0 #000,
-         1px -1px 0 #000,
-         -1px 1px 0 #000,
-         1px 1px 0 #000;
+
       border-radius: 2%;
       color:	#FFDF00;
       background: #25b7c4;
@@ -729,11 +651,7 @@
       font-size: 11px;
       font-family: 'Acme', sans-serif;
       text-align: center;
-      text-shadow:
-         -1px -1px 0 #000,
-         1px -1px 0 #000,
-         -1px 1px 0 #000,
-         1px 1px 0 #000;
+
       border-radius: 2%;
       color:	#FFDF00;
       background: #25b7c4;
@@ -755,24 +673,14 @@
       width: 145px;
       font-size: 6px;
       font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
-      text-shadow:
-         -1px -1px 0 #000,
-         1px -1px 0 #000,
-         -1px 1px 0 #000,
-         1px 1px 0 #000;
-      -webkit-box-shadow: 1px 1px 2px 2px black;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
-      -moz-box-shadow:    1px 1px 2px 2px black;  /* Firefox 3.5 - 3.6 */
-      box-shadow:         1px 1px 2px 2px black;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+
     }
     #collapsetab:hover{
       background: -webkit-linear-gradient(left, #3CD3AD, #4CB8C4);
       background: linear-gradient(to right, #3CD3AD, #4CB8C4,);
       color: white;
       width: 145px;
-      font-family: 'Russo One', sans-serif;
-      -webkit-box-shadow: 1px 1px 2px 2px white;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
-      -moz-box-shadow:    1px 1px 2px 2px white;  /* Firefox 3.5 - 3.6 */
-      box-shadow:         1px 1px 2px 2px white;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+
     }
     #charactername{
       font-family: 'Press Start 2P', cursive;
@@ -823,7 +731,7 @@
     #gametext {
       font-family: 'Press Start 2P', cursive;
       color: #FFDF00;
-      text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+
       font-size: 20px;
       display: run-in;
       text-align: center;
@@ -831,7 +739,7 @@
     #gameid {
     font-family: 'Press Start 2P', cursive;
     color: #FFDF00;
-    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+
     font-size: 14px;
     }
     #charactercontent{
@@ -843,9 +751,7 @@
       background-size: cover;         /* Generic*/
       background-size: 100% 100%;         /* Generic*/
       border: 2px groove #25b7c4 !important;
-      -webkit-box-shadow: 3px 3px 5px 6px black;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
-      -moz-box-shadow:    3px 3px 5px 6px black;  /* Firefox 3.5 - 3.6 */
-      box-shadow:         3px 3px 5px 6px black;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+
      width: 300px;
     }
 
