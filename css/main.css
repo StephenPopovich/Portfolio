@@ -198,6 +198,7 @@
        -o-transition: all 0.5s ease;
       -ms-transition: all 0.5s ease;
           transition: all 0.5s ease;
+  border: 4px solid blue;
 
   }
 
@@ -205,6 +206,23 @@
     opacity: .8;
     border-radius: 5%;
   }
+  div.profiecent{
+      border: 4px solid blue;
+  }
+  div.moderate{
+      border: 4px solid blue;
+  }
+  div.familiar{
+      border: 4px solid blue;
+  }
+  div.project-div{
+
+  }
+  p.projects{
+
+  }
+
+
   #cf2 {
     position:relative;
     height: 360px;
@@ -346,6 +364,7 @@
     border-radius: 6%;
     height: auto;
     width: auto;
+    border: 4px solid blue;
   }
   p#bio {
     opacity: 1;
@@ -357,11 +376,24 @@
     margin-bottom: 10%;
     line-height: 1.58;
   }
+  a.website-link{
+    margin-left: auto;
+    margin-right: auto;
+    display: table;
+    font-weight: 800;
+    font-size: 1.2em !important;
+  }
   hr#divide{
     border: 4px solid black;
   }
   hr#divide2{
     border: 4px solid black;
+  }
+  h4.websites{
+    text-align: center;
+    color: blue;
+    font-weight: 800;
+    
   }
   img{
     cursor: pointer;
@@ -507,16 +539,8 @@
     width: 100%;
   }
   em#frontend{
-    font-family: 'Righteous', cursive;
-    text-align: center;
-    font-style: oblique;
-    color: #00FFFF !important;
-    text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+
   }
   em{
-    font-family: 'Righteous', cursive;
-    text-align: center;
-    font-style: oblique;
-    color: black;
-    text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+
   }
