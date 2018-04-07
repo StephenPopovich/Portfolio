@@ -102,12 +102,18 @@
   }
   .navbar-default .navbar-collapse, .navbar-default .navbar-form {
     border-color: #00FFFF;
+    background:("pictures/background.png");
+    background-size: cover;
+    background-clip: border-box;
   }
+
+
   img#slogo{
     margin-right: 15px;
     box-shadow: none;
     height: 50px;
     width: 50px;
+   background: url(pictures/background1.png);
   }
   #slogo{
     height: 50px !important;
@@ -302,11 +308,15 @@
       text-align: center;
       font-style: oblique;
       color: #00FFFF;
+      font-weight: 800;
+
   }
   #minititle:hover{
       text-align: center;
       font-style: oblique;
       color: #53346D;
+      font-size: 2.2em;
+      font-weight: 800;
   }
   #map{
     margin-top: 2%;
