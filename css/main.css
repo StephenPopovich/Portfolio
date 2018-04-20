@@ -13,6 +13,9 @@
   .container{
     width: 100% !important;
   }
+  a{
+    color: red;
+  }
   h3, p.lead{
   color: white
   }
@@ -125,25 +128,13 @@
     border: none !important;
   }
   .navbar-nav>li>a {
-    color: #00FFFF !important;
-    text-shadow:
-       -1px -1px 0 black,
-       1px -1px 0 black,
-       -1px 1px 0 black,
-       1px 1px 0 black;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+
   }
   .navbar-nav>li>a:hover {
-    color: #00FFFF !important;
-    background: -webkit-linear-gradient(bottom, #25c481,  #00FFFF) !important;
-    background-color: linear-gradient(to top,  #00FFFF, #53346D) !important;
-    -webkit-box-shadow: 3px 3px 0px 3px #53346D;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
-    -moz-box-shadow:    3px 3px 0px 3px #53346D;  /* Firefox 3.5 - 3.6 */
-    box-shadow:         3px 3px 0px 3px #53346D;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
-    text-shadow:
-       -1px -1px 0 black,
-       1px -1px 0 black,
-       -1px 1px 0 black,
-       1px 1px 0 black;
+    padding-left: 20px;
+    padding-right: 20px;
 
   }
   .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.open>a{
@@ -204,22 +195,21 @@
        -o-transition: all 0.5s ease;
       -ms-transition: all 0.5s ease;
           transition: all 0.5s ease;
-  border: 4px solid blue;
 
   }
 
   #infocontent{
-    opacity: .8;
-    border-radius: 5%;
+    font-size: 1.4em;
+    margin-top: 3%;
   }
   div.profiecent{
-      border: 4px solid blue;
+
   }
   div.moderate{
-      border: 4px solid blue;
+
   }
   div.familiar{
-      border: 4px solid blue;
+
   }
   div.project-div{
 
@@ -277,6 +267,7 @@
   }
   p#infocontent{
     color: black;
+    font-weight: 800;
   }
   a#email{
     color: #25b7c4;
@@ -306,16 +297,13 @@
   #minititle{
       font-family: 'Righteous', cursive;
       text-align: center;
-      font-style: oblique;
-      color: #00FFFF;
+      font-size: 4.2em;
+      color: black;
       font-weight: 800;
 
   }
   #minititle:hover{
-      text-align: center;
-      font-style: oblique;
-      color: #53346D;
-      font-size: 2.2em;
+      font-size: 4.5em;
       font-weight: 800;
   }
   #map{
@@ -410,14 +398,14 @@
     margin-right: auto;
     display: table;
     font-weight: 800;
-    font-size: 1.2em !important;
+    font-size: 2em !important;
   }
   a.website-link:hover{
     margin-left: auto;
     margin-right: auto;
     display: table;
     font-weight: 800;
-    font-size: 1.2em !important;
+    font-size: 2em !important;
   }
   img{
     cursor: pointer;
