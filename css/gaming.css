@@ -33,20 +33,11 @@ html,body {
   color: #00FFFF !important;
   background: #00FFFF !important;
 }
-#dvLoading{
-  background: #00FFFF url("http://i.giphy.com/1UwHF7R67LzHi.gif") no-repeat center center;
-  opacity: .9;
-  height: 100%;
-  width: 100%;
-  position: fixed;
-  z-index: 1000;
-}
 nav.navbar.navbar-default{
-  background: -webkit-linear-gradient(bottom, #25c481, #25b7c4) !important;
-  background: linear-gradient(to bottom, #000000, #53346D) !important;
+
   width: 100%;
   border-color: 	#00FFFF;
-  opacity: .8;
+  opacity: .7;
   -webkit-box-shadow: 3px 3px 5px 5px black;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
   -moz-box-shadow:    3px 3px 5px 5px black;  /* Firefox 3.5 - 3.6 */
   box-shadow:         3px 3px 5px 5px black;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
@@ -55,8 +46,6 @@ nav.navbar.navbar-default{
 
 }
 nav.navbar.navbar-default:hover{
-  background: -webkit-linear-gradient(bottom, #25c481, #25b7c4) !important;
-  background: linear-gradient(to top, #000000, #53346D) !important;
   border-color: 	#00FFFF;
   opacity: .9;
   -webkit-box-shadow: 3px 3px 5px 5px teal;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
@@ -114,41 +103,7 @@ ul.dropdown-menu {
 .navbar-default .navbar-toggle {
   border-color: 	#00FFFF !important;
 }
-.navbar-toggle:focus, .navbar-default .navbar-toggle:hover{
-  background: -webkit-linear-gradient(bottom, #25c481,  #00FFFF) !important;
-  background-color: linear-gradient(to top,  #00FFFF, #53346D) !important;
-  -webkit-box-shadow: 3px 3px 1px 3px #53346D;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
-  -moz-box-shadow:    3px 3px 1px 3px #53346D;  /* Firefox 3.5 - 3.6 */
-  box-shadow:         3px 3px 1px 3px #53346D;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
-  text-shadow:
-     -1px -1px 0 black,
-     1px -1px 0 black,
-     -1px 1px 0 black,
-     1px 1px 0 black;
-}
-.navbar-default .navbar-toggle:active {
-  background: -webkit-linear-gradient(bottom, #25c481,  #00FFFF) !important;
-  background-color: linear-gradient(to top,  #00FFFF, #53346D) !important;
-  -webkit-box-shadow: 3px 3px 1px 3px #53346D;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
-  -moz-box-shadow:    3px 3px 1px 3px #53346D;  /* Firefox 3.5 - 3.6 */
-  box-shadow:         3px 3px 1px 3px #53346D;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
-  text-shadow:
-     -1px -1px 0 black,
-     1px -1px 0 black,
-     -1px 1px 0 black,
-     1px 1px 0 black;
-}
 .navbar-default .navbar-toggle:hover {
-  background: -webkit-linear-gradient(bottom, #25c481,  #00FFFF) !important;
-  background-color: linear-gradient(to top,  #00FFFF, #53346D) !important;
-  -webkit-box-shadow: 3px 3px 1px 3px #53346D;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
-  -moz-box-shadow:    3px 3px 1px 3px #53346D;  /* Firefox 3.5 - 3.6 */
-  box-shadow:         3px 3px 1px 3px #53346D;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
-  text-shadow:
-     -1px -1px 0 black,
-     1px -1px 0 black,
-     -1px 1px 0 black,
-     1px 1px 0 black;
 }
 .icon-bar:hover{
   border-top: 1.2px groove #25b7c4 !important;
@@ -164,39 +119,36 @@ ul.dropdown-menu {
 }
 .navbar-default .navbar-collapse, .navbar-default .navbar-form {
   border-color: #00FFFF;
+  background:("pictures/background.png");
+  background-size: cover;
+  background-clip: border-box;
 }
-#slogo{
+
+
+img#slogo{
   margin-right: 15px;
   box-shadow: none;
   height: 50px;
   width: 50px;
+ background: url(pictures/background1.png);
 }
-#blogo{
-  bottom: 0;
-  position: fixed;
-  right: 0;
+#slogo{
+  height: 50px !important;
+  width: 50px !important;
+}
+img#slogo:hover{
+  margin-right: 15px;
   box-shadow: none;
+  border: none !important;
 }
 .navbar-nav>li>a {
-  color: #00FFFF !important;
-  text-shadow:
-     -1px -1px 0 black,
-     1px -1px 0 black,
-     -1px 1px 0 black,
-     1px 1px 0 black;
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+
 }
 .navbar-nav>li>a:hover {
-  color: #00FFFF !important;
-  background: -webkit-linear-gradient(bottom, #25c481,  #00FFFF) !important;
-  background-color: linear-gradient(to top,  #00FFFF, #53346D) !important;
-  -webkit-box-shadow: 3px 3px 0px 3px #53346D;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
-  -moz-box-shadow:    3px 3px 0px 3px #53346D;  /* Firefox 3.5 - 3.6 */
-  box-shadow:         3px 3px 0px 3px #53346D;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
-  text-shadow:
-     -1px -1px 0 black,
-     1px -1px 0 black,
-     -1px 1px 0 black,
-     1px 1px 0 black;
+  padding-left: 20px;
+  padding-right: 20px;
 
 }
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.open>a{
@@ -224,18 +176,12 @@ ul.dropdown-menu {
      1px 1px 0 black;
 }
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.open>a:focus{
-  background: -webkit-linear-gradient(bottom, #25c481,  #00FFFF) !important;
-  background-color: linear-gradient(to top,  #00FFFF, #53346D) !important;
-  -webkit-box-shadow: 3px 3px 0px 3px #53346D;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
-  -moz-box-shadow:    3px 3px 0px 3px #53346D;  /* Firefox 3.5 - 3.6 */
-  box-shadow:         3px 3px 0px 3px #53346D;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
   text-shadow:
      -1px -1px 0 black,
      1px -1px 0 black,
      -1px 1px 0 black,
      1px 1px 0 black;
 }
-
 p, h1, h2, h4, a{
   color: white;
 }
@@ -408,7 +354,7 @@ input{
 }
 img.main_img{
   box-shadow: none;
-  margin-left: -2%;
+  margin-left: 0%;
   margin-top: 2%;
 }
 em{
@@ -435,7 +381,7 @@ div#about_me_content{
   color: white;
   background: -webkit-linear-gradient(left, #25c481, #25b7c4);
   padding-top: 6.2%;
-  padding-bottom: 8%;
+  padding-bottom: 13%;
   padding-left: 9px;
   padding-right: 9px;
   font-size: 22px;

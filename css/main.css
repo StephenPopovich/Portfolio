@@ -4,11 +4,38 @@
       color: 	black;
       font-color: black;
       font-size: font-family: 'PT Sans', sans-serif;
+      background: url("https://suki-says.co.uk/wp-content/uploads/2014/03/simple-1160x725.jpg") no-repeat center center fixed;
+      color: 	#00FFFF !important;
       -webkit-background-size: cover; /* For WebKit*/
       -moz-background-size: cover;    /* Mozilla*/
       -o-background-size: cover;      /* Opera*/
       background-size: cover;         /* Generic*/
       font-size: 16px;
+  }
+  ::-webkit-scrollbar {
+    width: 12px;
+
+  }
+  ::-webkit-scrollbar-track {
+      -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+      -webkit-border-radius: 10px;
+      border-radius: 10px;
+      color: #00FFFF !important;
+      background: #00FFFF !important;
+  }
+  ::-webkit-scrollbar-thumb {
+      -webkit-border-radius: 10px;
+      border-radius: 10px;
+      background: #53346D !important;
+      border-color: #00FFFF !important;
+      -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);
+  }
+  ::-webkit-scrollbar-thumb:window-inactive {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    color: #00FFFF !important;
+    background: #00FFFF !important;
   }
   .container{
     width: 100% !important;
@@ -211,13 +238,19 @@
   div.familiar{
 
   }
+
   div.project-div{
 
   }
   p.projects{
 
   }
-
+ img.language-icon{
+     transition: transform .3s; /* Animation */
+ }
+ img.language-icon:hover{
+    transform: scale(1.22);
+ }
 
   #cf2 {
     position:relative;
@@ -481,8 +514,8 @@
     }
 
   hr{
-    color: #1C75BC;
-    border-top: 2px solid #1C75BC;
+    color: teal !important;
+    border-top: 6px groove teal !important;
     margin-left: 0%;
     margin-right: 0.7%;
     margin-top: -0.6%;
@@ -534,7 +567,6 @@
   li {
     font-size: 24px;
     line-height: 0.7;
-    margin-left: -2.7%;
     color: #53346D;
     text-align: left;
   }
@@ -551,6 +583,7 @@
     width: 100%;
   }
   em#frontend{
+    margin-bottom: 2%;
 
   }
   em{
