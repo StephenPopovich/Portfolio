@@ -228,18 +228,36 @@
   #infocontent{
     font-size: 1.4em;
     margin-top: 3%;
+    background: white;
+    padding: 1%;
+    border-radius: 6px;
+
   }
   div.profiecent{
+    background: white;
+    border-radius: 6px;
+
 
   }
   div.moderate{
+    background: white;
+    border-radius: 6px;
+    margin-top: 2%;
 
   }
   div.familiar{
+    background: white;
+    border-radius: 6px;
+    margin-top: 2%;
 
   }
 
   div.project-div{
+    background: white;
+    border-radius: 6px;
+    margin-top: 1%;
+    padding: 1%;
+    height: 105px;
 
   }
   p.projects{
@@ -331,13 +349,14 @@
       font-family: 'Righteous', cursive;
       text-align: center;
       font-size: 4.2em;
-      color: black;
+      color: teal;
       font-weight: 800;
 
   }
   #minititle:hover{
       font-size: 4.5em;
       font-weight: 800;
+      color: green;
   }
   #map{
     margin-top: 2%;
@@ -387,14 +406,17 @@
 
   }
   #biodiv{
-    opacity: .88;
-    -webkit-background-size: cover; /* For WebKit*/
-    -moz-background-size: cover;    /* Mozilla*/
-    -o-background-size: cover;      /* Opera*/
-    background-size: cover;         /* Generic*/
-    border-radius: 6%;
-    height: auto;
     width: auto;
+    opacity: .88;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    border-radius: 6px;
+    height: auto;
+    background: white;
+    width: auto;
+    padding: 1%;
 
   }
   p#bio {
@@ -408,12 +430,6 @@
     line-height: 1.58;
   }
 
-  hr#divide{
-    border: 4px solid black;
-  }
-  hr#divide2{
-    border: 4px solid black;
-  }
   h4.websites{
     text-align: center;
     color: blue;
@@ -446,12 +462,12 @@
   }
   iframe#map{
      width: 400px;
-     height: 525px;
+     height: 555px;
   }
   iframe{
     width: 100% !important;
     cursor: pointer;
-    border-radius: 5%;
+    border-radius: 6px;
 
   }
   iframe:hover{
@@ -516,9 +532,10 @@
   hr{
     color: teal !important;
     border-top: 6px groove teal !important;
-    margin-left: 0%;
-    margin-right: 0.7%;
-    margin-top: -0.6%;
+  }
+  hr:hover{
+    color: teal !important;
+    border-top: 6px solid teal !important;
   }
   p, h1, h2, h4{
     color: black;
