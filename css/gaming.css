@@ -374,6 +374,7 @@ em{
 p#front-end-intro{
   margin-left: 15px;
   margin-right: 25px;
+  padding: 2%;
 }
 div#about_me_content{
   margin-left: 15px;
@@ -538,10 +539,16 @@ div#myCarousel2{
 .carousel {
     position: relative;
 }
+.carousel-inner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    height: 560px;
+}
 .carousel-inner img {
   width: 100%;
   margin: auto;
-  height: 430px !important;
+  height: 560px !important;
 }
  .carousel-indicators .active {
    width: 12px;
