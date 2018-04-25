@@ -34,23 +34,26 @@ html,body {
   background: #00FFFF !important;
 }
 nav.navbar.navbar-default{
-
+  background: linear-gradient(to bottom, #000000, #53346D) !important;
   width: 100%;
-  border-color: 	#00FFFF;
+  border-color: #00FFFF;
   opacity: .7;
-  -webkit-box-shadow: 3px 3px 5px 5px black;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
-  -moz-box-shadow:    3px 3px 5px 5px black;  /* Firefox 3.5 - 3.6 */
-  box-shadow:         3px 3px 5px 5px black;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+  -webkit-box-shadow: 3px 3px 5px 5px black;
+  -moz-box-shadow: 3px 3px 5px 5px black;
+  box-shadow: 3px 3px 5px 5px black;
   position: fixed;
   z-index: 100;
-
 }
+
 nav.navbar.navbar-default:hover{
-  border-color: 	#00FFFF;
+  background: -webkit-linear-gradient(bottom, #25c481, #25b7c4) !important;
+  background: linear-gradient(to top, #000000, #53346D) !important;
+  border-color: #00FFFF;
   opacity: .9;
-  -webkit-box-shadow: 3px 3px 5px 5px teal;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
-  -moz-box-shadow:    3px 3px 5px 5px teal;  /* Firefox 3.5 - 3.6 */
-  box-shadow:         3px 3px 5px 5px teal;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+  -webkit-box-shadow: 3px 3px 5px 5px teal;
+  -moz-box-shadow: 3px 3px 5px 5px teal;
+  box-shadow: 3px 3px 5px 5px teal;
+}
 }
 ul.dropdown-menu {
   background-color:	#B0E0E6 !important;
@@ -68,18 +71,16 @@ ul.dropdown-menu {
   -webkit-box-shadow: 3px 3px 5px 5px teal;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
   -moz-box-shadow:    3px 3px 5px 5px teal;  /* Firefox 3.5 - 3.6 */
   box-shadow:         3px 3px 5px 5px teal;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+  color: #00FFFF !important;
+  text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
 }
 .dropdown-menu>li>a:hover {
-  display: block;
-  padding: 3px 20px;
-  clear: both;
-  font-weight: 500;
-  line-height: 1.42857143;
-  background-color:	#53346D !important;
-  white-space: nowrap;
-  -webkit-box-shadow: 3px 3px 5px 5px #53346D;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
-  -moz-box-shadow:    3px 3px 5px 5px #53346D;  /* Firefox 3.5 - 3.6 */
-  box-shadow:         3px 3px 5px 5px #53346D;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+  color: #00FFFF !important;
+  background-color: linear-gradient(to top, #00FFFF, #53346D) !important;
+  -webkit-box-shadow: 3px 3px 0px 3px #53346D;
+  -moz-box-shadow: 3px 3px 0px 3px #53346D;
+  box-shadow: 3px 3px 0px 3px #53346D;
+  text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
 }
 .dropdown-menu>li>a:focus {
   display: block;
@@ -144,36 +145,39 @@ img#slogo:hover{
 .navbar-nav>li>a {
   padding-left: 20px !important;
   padding-right: 20px !important;
+  color: white !Important;
 
 }
 .navbar-nav>li>a:hover {
+  border-left: 6px groove #53346D;
   padding-left: 20px;
   padding-right: 20px;
+  color: #00FFFF !important;
+  background: -webkit-linear-gradient(bottom, #25c481, #00FFFF) !important;
+  background-color: linear-gradient(to top, #00FFFF, #53346D) !important;
+  -webkit-box-shadow: 3px 3px 0px 3px #53346D;
+  -moz-box-shadow: 3px 3px 0px 3px #53346D;
+  box-shadow: 3px 3px 0px 3px #53346D;
+  text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+
 
 }
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.open>a{
-  background: -webkit-linear-gradient(bottom, #25c481,  #00FFFF) !important;
-  background-color: linear-gradient(to top,  #00FFFF, #53346D) !important;
-  -webkit-box-shadow: 3px 3px 5px 5px #53346D;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
-  -moz-box-shadow:    3px 3px 5px 5px #53346D;  /* Firefox 3.5 - 3.6 */
-  box-shadow:         3px 3px 5px 5px #53346D;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
-  text-shadow:
-     -1px -1px 0 black,
-     1px -1px 0 black,
-     -1px 1px 0 black,
-     1px 1px 0 black;
+  border-left: 6px groove #53346D;
+  background: -webkit-linear-gradient(bottom, #25c481, #00FFFF) !important;
+  background-color: linear-gradient(to top, #00FFFF, #53346D) !important;
+  -webkit-box-shadow: 3px 3px 5px 5px #53346D;
+  -moz-box-shadow: 3px 3px 5px 5px #53346D;
+  box-shadow: 3px 3px 5px 5px #53346D;
+  text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
 }
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.open>a:hover{
-  background: -webkit-linear-gradient(bottom, #25c481,  #00FFFF) !important;
-  background-color: linear-gradient(to top,  #00FFFF, #53346D) !important;
-  -webkit-box-shadow: 3px 3px 0px 3px #53346D;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
-  -moz-box-shadow:    3px 3px 0px 3px #53346D;  /* Firefox 3.5 - 3.6 */
-  box-shadow:         3px 3px 0px 3px #53346D;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
-  text-shadow:
-     -1px -1px 0 black,
-     1px -1px 0 black,
-     -1px 1px 0 black,
-     1px 1px 0 black;
+  background: -webkit-linear-gradient(bottom, #25c481, #00FFFF) !important;
+  background-color: linear-gradient(to top, #00FFFF, #53346D) !important;
+  -webkit-box-shadow: 3px 3px 5px 5px #53346D;
+  -moz-box-shadow: 3px 3px 5px 5px #53346D;
+  box-shadow: 3px 3px 5px 5px #53346D;
+  text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
 }
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.open>a:focus{
   text-shadow:
@@ -181,6 +185,7 @@ img#slogo:hover{
      1px -1px 0 black,
      -1px 1px 0 black,
      1px 1px 0 black;
+     color: white !Important;
 }
 p, h1, h2, h4, a{
   color: white;
