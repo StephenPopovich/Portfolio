@@ -162,6 +162,7 @@
 
   }
   .navbar-nav>li>a:hover {
+    border-left: 6px groove #53346D;
     padding-left: 20px;
     padding-right: 20px;
     color: #00FFFF !important;
@@ -175,6 +176,7 @@
 
   }
   .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.open>a{
+    border-left: 6px groove #53346D;
     background: -webkit-linear-gradient(bottom, #25c481, #00FFFF) !important;
     background-color: linear-gradient(to top, #00FFFF, #53346D) !important;
     -webkit-box-shadow: 3px 3px 5px 5px #53346D;
@@ -231,14 +233,63 @@
   #infocontent{
     font-size: 1.4em;
     margin-top: 3%;
-    background: white;
+    background: rgba(255,255,255, 0.7);
     padding: 1%;
     border-radius: 6px;
 
   }
 
   /* Type Writter Effect */
+
+.fakeButtons {
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  border: 1px solid #000;
+  position: relative;
+  top: 6px;
+  left: 6px;
+  background-color: #ff3b47;
+  border-color: #9d252b;
+  display: inline-block;
+}
+
+.fakeMinimize {
+  left: 11px;
+  background-color: #ffc100;
+  border-color: #9d802c;
+}
+
+.fakeZoom {
+  left: 16px;
+  background-color: #00d742;
+  border-color: #049931;
+}
+
+.fakeMenu {
+  width: auto;
+  box-sizing: border-box;
+  height: 25px;
+  background-color: #bbb;
+  margin: 0 auto;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+}
+
+.fakeScreen {
+  background-color: #151515;
+  box-sizing: border-box;
+  width: auto;
+  margin: 0 auto;
+  padding: 20px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  margin-bottom: 3%;
+}
+
   h1#type-writter{
+    margin-top: 2%;
+    font-size: 5.4em;
     text-align: center;
     text-shadow:
        -1px -1px 0 black,
@@ -376,14 +427,16 @@
       font-family: 'Righteous', cursive;
       text-align: center;
       font-size: 4.2em;
-      color: teal;
+      color: white;
       font-weight: 800;
+          text-shadow: 1px 1px 1px rgba(255,0,0,.95);
 
   }
   #minititle:hover{
       font-size: 4.5em;
       font-weight: 800;
-      color: green;
+      color: white;
+      text-shadow: 0 1px 0 rgba(255,0,0,.95);
   }
   #map{
     margin-top: 2%;
@@ -441,7 +494,7 @@
     background-size: cover;
     border-radius: 6px;
     height: auto;
-    background: white;
+    background: rgba(255,255,255, 0.7);
     width: auto;
     padding: 1%;
 
@@ -508,10 +561,19 @@
   cursor: pointer;
 
   }
+    /* Me Carousel */
+  div.item.active{
+    height: auto !important;
+  }
+  div.item{
+    height: auto !important;
+  }
+  img.carousel-img{
+    height: auto !important;
+  }
   .carousel-inner img {
-     width: 100%; /* Set width to 100% */
+     width: auto; /* Set width to 100% */
      margin: auto;
-     height:450px !important;
    }
    .carousel-indicators .active {
      width: 12px;
