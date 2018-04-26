@@ -253,17 +253,39 @@
   border-color: #9d252b;
   display: inline-block;
 }
+.fakeClose:hover {
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  border: 1px solid #000;
+  position: relative;
+  top: 6px;
+  left: 6px;
+  background-color: #ff3b47;
+  border: 1px groove #9d252b;
+  display: inline-block;
+}
 
 .fakeMinimize {
   left: 11px;
   background-color: #ffc100;
   border-color: #9d802c;
 }
+.fakeMinimize:hover {
+  left: 11px;
+  background-color: #ffc100;
+  border: 1px groove #9d802c;
+}
 
 .fakeZoom {
   left: 16px;
   background-color: #00d742;
   border-color: #049931;
+}
+.fakeZoom:hover {
+  left: 16px;
+  background-color: #00d742;
+  border: 1px groove #049931 !important;
 }
 
 .fakeMenu {
@@ -625,6 +647,11 @@ div#operating-systems{
     font-weight: 800;
     font-size: 2em !important;
   }
+  img.company-logo{
+    margin-left: auto;
+    margin-right: auto;
+    display: table;
+  }
   img{
     cursor: pointer;
 
@@ -668,6 +695,7 @@ div#operating-systems{
      width: 12px;
      height: 12px;
      margin: 0;
+     background-color: #00FFFF !important;
    }
    .carousel-caption{
 
