@@ -200,6 +200,22 @@
        1px 1px 0 black;
        color: white !Important;
   }
+
+#up-to-top {
+  display: none;
+  position: fixed;
+  bottom: 10px;
+  right: 8px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  color: white;
+}
+
+#up-to-top:hover {
+  background-color: transparent;
+}
   h1#title{
     text-align: right;
     vertical-align: middle;
