@@ -32,7 +32,7 @@
 </head>
 <body>
 
-  <button onclick="topFunction()" id="up-to-top" title="Go to top"><img src="./pictures/up-arrow.png" alt="Image"></button>
+  <button onclick="topFunction()" id="up-to-top" title="Go to top"><img id="up-arrow" src="./pictures/up-arrow.png" alt="Image"></button>
 
   <div id="wrapper">
     <nav class="navbar navbar-default">
@@ -917,6 +917,23 @@
     // the server without a page reload
 
   }); <!-- End of JQuery Code -->
+  // Up to Top
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("up-to-top").style.display = "block";
+    } else {
+        document.getElementById("up-to-top").style.display = "none";
+    }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+}
+
 
   </script>
 

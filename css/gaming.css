@@ -187,6 +187,21 @@ img#slogo:hover{
      1px 1px 0 black;
      color: white !Important;
 }
+#up-to-top {
+  display: none;
+  position: fixed;
+  bottom: 10px;
+  right: 8px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  color: white;
+}
+
+#up-to-top:hover {
+  background-color: transparent;
+}
 p, h1, h2, h4, a{
   color: white;
 }
@@ -289,9 +304,7 @@ img.img_responsive{
 }
 img{
   cursor: pointer;
-  -webkit-box-shadow: 3px 3px 4px 4px black;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
-  -moz-box-shadow:    3px 3px 4px 4px black;  /* Firefox 3.5 - 3.6 */
-  box-shadow:         3px 3px 4px 4px black;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+
 
 }
 img:hover{
@@ -299,9 +312,6 @@ img:hover{
 }
 iframe{
   cursor: pointer;
-  -webkit-box-shadow: 1px 1px 2px 2px black;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
-  -moz-box-shadow:    1px 1px 2px 2px black;  /* Firefox 3.5 - 3.6 */
-  box-shadow:         1px 1px 2px 2px black;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
 
 }
 
