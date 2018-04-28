@@ -28,6 +28,14 @@
 <body>
 
   <button onclick="topFunction()" id="up-to-top" title="Go to top"><img id="up-arrow" src="./pictures/up-arrow.png" alt="Image"></button>
+  <div id="ac-wrapper" style='display:none'>
+    <div id="popup">
+        <center>
+             <h2>Popup Content Here</h2>
+            <input type="submit" name="submit" value="Submit" onClick="PopUp('hide')" />
+        </center>
+    </div>
+  </div>
   <div id="wrapper">
         <nav class="navbar navbar-default">
             <div class="container-fluid">
@@ -114,7 +122,7 @@
                         </div>
 
                          <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
-                          <span id="terminal">
+                          <div id="terminal">
                            <div class=fakeMenu>
                               <div class="fakeButtons fakeClose"></div>
                               <div class="fakeButtons fakeMinimize"></div>
@@ -128,7 +136,7 @@
                                    data-rotate='[ "Web Developer.", "UX Designer.", "Businessman.", "Manager.", "Admin.", "Novice Graphic Designer."]'></span>
                               </h1>
                             </div>
-                          </span>
+                          </div>
 
 
 
@@ -308,20 +316,17 @@
 
                 <div class="row"  id="">
 
-                  <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
-                     <img class="language-icon" src="pictures/BitBucket.png" alt="Image">
-                  </div>
 
-                <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
                    <img class="language-icon" src="pictures/mongodb.png" alt="Image">
                 </div>
 
 
-                  <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+                  <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
                      <img class="language-icon" src="pictures/Nodejs.png" alt="Image">
                   </div>
 
-                  <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+                  <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
                      <img class="language-icon" src="pictures/express.png" alt="Image">
                   </div>
 
@@ -341,7 +346,7 @@
                    <div class="col-xs-12 col-sm-6 col-md-6">
 
                         <h4 class="websites">Morrocco Method</h4>
-                          <img src="pictures/morrocco-method-logo.png" class="language-icon company-logo" alt="Image">
+                          <img src="pictures/morrocco-method-logo.png" class="company-logo" alt="Image">
                        <a class="website-link" href="http://shop.morroccomethod.com">shop.morroccomethod.com</a>
 
                          <iframe class="project" width="100%" height="415" src="https://www.youtube.com/embed/F4vKXElJcBE" frameborder="0" allowfullscreen></iframe>
@@ -367,7 +372,7 @@
                     <div class="col-xs-12 col-sm-6 col-md-6">
 
                       <h4 class="websites">Morrocco Method Blog</h4>
-                      <img src="pictures/morrocco-method-logo.png" class="language-icon company-logo" alt="Image">
+                      <img src="pictures/morrocco-method-logo.png" class="company-logo" alt="Image">
                       <a class="website-link" href="http://www.morroccomethod.com/blog">www.morroccomethod.com/blog</a>
 
                           <iframe class="project" width="100%" height="415" src="https://www.youtube.com/embed/nqahxRjtnJ4" frameborder="0" allowfullscreen></iframe>
@@ -396,7 +401,7 @@
                    <div class="col-xs-12 col-sm-6 col-md-6">
 
                     <h4 class="websites">The Hair Shaman</h4>
-                    <img src="pictures/the-hair-shaman-logo.png" class="language-icon company-logo" alt="Image">
+                    <img src="pictures/the-hair-shaman-logo.png" class="company-logo" alt="Image">
                      <a class="website-link" href="http://www.thehairshaman.com">www.thehairshaman.com</a>
 
                          <iframe class="project" width="100%" height="415" src="https://www.youtube.com/embed/F4vKXElJcBE" frameborder="0" allowfullscreen></iframe>
@@ -421,7 +426,7 @@
                     <div class="col-xs-12 col-sm-6 col-md-6">
 
                      <h4 class="websites">Qigong Mastery</h4>
-                     <img src="pictures/qigong-mastery-logo.png" class="language-icon company-logo" alt="Image">
+                     <img src="pictures/qigong-mastery-logo.png" class="company-logo" alt="Image">
                       <a class="website-link" href="http://www.thehairshaman.com">www.qigongmastery.com</a>
 
                           <iframe class="project" width="100%" height="415" src="https://www.youtube.com/embed/nqahxRjtnJ4" frameborder="0" allowfullscreen></iframe>
@@ -452,7 +457,7 @@
                     <div class="col-xs-12 col-sm-6 col-md-6">
 
                         <h4 class="websites">Fan Fight Talk</h4>
-                        <img src="pictures/fan-fight-talk-logo.png" class="language-icon company-logo" alt="Image">
+                        <img src="pictures/fan-fight-talk-logo.png" class="company-logo" alt="Image">
                         <a class="website-link" href="http://www.fanfighttalk.com">www.fanfighttalk.com</a>
 
                           <iframe class="project" width="100%" height="415" src="https://www.youtube.com/embed/F4vKXElJcBE" frameborder="0" allowfullscreen></iframe>
@@ -478,7 +483,7 @@
                      <div class="col-xs-12 col-sm-6 col-md-6">
 
                           <h4 class="websites">Good Karma Bikes</h4>
-                              <img src="pictures/good-karma-bikes-logo.png" class="language-icon company-logo" alt="Image">
+                              <img src="pictures/good-karma-bikes-logo.png" class="company-logo" alt="Image">
                         <a class="website-link" href="http://www.goodkarmabikes.org">www.GoodKarmBikes.org</a>
 
                            <iframe class="project" width="100%" height="415" src="https://www.youtube.com/embed/nqahxRjtnJ4" frameborder="0" allowfullscreen></iframe>
@@ -876,6 +881,9 @@ window.onload = function() {
       document.body.scrollTop = 0;
       document.documentElement.scrollTop = 0;
   }
+  jQuery(document).ready(function(){
+        setTimeout(PopUp(),5000); // invoke Popup function after 5 seconds
+ });
 
   </script>
 

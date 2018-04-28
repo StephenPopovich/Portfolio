@@ -11,6 +11,10 @@
       -o-background-size: cover;      /* Opera*/
       background-size: cover;         /* Generic*/
       font-size: 16px;
+      overflow-x: hidden;
+  }
+  body{
+    overflow-y: hidden;
   }
   ::-webkit-scrollbar {
     width: 12px;
