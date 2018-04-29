@@ -5,7 +5,6 @@
       font-color: black;
       font-size: font-family: 'PT Sans', sans-serif;
       background: url("https://suki-says.co.uk/wp-content/uploads/2014/03/simple-1160x725.jpg") no-repeat center center fixed;
-      color: 	#00FFFF !important;
       -webkit-background-size: cover; /* For WebKit*/
       -moz-background-size: cover;    /* Mozilla*/
       -o-background-size: cover;      /* Opera*/
@@ -41,6 +40,16 @@
     color: #00FFFF !important;
     background: #00FFFF !important;
   }
+    /* Add animation (fade in the popup) */
+    @-webkit-keyframes fadeIn {
+        from {opacity: 0;}
+        to {opacity: 1;}
+    }
+
+    @keyframes fadeIn {
+        from {opacity: 0;}
+        to {opacity:1 ;}
+    }
   .container{
     width: 100% !important;
   }
@@ -204,13 +213,56 @@
        1px 1px 0 black;
        color: white !Important;
   }
+  /* Popup container - can be anything you want */
+    .popup {
+        position: relative;
+        cursor: pointer;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+    }
+
+    /* The actual popup */
+    .popup .popuptext {
+        width: 160px;
+        background-color: #555;
+        color: #fff;
+        text-align: center;
+        border-radius: 6px;
+        padding: 8px 0;
+        z-index: 1;
+        position: fixed;
+        bottom: 10px;
+        left: 8px;
+    }
+
+    /* Popup arrow */
+    .popup .popuptext::after {
+        content: "";
+        position: fixed;
+        bottom: 10px;
+        right: 8px;
+        z-index: 97;
+        margin-left: -5px;
+        border-width: 5px;
+        border-style: solid;
+        border-color: #555 transparent transparent transparent;
+    }
+
+    /* Toggle this class - hide and show the popup */
+    .popup .show {
+        visibility: visible;
+        -webkit-animation: fadeIn 1s;
+        animation: fadeIn 1s;
+    }
 
 #up-to-top {
   display: none;
   position: fixed;
   bottom: 10px;
   right: 8px;
-  z-index: 99;
+  z-index: 98;
   border: none;
   outline: none;
   background-color: transparent;
@@ -330,6 +382,7 @@
 }
 
   h1#type-writter{
+    color: #00FFFF !important;
     margin-top: 2%;
     font-size: 5.4em;
     text-align: center;
@@ -363,6 +416,7 @@ div#operating-systems{
     background: rgba(255,255,255, 0.7);
     border-radius: 6px;
     margin-top: 3%;
+   border: 6px groove teal !important;
 
 
   }
@@ -370,12 +424,14 @@ div#operating-systems{
     background: rgba(255,255,255, 0.7);
     border-radius: 6px;
     margin-top: 2%;
+    border: 6px groove teal !important;
 
   }
   div.familiar{
     background: rgba(255,255,255, 0.7);
     border-radius: 6px;
     margin-top: 2%;
+    border: 6px groove teal !important;
 
   }
 
@@ -384,7 +440,8 @@ div#operating-systems{
     border-radius: 6px;
     margin-top: 1%;
     padding: 1%;
-    height: 105px;
+    height: 165px;
+    border: 6px groove teal !important;
 
   }
   p.projects{
@@ -734,6 +791,8 @@ div#operating-systems{
     bottom: 0;
     left: 0;
     width: 15%;
+    color: #00FFFF !important;
+    color:
     font-size: 20px;
     text-align: center;
     text-shadow: 0 1px 2px rgba(0,0,0,.6);

@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="css/mobile.css">
+  <script src="scripts/script.js"></script>
   <meta name="description" content="Stephen Popovich's Portfolio Website, feel free to look around :)">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
@@ -28,13 +29,9 @@
 <body>
 
   <button onclick="topFunction()" id="up-to-top" title="Go to top"><img id="up-arrow" src="./pictures/up-arrow.png" alt="Image"></button>
-  <div id="ac-wrapper" style='display:none'>
-    <div id="popup">
-        <center>
-             <h2>Popup Content Here</h2>
-            <input type="submit" name="submit" value="Submit" onClick="PopUp('hide')" />
-        </center>
-    </div>
+
+  <div class="popup" >
+    <span class="popuptext" id="myPopup">Welcome to my portfolio for the first time!</span>
   </div>
   <div id="wrapper">
         <nav class="navbar navbar-default">
@@ -49,7 +46,7 @@
                 </button>
 
                 <!-- <a class="navbar-brand" href="#">Stephen Popovich</a> -->
-                <img id="slogo" src="pictures/S.png" width="50" height="50">
+                <img id="slogo" src="pictures/S.gif" width="50" height="50">
               </div>
 
               <!-- Collect the nav links, forms, and other content for toggling -->
@@ -156,6 +153,9 @@
                                        <h3 style="text-align: center;"> Comfortable working with:</h3>
                                    <img class="language-icon" src="pictures/Windows-Logo.png" alt="Image">
                                    <img class="language-icon" src="pictures/apple-logo.png" alt="Image">
+
+
+
                                  </div>
 
                                 </p>
@@ -887,15 +887,9 @@ window.onload = function() {
           document.getElementById("up-to-top").style.display = "none";
       }
   }
-
-  // When the user clicks on the button, scroll to the top of the document
-  function topFunction() {
-      document.body.scrollTop = 0;
-      document.documentElement.scrollTop = 0;
-  }
-  jQuery(document).ready(function(){
-        setTimeout(PopUp(),5000); // invoke Popup function after 5 seconds
- });
+  $(window).load(function() {
+    $("span.popuptext").fadeIn();
+  });
 
   </script>
 
