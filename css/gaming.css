@@ -19,8 +19,10 @@ body{
     -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
     -webkit-border-radius: 10px;
     border-radius: 10px;
+    width: 20px;
     color: #00FFFF !important;
     background: #00FFFF !important;
+    z-index: 1000;
 }
 ::-webkit-scrollbar-thumb {
     -webkit-border-radius: 10px;
@@ -28,6 +30,7 @@ body{
     background: #53346D !important;
     border-color: #00FFFF !important;
     -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);
+    z-index: 1000;
 }
 ::-webkit-scrollbar-thumb:window-inactive {
   -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
@@ -35,6 +38,7 @@ body{
   border-radius: 10px;
   color: #00FFFF !important;
   background: #00FFFF !important;
+  z-index: 1000;
 }
 nav.navbar.navbar-default{
   background: linear-gradient(to bottom, #000000, #53346D) !important;
@@ -46,6 +50,7 @@ nav.navbar.navbar-default{
   box-shadow: 3px 3px 5px 5px black;
   position: fixed;
   z-index: 100;
+  height: 65px;
 }
 
 nav.navbar.navbar-default:hover{
@@ -56,6 +61,7 @@ nav.navbar.navbar-default:hover{
   -webkit-box-shadow: 3px 3px 5px 5px teal;
   -moz-box-shadow: 3px 3px 5px 5px teal;
   box-shadow: 3px 3px 5px 5px teal;
+  height: 65px;
 }
 }
 ul.dropdown-menu {
