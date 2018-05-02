@@ -598,6 +598,9 @@ div#myCarousel2{
   img#gamepic{
     box-shadow: none;
   }
+  img.mycomputer{
+    height: 260px;
+  }
   #gametext{
     font-family: 'Press Start 2P', cursive;
     color: #FFDF00;
