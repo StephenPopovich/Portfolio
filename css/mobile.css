@@ -45,11 +45,15 @@
     border-color: #00FFFF;
     opacity: .9;
     }
+    .nav .navbar-nav .navbar-right{
+      background: none;
+    }
     nav.navbar.navbar-default{
       background: linear-gradient(to bottom, #000000, #53346D) !important;
       width: 100%;
       border-color: 	#00FFFF;
       opacity: .8;
+       height: 60px;
 
       position: fixed;
       z-index: 100;
@@ -60,6 +64,7 @@
       background: linear-gradient(to top, #000000, #53346D) !important;
       border-color: 	#00FFFF;
       opacity: .9;
+       height: 60px;
 
     }
     ul.dropdown-menu {
@@ -101,6 +106,9 @@
       border-top-left-radius: 0;
       border-top-right-radius: 0;
       border-color: #53346D;
+    }
+    .nav .navbar-nav .navbar-right{
+      background: none;
     }
     .icon-bar{
       border-top: 1.2px groove #25b7c4 !important;
@@ -1060,11 +1068,7 @@
          background: #00FFFF !important;
        }
        .navbar-nav {
-          margin: 7.5px -15px;
-          background: -webkit-linear-gradient(bottom, #25c481, #25b7c4) !important;
-          background: linear-gradient(to top, #000000, #53346D) !important;
-          border-color: #00FFFF;
-          opacity: .9;
+
       }
 
        nav.navbar.navbar-default{
@@ -1072,6 +1076,7 @@
          width: 100%;
          border-color: 	#00FFFF;
          opacity: .8;
+          height: 60px;
 
          position: fixed;
          z-index: 100;
@@ -1082,6 +1087,7 @@
          background: linear-gradient(to top, #000000, #53346D) !important;
          border-color: 	#00FFFF;
          opacity: .9;
+          height: 60px;
 
        }
        ul.dropdown-menu {
@@ -1132,6 +1138,11 @@
          border-color: 	#00FFFF !important;
        }
        .navbar-default .navbar-toggle:hover {
+         background: -webkit-linear-gradient(bottom, #25c481,  #00FFFF) !important;
+         background-color: linear-gradient(to top,  #00FFFF, #53346D) !important;
+
+       }
+       .navbar-default .navbar-toggle:visited {
          background: -webkit-linear-gradient(bottom, #25c481,  #00FFFF) !important;
          background-color: linear-gradient(to top,  #00FFFF, #53346D) !important;
 
@@ -1390,7 +1401,7 @@
            border-radius: 6px;
            margin-top: 1%;
            padding: 1%;
-           height: 385px;
+           height: 305px;
 
          }
          strong.project-description {
@@ -1556,6 +1567,8 @@
        #map {
        margin-top: 2%;
        width: inherit !important;
+       width: 483px !important;
+       height: 555px !important;
        }
        #education{
          margin-top: 2%;
@@ -2004,12 +2017,21 @@
        width: 18%;
        height: 13%;
      }
+     /*
+     RESUME PAGE*/
      div#contact{
        margin-bottom: 12px;
 
      }
-     /*
-     RESUME PAGE*/
+     #contactinfo p{
+       color: black;
+     }
+     #usernames p {
+       color: black;
+     }
+     p.id{
+       color: black
+     }
      h2#careertitle {
        color: #1C75BC;
        font-size: 19px;
@@ -2086,11 +2108,15 @@ and (max-device-width : 481px) {
         border-color: #00FFFF;
         opacity: .9;
     }
+    .nav .navbar-nav .navbar-right{
+      background: none;
+    }
     nav.navbar.navbar-default{
       background: linear-gradient(to bottom, #000000, #53346D) !important;
       width: 100%;
       border-color: 	#00FFFF;
       opacity: .8;
+       height: 60px;
 
       position: fixed;
       z-index: 100;
@@ -2101,6 +2127,7 @@ and (max-device-width : 481px) {
       background: linear-gradient(to top, #000000, #53346D) !important;
       border-color: 	#00FFFF;
       opacity: .9;
+       height: 60px;
 
     }
     ul.dropdown-menu {
@@ -3111,7 +3138,7 @@ and (max-device-width : 481px) {
          width: 100%;
          border-color: 	#00FFFF;
          opacity: .8;
-
+         height: 60px;
          position: fixed;
          z-index: 100;
 
@@ -3121,6 +3148,7 @@ and (max-device-width : 481px) {
          background: linear-gradient(to top, #000000, #53346D) !important;
          border-color: 	#00FFFF;
          opacity: .9;
+          height: 60px;
 
        }
        ul.dropdown-menu {

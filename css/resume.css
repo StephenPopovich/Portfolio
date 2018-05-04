@@ -341,6 +341,7 @@
   }
   #summarycontent{
     font-size: 18px;
+    color: black;
   }
   #subtitle{
     color: black;
@@ -365,6 +366,7 @@
   }
   #city{
     float: right;
+    color: black;
   }
   #certifcation{
     font-size: font-family: 'PT Sans', sans-serif;
@@ -373,8 +375,11 @@
     color: #1C75BC;
     font-weight:800;
   }
+  #projectscotnent p{
+    color: black;
+  }
   #skill{
-
+   color: black;
   }
   #skilltitle2{
     color: #1C75BC;
@@ -393,7 +398,7 @@
     background-image: none;
   }
   #projectsubtitle{
-    color:  #1C75BC;
+    color:  #1C75BC !important;
     font-size: 16px;
     font-weight:800;
   }
