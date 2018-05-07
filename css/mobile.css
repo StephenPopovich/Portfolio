@@ -39,11 +39,7 @@
       background: #00FFFF !important;
     }
     .navbar-nav {
-    margin: 7.5px -15px;
-    background: -webkit-linear-gradient(bottom, #25c481, #25b7c4) !important;
-    background: linear-gradient(to top, #000000, #53346D) !important;
-    border-color: #00FFFF;
-    opacity: .9;
+
     }
     .nav .navbar-nav .navbar-right{
       background: none;
@@ -406,6 +402,14 @@
       box-shadow: none;
 
     }
+    div#digital-resume {
+      margin-top: 2.15%;
+      margin-bottom: 4%;
+     }
+    div#digital-resume {
+    margin-top: 2.15%;
+    margin-bottom: 4%;
+    }
     #header{
       font-family: 'Righteous', cursive;
       text-align: center;
@@ -434,7 +438,9 @@
         color: #00FFFF;
 
     }
-
+    p.company-name{
+      color: black;
+    }
     img#bye{
       width: 100%;
     }
@@ -710,7 +716,7 @@
       line-height: .91;
     }
     li {
-    font-size: 24px;
+    font-size: 1.45em;
     line-height: 0.7;
     }
     li span {
@@ -1009,6 +1015,7 @@
     line-height: 4.2;
     box-shadow: none;
     }
+
     #responsive {
       overflow: hidden;
       text-align:center;
@@ -1021,6 +1028,13 @@
       width: 180px;
       height: 70px;
       margin-top: 12%;
+    }
+    div#digital-resume {
+    margin-top: 2.15%;
+    margin-bottom: 4%;
+    }
+    p.company-name{
+      color: black;
     }
 }
 /* Tablets----------- */
@@ -1253,7 +1267,7 @@
          -ms-transition: all 0.5s ease;
          transition: all 0.5s ease;
          height: 340px;
-         margin-top: 9.2%;
+         margin-top: 2.5%;
      }
      img#mypic:hover {
          border: 3px groove #25b7c4 !important;
@@ -1263,7 +1277,8 @@
        #infocontent {
            background: linear-gradient(to bottom, #000000, #53346D) !important;
            opacity: .85;
-
+           margin-top: 1%;
+           margin-bottom: -4%;
            border: 2px groove #25b7c4 !important;
            border-radius: 5%;
            font-size: 18px;
@@ -1401,7 +1416,7 @@
            border-radius: 6px;
            margin-top: 1%;
            padding: 1%;
-           height: 305px;
+           height: 360px;
 
          }
          strong.project-description {
@@ -1429,6 +1444,13 @@
          margin-top: 12%;
          box-shadow: none;
        }
+       div#digital-resume {
+        margin-top: 4.15%;
+        margin-bottom: 4%;
+      }
+      p.company-name{
+        color: black;
+      }
        #header{
          font-family: 'Righteous', cursive;
          text-align: center;
@@ -1567,8 +1589,8 @@
        #map {
        margin-top: 2%;
        width: inherit !important;
-       width: 483px !important;
-       height: 555px !important;
+       width: 366px !important;
+      height: 500px !important;
        }
        #education{
          margin-top: 2%;
@@ -2053,8 +2075,15 @@
        #responsive img {
          width: 180px;
          height: 70px;
-         margin-top: 12%;
+         margin-top: 6%;
        }
+       div#digital-resume {
+        margin-top: 5.15%;
+        margin-bottom: 4%;
+      }
+      p.company-name{
+        color: black;
+      }
 
    }
 /* large Smartphones (portrait and landscape) ----------- */
@@ -2465,6 +2494,10 @@ and (max-device-width : 481px) {
       margin-top: 11%;
       box-shadow: none;
     }
+    div#digital-resume {
+    margin-top: 6.15%;
+    margin-bottom: 4%;
+   }
     #header{
       font-family: 'Righteous', cursive;
       text-align: center;
@@ -3079,6 +3112,10 @@ and (max-device-width : 481px) {
       height: 70px;
       margin-top: 12%;
     }
+    div#digital-resume {
+      margin-top: 2.15%;
+      margin-bottom: 4%;
+     }
 
 }
 /* Smartphones (portrait and landscape) ----------- */
@@ -3486,6 +3523,10 @@ and (max-device-width : 481px) {
          margin-top: 12%;
          box-shadow: none;
        }
+       div#digital-resume {
+        margin-top: 2.15%;
+        margin-bottom: 4%;
+        }
        #header{
          font-family: 'Righteous', cursive;
          text-align: center;
@@ -4107,6 +4148,10 @@ and (max-device-width : 481px) {
        }
        div#digital-resume {
           margin-top: 5.15%;
+      }
+      div#digital-resume {
+          margin-top: 2.15%;
+          margin-bottom: 4%;
       }
 
    }
