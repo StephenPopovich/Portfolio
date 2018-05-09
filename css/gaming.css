@@ -8,8 +8,10 @@ html,body {
     background-size: cover;         /* Generic*/
     margin-bottom: 19%;
 }
-body{
-  overflow-x: hidden;
+li {
+    font-size: 24px;
+    line-height: 0.7;
+    color: black !important;
 }
 ::-webkit-scrollbar {
   width: 12px;
@@ -214,22 +216,6 @@ img#slogo:hover{
 p, h1, h2, h4, a{
   color: white;
 }
-#frontheader{
-  font-family: 'Press Start 2P', cursive;
-  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
-  border-radius: 2%;
-  margin-top: 5% !important;
-  color: #FFDF00;
-  display: inherit;
-  text-align: center;
-  font-size: 25px;
-  text-shadow:
-     -1px -1px 0 #25b7c4,
-     1px -1px 0 #25b7c4,
-     -1px 1px 0 #25b7c4,
-     1px 1px 0 #25b7c4;
-    margin-top: 1%;
-}
 #header{
   margin-top: 18.2%;
 }
@@ -241,6 +227,18 @@ img#coin{
 }
 img.img_responsive{
   width: 100%;
+}
+p#frontheader {
+    font-family: 'Press Start 2P', cursive;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    border-radius: 2%;
+    margin-top: 10% !important;
+    color: #FFDF00;
+    display: inherit;
+    text-align: center;
+    font-size: 25px;
+    text-shadow: -1px -1px 0 #25b7c4, 1px -1px 0 #25b7c4, -1px 1px 0 #25b7c4, 1px 1px 0 #25b7c4;
+    margin-top: 1%;
 }
 #by{
   font-family: 'Nosifer', cursive;
@@ -694,10 +692,4 @@ p::selection {
 p::-moz-selection {
   background: #FFDF00;
   color: black;
-}
-
-li{
-  font-size: 24px;
-    line-height: 0.7;
-    margin-left: -2.7%;
 }

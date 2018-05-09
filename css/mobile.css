@@ -103,7 +103,7 @@
       border-top-right-radius: 0;
       border-color: #53346D;
     }
-    .nav .navbar-nav .navbar-right{
+    ul.nav.navbar-nav.navbar-right{
       background: none;
     }
     .icon-bar{
@@ -178,6 +178,9 @@
     .navbar-default .navbar-collapse, .navbar-default .navbar-form {
         /* border-color: #e7e7e7; */
         border-color: #00FFFF !important;
+    }
+    ul.nav.navbar-nav.navbar-right{
+      background: none;
     }
     #up-to-top {
       display: none;
@@ -1005,6 +1008,131 @@
   }
   /*
   RESUME PAGE*/
+  .btn .btn-danger{
+    margin-top: 2%;
+  }
+  #contactsource{
+    line-height: 0.7;
+  }
+  #contactinfo{
+    margin-left: 38px;
+    margin-right: 12px;
+  }
+  #contact{
+    line-height: 0.7;
+    margin-top: -1.5%;
+  }
+  #mylocation{
+    font-size: 24px;
+    line-height: 8px;
+  }
+  p.id{
+    color: black;
+  }
+  p.contact-info{
+      color: black;
+  }
+  hr#location{
+    width: 191px;
+    margin-bottom: .8%;
+    margin-top: .1%;
+  }
+  img.icon{
+    height: 25px;
+    width: 25px;
+  }
+  #summary{
+    text-align: center;
+    vertical-align: middle;
+    font-size: 24px;
+  }
+  .summarycontent{
+    font-size: 18px;
+    color: black;
+  }
+  .subtitle{
+    color: black;
+    font-size: 24px;
+
+  }
+  .school{
+    color: #1C75BC;
+    font-size: 16px;
+      font-weight:800;
+  }
+  .school-name{
+    color: black;
+  }
+  .graduation{
+    float: right;
+    font-size: 16px;
+    color: black;
+  }
+  .duration{
+    text-align: center;
+    vertical-align: middle;
+    color: black;
+    margin-left: 20px;
+  }
+  p.certification{
+    color: black;
+  }
+  p.achievement{
+    color: black;
+  }
+  .city{
+    float: right;
+    color: black;
+  }
+  .certifcation{
+    font-size: font-family: 'PT Sans', sans-serif;
+  }
+  .skilltitle{
+    color: #1C75BC;
+    font-weight:800;
+  }
+  .projectscotnent p{
+    color: black;
+  }
+  .skill{
+   color: black;
+  }
+  .skilltitle2{
+    color: #1C75BC;
+    font-weight:800;
+  }
+  .skill2{
+    color: black;
+
+  }
+  .progress{
+    background-color: #E6E7E8 !important;
+    background-image: none;
+    color: #E6E7E8;
+  }
+  .progress-bar{
+    background-color: #1C75BC !important;
+    background-image: none;
+  }
+  #projectsubtitle{
+    color:  #1C75BC !important;
+    font-size: 16px;
+    font-weight:800;
+  }
+  #projectcontent{
+    font-size: 10px;
+  }
+  .progress {
+    height: 20px;
+    margin-bottom: 2px;
+    border: 1px solid black;
+    overflow: hidden;
+    background-color: #f5f5f5;
+    border-radius: 0px;
+    -webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,.1);
+    box-shadow: inset 0 1px 2px rgba(0,0,0,.1);
+  }
+
   h2#careertitle {
     color: #1C75BC;
     font-size: 19px;
@@ -1221,6 +1349,9 @@
        .navbar-default .navbar-collapse, .navbar-default .navbar-form {
            /* border-color: #e7e7e7; */
            border-color: #00FFFF !important;
+       }
+       ul.nav.navbar-nav.navbar-right{
+         background: none;
        }
        #up-to-top {
          display: none;
@@ -1756,7 +1887,7 @@
          line-height: .91;
        }
        li {
-       font-size: 24px;
+          font-size: 1.32em;
        line-height: 0.7;
        }
        li span {
@@ -2041,6 +2172,127 @@
      }
      /*
      RESUME PAGE*/
+
+     #contactsource{
+       line-height: 0.7;
+     }
+     #contactinfo{
+       margin-left: 38px;
+       margin-right: 12px;
+     }
+     #contact{
+       line-height: 0.7;
+       margin-top: -1.5%;
+     }
+     #mylocation{
+       font-size: 24px;
+       line-height: 8px;
+     }
+     p.id{
+       color: black;
+     }
+     hr#location{
+       width: 191px;
+       margin-bottom: .8%;
+       margin-top: .1%;
+     }
+
+     img.icon{
+       height: 25px;
+       width: 25px;
+     }
+     #summary{
+       text-align: center;
+       vertical-align: middle;
+       font-size: 24px;
+     }
+     .summarycontent{
+       font-size: 18px;
+       color: black;
+     }
+     .subtitle{
+       color: black;
+       font-size: 24px;
+
+     }
+     .school{
+       color: #1C75BC;
+       font-size: 16px;
+         font-weight:800;
+     }
+     .school-name{
+       color: black;
+     }
+     .graduation{
+       float: right;
+       font-size: 16px;
+       color: black;
+     }
+     .duration{
+       text-align: center;
+       vertical-align: middle;
+       color: black;
+       margin-left: 20px;
+     }
+     p.certification{
+       color: black;
+     }
+     p.achievement{
+       color: black;
+     }
+     .city{
+       float: right;
+       color: black;
+     }
+     .certifcation{
+       font-size: font-family: 'PT Sans', sans-serif;
+     }
+     .skilltitle{
+       color: #1C75BC;
+       font-weight:800;
+     }
+     .projectscotnent p{
+       color: black;
+     }
+     .skill{
+      color: black;
+     }
+     .skilltitle2{
+       color: #1C75BC;
+       font-weight:800;
+     }
+     .skill2{
+       color: black;
+
+     }
+     .progress{
+       background-color: #E6E7E8 !important;
+       background-image: none;
+       color: #E6E7E8;
+     }
+     .progress-bar{
+       background-color: #1C75BC !important;
+       background-image: none;
+     }
+     #projectsubtitle{
+       color:  #1C75BC !important;
+       font-size: 16px;
+       font-weight:800;
+     }
+     #projectcontent{
+       font-size: 10px;
+     }
+     .progress {
+       height: 20px;
+       margin-bottom: 2px;
+       border: 1px solid black;
+       overflow: hidden;
+       background-color: #f5f5f5;
+       border-radius: 0px;
+       -webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,.1);
+       box-shadow: inset 0 1px 2px rgba(0,0,0,.1);
+     }
+
      div#contact{
        margin-bottom: 12px;
 
@@ -2271,6 +2523,9 @@ and (max-device-width : 481px) {
     .navbar-default .navbar-collapse, .navbar-default .navbar-form {
         /* border-color: #e7e7e7; */
         border-color: #00FFFF !important;
+    }
+    ul.nav.navbar-nav.navbar-right{
+      background: none;
     }
     #up-to-top {
       display: none;
@@ -3089,6 +3344,126 @@ and (max-device-width : 481px) {
   }
   /*
   RESUME PAGE*/
+
+  #contactsource{
+    line-height: 0.7;
+  }
+  #contactinfo{
+    margin-left: 38px;
+    margin-right: 12px;
+  }
+  #contact{
+    line-height: 0.7;
+    margin-top: -1.5%;
+  }
+  #mylocation{
+    font-size: 24px;
+    line-height: 8px;
+  }
+  p.id{
+    color: black;
+  }
+  hr#location{
+    width: 191px;
+    margin-bottom: .8%;
+    margin-top: .1%;
+  }
+  img.icon{
+    height: 25px;
+    width: 25px;
+  }
+  #summary{
+    text-align: center;
+    vertical-align: middle;
+    font-size: 24px;
+  }
+  .summarycontent{
+    font-size: 18px;
+    color: black;
+  }
+  .subtitle{
+    color: black;
+    font-size: 24px;
+
+  }
+  .school{
+    color: #1C75BC;
+    font-size: 16px;
+      font-weight:800;
+  }
+  .school-name{
+    color: black;
+  }
+  .graduation{
+    float: right;
+    font-size: 16px;
+    color: black;
+  }
+  .duration{
+    text-align: center;
+    vertical-align: middle;
+    color: black;
+    margin-left: 20px;
+  }
+  p.certification{
+    color: black;
+  }
+  p.achievement{
+    color: black;
+  }
+  .city{
+    float: right;
+    color: black;
+  }
+  .certifcation{
+    font-size: font-family: 'PT Sans', sans-serif;
+  }
+  .skilltitle{
+    color: #1C75BC;
+    font-weight:800;
+  }
+  .projectscotnent p{
+    color: black;
+  }
+  .skill{
+   color: black;
+  }
+  .skilltitle2{
+    color: #1C75BC;
+    font-weight:800;
+  }
+  .skill2{
+    color: black;
+
+  }
+  .progress{
+    background-color: #E6E7E8 !important;
+    background-image: none;
+    color: #E6E7E8;
+  }
+  .progress-bar{
+    background-color: #1C75BC !important;
+    background-image: none;
+  }
+  #projectsubtitle{
+    color:  #1C75BC !important;
+    font-size: 16px;
+    font-weight:800;
+  }
+  #projectcontent{
+    font-size: 10px;
+  }
+  .progress {
+    height: 20px;
+    margin-bottom: 2px;
+    border: 1px solid black;
+    overflow: hidden;
+    background-color: #f5f5f5;
+    border-radius: 0px;
+    -webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,.1);
+    box-shadow: inset 0 1px 2px rgba(0,0,0,.1);
+  }
+
   h2#careertitle {
     color: #1C75BC;
     font-size: 19px;
@@ -3300,6 +3675,9 @@ and (max-device-width : 481px) {
        .navbar-default .navbar-collapse, .navbar-default .navbar-form {
            /* border-color: #e7e7e7; */
            border-color: #00FFFF !important;
+       }
+       ul.nav.navbar-nav.navbar-right{
+         background: none;
        }
        #up-to-top {
          display: none;
@@ -4119,6 +4497,12 @@ and (max-device-width : 481px) {
      }
      /*
      RESUME PAGE*/
+     button.btn.btn-success{
+       margin-top: 5%;
+     }
+     button.btn.btn-danger{
+       margin-top: 5%;
+     }
      #summarycontent {
         font-size: 1em;
         color: black;

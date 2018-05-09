@@ -13,7 +13,7 @@
 
   <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
 
-  <link rel="icon" type="image/png" href="pictures/S.png" />
+  <link rel="icon" type="image/png" href="pictures/S.gif" />
   <title>My Resume</title>
 
   <!-- Get the JQuery library
@@ -23,7 +23,7 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
 </head>
 <body>
-  <button onclick="topFunction()" id="up-to-top" title="Go to top"><img src="./pictures/up-arrow.png" alt="Image"></button>
+  <button onclick="topFunction()" id="up-to-top" title="Go to top"><img id="up-arrow" src="./pictures/up-arrow.png" alt="Image"></button>
 
   <div id="wrapper">
 
@@ -45,7 +45,7 @@
               <!-- Collect the nav links, forms, and other content for toggling -->
               <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
-                  <li><a href="index.html">Bio</a></li>
+                  <li><a href="index.html">About</a></li>
                   <li class="active"><a href="resume.html">Resume<span class="sr-only">(current)</span></a></li>
                   <li><a href="gaming.html">Front-end</a></li>
                   <li><a href="design.html">Design</a></li>
@@ -137,8 +137,8 @@
                             <img class="icon" src="pictures/cell.png">
                       </div>
                       <div class="col-xs-10 col-sm-11 col-md-11" id="">
-                          <p>Phone:</p>
-                          <p>408-613-4849</p>
+                          <p class="contact-info">Phone:</p>
+                          <p class="contact-info">408-613-4849</p>
                       </div>
 
                     </div>
@@ -151,8 +151,8 @@
                             <img class="icon"  src="pictures/envelope.png">
                       </div>
                       <div class="col-xs-10 col-sm-11 col-md-11" id="">
-                        <p>Email:</p>
-                        <p>stephenpopovich16@gmail.com</p>
+                        <p class="contact-info">Email:</p>
+                        <p class="contact-info">stephenpopovich16@gmail.com</p>
                       </div>
 
                     </div>
@@ -164,11 +164,11 @@
                   <div class="col-xs-12 col-sm-4 col-md-4" class="contact">
                    <div class="contactsource">
                      <div class="col-xs-2 col-sm-1 col-md-1" id="">
-                           <img iclass"icon"  src="pictures/web.png">
+                           <img class="icon"  src="pictures/web.png">
                      </div>
                      <div class="col-xs-10 col-sm-11 col-md-11" id="">
-                        <p>Website:</p>
-                        <p>www.stephenmpopovich.com</p>
+                        <p class="contact-info">Website:</p>
+                        <p class="contact-info">www.stephenmpopovich.com</p>
                      </div>
 
                    </div>
@@ -196,11 +196,11 @@
                   <hr class="divide2">
 
                   <p class="school">Web Development<span class="graduation">March 2016</span></p>
-                  <p>Coding Dojo, Silicon Valley</p>
-                  <p>Python, PHP and MEAN</p>
+                  <p class="school-name">Coding Dojo, Silicon Valley</p>
+                  <p class="school-name">Python, PHP and MEAN</p>
 
                   <p class="school">Bachelor of Science, Business Management<span class="graduation">May 2013</span></p>
-                  <p>San Jose State University, CA</p>
+                  <p class="school-name">San Jose State University, CA</p>
 
 
 
@@ -269,7 +269,7 @@
 
                     <p class="company-name">River City Buildimg Supply Inc.<span id="city">San Jose, CA</span></p>
 
-                    <p><u>Notable Achievement:</u> Designed, developed and implemented
+                    <p class="achievement"><u>Notable Achievement:</u> Designed, developed and implemented
                         customer database and internal processes system to track efforts
                         and streamline operations.
                     </p>
