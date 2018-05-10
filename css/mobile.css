@@ -104,7 +104,7 @@
       border-color: #53346D;
     }
     ul.nav.navbar-nav.navbar-right{
-      background: none;
+      background: none !important;
     }
     .icon-bar{
       border-top: 1.2px groove #25b7c4 !important;
@@ -319,7 +319,7 @@
 
       h1#type-writter{
         margin-top: 2%;
-        font-size: 2em;
+        font-size: 1.79em;
         text-align: center;
         text-shadow:
            -1px -1px 0 black,
@@ -965,7 +965,10 @@
     }
     img#gamepic{
       height: 300px;
-      width: 100%;
+      width: 300px !important;
+      display: table;
+      margin-left: auto;
+      margin-right: auto;
     }
     #gametext {
       font-family: 'Press Start 2P', cursive;
@@ -1008,8 +1011,19 @@
   }
   /*
   RESUME PAGE*/
+
+  h4.summary{
+    text-align: center;
+  }
+  .summarycontent {
+    font-size: 1em;
+    color: black;
+  }
   .btn .btn-danger{
     margin-top: 2%;
+  }
+  div.resume-header{
+    text-align: center;
   }
   #contactsource{
     line-height: 0.7;
@@ -1025,6 +1039,9 @@
   #mylocation{
     font-size: 24px;
     line-height: 8px;
+  }
+  div.resume-header{
+    text-align: center;
   }
   p.id{
     color: black;
@@ -1047,7 +1064,7 @@
     font-size: 24px;
   }
   .summarycontent{
-    font-size: 18px;
+    font-size: 1em;
     color: black;
   }
   .subtitle{
@@ -1132,8 +1149,11 @@
     -webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,.1);
     box-shadow: inset 0 1px 2px rgba(0,0,0,.1);
   }
+  h1.careertitle{
+     font-size: 1.2em;
+   }
 
-  h2#careertitle {
+  h2.careertitle {
     color: #1C75BC;
     font-size: 19px;
     line-height: 0px;
@@ -1914,7 +1934,7 @@
        #cf {
          position: relative;
          margin: 0 auto;
-         margin-top: 2.3%;
+         margin-top: 6.3%;
        }
        #frontheader {
          margin-top: 13.6%;
@@ -1930,7 +1950,7 @@
          position: absolute;
          left: 0;
          width: 100%;
-         margin-top: 35px;
+         margin-top: 1%;
          -webkit-transition: opacity 1s ease-in-out;
          -moz-transition: opacity 1s ease-in-out;
          -o-transition: opacity 1s ease-in-out;
@@ -2133,7 +2153,10 @@
        }
        img#gamepic{
          height: 300px;
-         width: 100%;
+         width: 300px !important;
+         display: table;
+         margin-left: auto;
+         margin-right: auto;
        }
        #gametext {
          font-family: 'Press Start 2P', cursive;
@@ -2173,6 +2196,13 @@
      /*
      RESUME PAGE*/
 
+     h4.summary{
+       text-align: center;
+     }
+     .summarycontent {
+        font-size: 1em;
+        color: black;
+    }
      #contactsource{
        line-height: 0.7;
      }
@@ -2187,6 +2217,9 @@
      #mylocation{
        font-size: 24px;
        line-height: 8px;
+     }
+     div.resume-header{
+       text-align: center;
      }
      p.id{
        color: black;
@@ -2303,10 +2336,16 @@
      #usernames p {
        color: black;
      }
+     div.resume-header{
+       text-align: center;
+     }
      p.id{
        color: black
      }
-     h2#careertitle {
+     h1.careertitle{
+        font-size: 1.2em;
+      }
+     h2.careertitle {
        color: #1C75BC;
        font-size: 19px;
        line-height: 0px;
@@ -2387,7 +2426,7 @@ and (max-device-width : 481px) {
         background: -webkit-linear-gradient(bottom, #25c481, #25b7c4) !important;
         background: linear-gradient(to top, #000000, #53346D) !important;
         border-color: #00FFFF;
-        opacity: .9;
+        opacity: 1;
     }
     .nav .navbar-nav .navbar-right{
       background: none;
@@ -2664,7 +2703,7 @@ and (max-device-width : 481px) {
 
       h1#type-writter{
         margin-top: 2%;
-        font-size: 1.7em;
+        font-size: 1.56em;
         text-align: center;
         text-shadow:
            -1px -1px 0 black,
@@ -3085,7 +3124,7 @@ and (max-device-width : 481px) {
       margin-top: 2.3%;
     }
     #frontheader {
-      margin-top: 13.6%;
+      margin-top: 13.3% !important;
       font-family: 'Press Start 2P', cursive;
       border-radius: 2%;
       color: #FFDF00;
@@ -3301,7 +3340,10 @@ and (max-device-width : 481px) {
     }
     img#gamepic{
       height: 300px;
-      width: 100%;
+      width: 300px !important;
+      display: table;
+      margin-left: auto;
+      margin-right: auto;
     }
     #gametext {
       font-family: 'Press Start 2P', cursive;
@@ -3345,6 +3387,14 @@ and (max-device-width : 481px) {
   /*
   RESUME PAGE*/
 
+  h4.summary{
+    text-align: center;
+  }
+  .summarycontent {
+    font-size: 1em;
+    color: black;
+   }
+
   #contactsource{
     line-height: 0.7;
   }
@@ -3359,6 +3409,9 @@ and (max-device-width : 481px) {
   #mylocation{
     font-size: 24px;
     line-height: 8px;
+  }
+  div.resume-header{
+    text-align: center;
   }
   p.id{
     color: black;
@@ -3464,7 +3517,10 @@ and (max-device-width : 481px) {
     box-shadow: inset 0 1px 2px rgba(0,0,0,.1);
   }
 
-  h2#careertitle {
+  h1.careertitle{
+     font-size: 1.2em;
+   }
+  h2.careertitle {
     color: #1C75BC;
     font-size: 19px;
     line-height: 0px;
@@ -3542,7 +3598,7 @@ and (max-device-width : 481px) {
           background: -webkit-linear-gradient(bottom, #25c481, #25b7c4) !important;
           background: linear-gradient(to top, #000000, #53346D) !important;
           border-color: #00FFFF;
-          opacity: .9;
+          opacity: 1;
       }
 
        nav.navbar.navbar-default{
@@ -3816,7 +3872,7 @@ and (max-device-width : 481px) {
        }
          h1#type-writter{
            margin-top: 2%;
-           font-size: 1.7em;
+           font-size: 1.35em;
            text-align: center;
            text-shadow:
               -1px -1px 0 black,
@@ -4235,7 +4291,7 @@ and (max-device-width : 481px) {
        #cf {
          position: relative;
          margin: 0 auto;
-         margin-top: 2.3%;
+         margin-top: 9.1%;
        }
        #frontheader {
          margin-top: 13.6%;
@@ -4453,8 +4509,11 @@ and (max-device-width : 481px) {
          display: inline;
        }
        img#gamepic{
-         height: 300px;
-         width: 100%;
+         height: 250px;
+         width: 250px !important;
+         display: table;
+         margin-left: auto;
+         margin-right: auto;
        }
        #gametext {
          font-family: 'Press Start 2P', cursive;
@@ -4507,7 +4566,10 @@ and (max-device-width : 481px) {
         font-size: 1em;
         color: black;
     }
-     h2#careertitle {
+    h1.careertitle{
+       font-size: 1.2em;
+     }
+     h2.careertitle {
        color: #1C75BC;
        font-size: 19px;
        line-height: 0px;
