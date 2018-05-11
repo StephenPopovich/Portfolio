@@ -1740,7 +1740,7 @@
        #map {
        margin-top: 2%;
        width: inherit !important;
-       width: 366px !important;
+       width: 484px !important;
       height: 500px !important;
        }
        #education{
@@ -2052,8 +2052,6 @@
        .table{
          margin-top: 5%;
          padding: none;
-         margin-left: -10px;
-         margin-right: -10px;
          border-radius: 4px;
          background: -webkit-linear-gradient(left, #25c481, #25b7c4);
          background: linear-gradient(to right, black, #25b7c4);
@@ -3547,6 +3545,9 @@ and (max-device-width : 481px) {
       margin-top: 2.15%;
       margin-bottom: 4%;
      }
+
+     /* Design PAGE*/
+
 
 }
 /* Smartphones (portrait and landscape) ----------- */
