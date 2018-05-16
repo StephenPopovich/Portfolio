@@ -206,7 +206,7 @@
       vertical-align: middle;
       color: #f170ff;
       font-size: 16px;
-      font-family: 'Righteous', cursive;
+
 
       z-index: 10001;
       display: none;
@@ -351,12 +351,11 @@
       display: table;
       margin-top: -6%;
     }
-      div.proficient{
+    div.proficient{
         background: rgba(255,255,255, 0.7);
         border-radius: 6px;
         margin-top: 5%;
-
-
+        border: 6px groove teal !important;
       }
       div.moderate{
         background: rgba(255,255,255, 0.7);
@@ -414,7 +413,7 @@
     margin-bottom: 4%;
     }
     #header{
-      font-family: 'Righteous', cursive;
+
       text-align: center;
       vertical-align: middle;
       display: inline-table;
@@ -422,7 +421,7 @@
     }
 
     #minititle{
-        font-family: 'Righteous', cursive;
+
         text-align: center;
         font-style: oblique;
         font-size: 3em;
@@ -635,6 +634,17 @@
           line-height: 1;
           height: 300px !important;
           max-height: 300px !important;
+      }
+      .carousel-indicators {
+          position: absolute;
+          bottom: -8px;
+          left: 50%;
+          z-index: 15;
+          width: 60%;
+          padding-left: 0;
+          margin-left: -30%;
+          text-align: center;
+          list-style: none;
       }
       ul#random{
         display: inline-block;
@@ -850,7 +860,7 @@
       font-size: 19px;
     }
     em#frontend{
-      font-family: 'Righteous', cursive;
+
       text-align: center;
       font-style: oblique;
       color: #00FFFF !important;
@@ -1014,6 +1024,7 @@
 
   h4.summary{
     text-align: center;
+    font-size: 24px;
   }
   .summarycontent {
     font-size: 1em;
@@ -1121,6 +1132,10 @@
   .skill2{
     color: black;
 
+  }
+  p.projectsubtitle{
+      color: #1C75BC;
+      font-weight:800;
   }
   .progress{
     background-color: #E6E7E8 !important;
@@ -1397,7 +1412,7 @@
          vertical-align: middle;
          color: #f170ff;
          font-size: 16px;
-         font-family: 'Righteous', cursive;
+
 
          z-index: 10001;
          display: none;
@@ -1542,17 +1557,17 @@
          display: table;
          margin-top: -6%;
        }
-         div.proficient{
+       div.proficient{
            background: rgba(255,255,255, 0.7);
            border-radius: 6px;
            margin-top: 5%;
-
-
+           border: 6px groove teal !important;
          }
          div.moderate{
            background: rgba(255,255,255, 0.7);
            border-radius: 6px;
            margin-top: 7%;
+           border: 6px groove teal !important;
 
          }
          div.familiar{
@@ -1578,8 +1593,8 @@
 
          }
         img.language-icon{
-                height: 80px;
-                width: 80px;
+                height: 250px;
+                width: 250px;
         }
         img.language-icon:hover{
            transform: scale(1.22);
@@ -1603,7 +1618,7 @@
         color: black;
       }
        #header{
-         font-family: 'Righteous', cursive;
+
          text-align: center;
          vertical-align: middle;
          display: inline-table;
@@ -1611,7 +1626,7 @@
        }
 
        #minititle{
-           font-family: 'Righteous', cursive;
+
            text-align: center;
            font-style: oblique;
            font-size: 3em;
@@ -1739,9 +1754,8 @@
        }
        #map {
        margin-top: 2%;
-       width: inherit !important;
-       width: 484px !important;
-      height: 500px !important;
+       width: 369px !important;
+      height: 369px !important;
        }
        #education{
          margin-top: 2%;
@@ -1824,6 +1838,17 @@
              height: 300px !important;
              max-height: 300px !important;
          }
+         .carousel-indicators {
+            position: absolute;
+            bottom: -8px;
+            left: 50%;
+            z-index: 15;
+            width: 60%;
+            padding-left: 0;
+            margin-left: -30%;
+            text-align: center;
+            list-style: none;
+        }
          ul#random{
            display: inline-block;
 
@@ -1924,6 +1949,10 @@
        }
    /*
        GAMING PAGE*/
+       div#design-title{
+         margin-top: 43%;
+         margin-bottom: 3%;
+       }
        #trackcontent {
          padding-left: 2%;
          font-size: 8px;
@@ -2038,7 +2067,7 @@
          font-size: 19px;
        }
        em#frontend{
-         font-family: 'Righteous', cursive;
+
          text-align: center;
          font-style: oblique;
          color: #00FFFF !important;
@@ -2295,6 +2324,10 @@
      .skill2{
        color: black;
 
+     }
+     p.projectsubtitle{
+         color: #1C75BC;
+        font-weight:800;
      }
      .progress{
        background-color: #E6E7E8 !important;
@@ -2588,7 +2621,7 @@ and (max-device-width : 481px) {
       vertical-align: middle;
       color: #f170ff;
       font-size: 16px;
-      font-family: 'Righteous', cursive;
+
 
       z-index: 10001;
       display: none;
@@ -2791,7 +2824,7 @@ and (max-device-width : 481px) {
     margin-bottom: 4%;
    }
     #header{
-      font-family: 'Righteous', cursive;
+
       text-align: center;
       vertical-align: middle;
       display: inline-table;
@@ -2799,7 +2832,7 @@ and (max-device-width : 481px) {
     }
 
     #minititle{
-        font-family: 'Righteous', cursive;
+
         text-align: center;
         font-style: oblique;
         font-size: 3em;
@@ -3008,6 +3041,17 @@ and (max-device-width : 481px) {
           line-height: 1;
           height: 300px !important;
           max-height: 300px !important;
+      }
+      .carousel-indicators {
+          position: absolute;
+          bottom: -8px;
+          left: 50%;
+          z-index: 15;
+          width: 60%;
+          padding-left: 0;
+          margin-left: -30%;
+          text-align: center;
+          list-style: none;
       }
       ul#random{
         display: inline-block;
@@ -3223,7 +3267,7 @@ and (max-device-width : 481px) {
       font-size: 19px;
     }
     em#frontend{
-      font-family: 'Righteous', cursive;
+
       text-align: center;
       font-style: oblique;
       color: #00FFFF !important;
@@ -3237,8 +3281,6 @@ and (max-device-width : 481px) {
     .table{
       margin-top: 5%;
       padding: none;
-      margin-left: -10px;
-      margin-right: -10px;
       border-radius: 4px;
       background: -webkit-linear-gradient(left, #25c481, #25b7c4);
       background: linear-gradient(to right, black, #25b7c4);
@@ -3387,6 +3429,7 @@ and (max-device-width : 481px) {
 
   h4.summary{
     text-align: center;
+        font-size: 24px;
   }
   .summarycontent {
     font-size: 1em;
@@ -3486,6 +3529,10 @@ and (max-device-width : 481px) {
   .skill2{
     color: black;
 
+  }
+  p.projectsubtitle{
+      color: #1C75BC;
+      font-weight:800;
   }
   .progress{
     background-color: #E6E7E8 !important;
@@ -3760,7 +3807,7 @@ and (max-device-width : 481px) {
          vertical-align: middle;
          color: #f170ff;
          font-size: 16px;
-         font-family: 'Righteous', cursive;
+
 
          z-index: 10001;
          display: none;
@@ -3963,7 +4010,7 @@ and (max-device-width : 481px) {
         margin-bottom: 4%;
         }
        #header{
-         font-family: 'Righteous', cursive;
+
          text-align: center;
          vertical-align: middle;
          display: inline-table;
@@ -3971,7 +4018,7 @@ and (max-device-width : 481px) {
        }
 
        #minititle{
-           font-family: 'Righteous', cursive;
+
            text-align: center;
            font-style: oblique;
            font-size: 3em;
@@ -4182,6 +4229,17 @@ and (max-device-width : 481px) {
              height: 300px !important;
              max-height: 300px !important;
          }
+         .carousel-indicators {
+            position: absolute;
+            bottom: -8px;
+            left: 50%;
+            z-index: 15;
+            width: 60%;
+            padding-left: 0;
+            margin-left: -30%;
+            text-align: center;
+            list-style: none;
+        }
          ul#random{
            display: inline-block;
 
@@ -4282,6 +4340,10 @@ and (max-device-width : 481px) {
        }
    /*
        GAMING PAGE*/
+       div#design-title{
+         margin-top: 42%;
+         margin-bottom: 4%;
+       }
        #trackcontent {
          padding-left: 2%;
          font-size: 8px;
@@ -4396,7 +4458,7 @@ and (max-device-width : 481px) {
          font-size: 19px;
        }
        em#frontend{
-         font-family: 'Righteous', cursive;
+
          text-align: center;
          font-style: oblique;
          color: #00FFFF !important;

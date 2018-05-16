@@ -373,6 +373,7 @@
   }
   p.projectsubtitle{
     color: black;
+        font-weight:800;
   }
   .duration{
     text-align: center;
@@ -410,6 +411,10 @@
   .skill2{
     color: black;
 
+  }
+  p.projectsubtitle{
+      color: #1C75BC;
+          font-weight:800;
   }
   .progress{
     background-color: #E6E7E8 !important;

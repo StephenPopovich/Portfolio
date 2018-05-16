@@ -215,49 +215,6 @@
        1px 1px 0 black;
        color: white !Important;
   }
-  /* Popup container - can be anything you want */
-    .popup {
-        position: relative;
-        cursor: pointer;
-        -webkit-user-select: none;
-        -moz-user-select: none;
-        -ms-user-select: none;
-        user-select: none;
-    }
-
-    /* The actual popup */
-    .popup .popuptext {
-        width: 160px;
-        background-color: #555;
-        color: #fff;
-        text-align: center;
-        border-radius: 6px;
-        padding: 8px 0;
-        z-index: 1;
-        position: fixed;
-        bottom: 10px;
-        left: 8px;
-    }
-
-    /* Popup arrow */
-    .popup .popuptext::after {
-        content: "";
-        position: fixed;
-        bottom: 10px;
-        right: 8px;
-        z-index: 97;
-        margin-left: -5px;
-        border-width: 5px;
-        border-style: solid;
-        border-color: #555 transparent transparent transparent;
-    }
-
-    /* Toggle this class - hide and show the popup */
-    .popup .show {
-        visibility: visible;
-        -webkit-animation: fadeIn 1s;
-        animation: fadeIn 1s;
-    }
 
 #up-to-top {
   display: none;
@@ -279,7 +236,6 @@
     vertical-align: middle;
     color: #f170ff;
     font-size: 16px;
-    font-family: 'Righteous', cursive;
     text-shadow:
        -1px -1px 0 #00FFFF,
        1px -1px 0 #00FFFF,
@@ -310,7 +266,11 @@
     background: rgba(255,255,255, 0.7);
     padding: 1%;
     border-radius: 6px;
+    border: 6px groove teal !important;
 
+  }
+  #experience-section{
+    text-align: center !important;
   }
 
   /* Type Writter Effect */
@@ -424,13 +384,11 @@ div#operating-systems{
   display: table;
   margin-top: -6%;
 }
-  div.proficient{
+ div.proficient{
     background: rgba(255,255,255, 0.7);
     border-radius: 6px;
     margin-top: 3%;
-   border: 6px groove teal !important;
-
-
+    border: 6px groove teal !important;
   }
   div.moderate{
     background: rgba(255,255,255, 0.7);
@@ -522,10 +480,10 @@ div#operating-systems{
     font-weight: 800;
   }
   a#email{
-    color: #25b7c4;
+    color: Teal;
   }
   a#email:hover{
-    color: lightgreen;
+    color: Black;
   }
   .email{
     font-size: 13px;
@@ -542,7 +500,7 @@ div#operating-systems{
     height: 70px;
   }
   #header{
-    font-family: 'Righteous', cursive;
+
     text-align: center;
     vertical-align: middle;
   }
@@ -550,7 +508,7 @@ div#operating-systems{
     margin-left: auto;
     margin-right: auto;
     display: table;
-      font-family: 'Righteous', cursive;
+
       font-size: 4.2em;
         color: #00FFFF !important;
       font-weight: 800;
@@ -655,7 +613,7 @@ div#operating-systems{
 
   }
   #goodbye{
-    font-family: 'Righteous', cursive;
+
     text-align: center;
     font-size: 20px;
     color: #00FFFF !important;
@@ -715,12 +673,24 @@ div#operating-systems{
     margin-bottom: 10%;
     line-height: 1.58;
   }
- em.bio-text{
+  em.bio-text{
    color: #00FFFF !important;
-margin-top: 2%;
-font-size: 1.4em;
-text-align: center;
-text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+    margin-top: 2%;
+    font-size: 1.4em;
+    text-align: center;
+    text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+ }
+ em.info-text{
+    color: #00FFFF !important;
+    font-size: 1.25em;
+    text-align: center !important;
+    text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+ }
+ em.school-info{
+    color: #00FFFF !important;
+    font-size: 1.4em;
+    text-align: center !important;
+    text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
  }
   h4.websites{
     text-align: center;
@@ -758,6 +728,7 @@ text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 bl
     margin-left: auto;
     margin-right: auto;
     display: table;
+    margin-top: 2.5%;
   }
   img{
     cursor: pointer;
