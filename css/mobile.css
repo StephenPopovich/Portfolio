@@ -375,7 +375,7 @@
         border-radius: 6px;
         margin-top: 1%;
         padding: 1%;
-        height: 385px;
+        height: 395px;
 
       }
       strong.project-description {
@@ -1444,7 +1444,7 @@
            background: linear-gradient(to bottom, #000000, #53346D) !important;
            opacity: .85;
            margin-top: 1%;
-           margin-bottom: -4%;
+           margin-bottom: 4%;
            border: 2px groove #25b7c4 !important;
            border-radius: 5%;
            font-size: 18px;
@@ -1582,7 +1582,7 @@
            border-radius: 6px;
            margin-top: 1%;
            padding: 1%;
-           height: 360px;
+           height: 385px;
 
          }
          strong.project-description {
@@ -2652,7 +2652,6 @@ and (max-device-width : 481px) {
     #infocontent {
         background: linear-gradient(to bottom, #000000, #53346D) !important;
         opacity: .85;
-
         border: 2px groove #25b7c4 !important;
         border-radius: 5%;
         font-size: 18px;
@@ -3977,7 +3976,7 @@ and (max-device-width : 481px) {
            border-radius: 6px;
            margin-top: 1%;
            padding: 1%;
-           height: 385px;
+           height: 395px;
 
          }
          strong.project-description {
@@ -4341,7 +4340,7 @@ and (max-device-width : 481px) {
    /*
        GAMING PAGE*/
        div#design-title{
-         margin-top: 42%;
+         margin-top: 58%;
          margin-bottom: 4%;
        }
        #trackcontent {
