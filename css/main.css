@@ -917,3 +917,7 @@ div#operating-systems{
   em{
 
   }
+  /*  DESIGN PAGE*/
+  img.design-proect{
+    width:100%;
+  }

@@ -922,6 +922,7 @@
       width: 145px;
       font-size: 6px;
       font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+         font-size: 1em;
 
     }
     #collapsetab:hover{
@@ -929,6 +930,7 @@
       background: linear-gradient(to right, #3CD3AD, #4CB8C4,);
       color: white;
       width: 145px;
+         font-size: 1em;
 
     }
     #charactername{
@@ -996,7 +998,7 @@
     }
     #charactercontent{
       color: white;
-      background: url("http://www.designyourway.net/drb/ths/diverse/blacktextures/77461942.jpg?x40569") no-repeat center;
+      background: url("http://www.openkod.com/wp-content/uploads/2014/10/Black-Background-Fabric-2-2560x1600-by-Freeman.jpg") no-repeat center;
       -webkit-background-size: cover; /* For WebKit*/
       -moz-background-size: cover;    /* Mozilla*/
       -o-background-size: cover;      /* Opera*/
@@ -1199,6 +1201,10 @@
     p.company-name{
       color: black;
     }
+        /*  DESIGN PAGE*/
+        img.design-proect{
+          width:100%;
+        }
 }
 /* Tablets----------- */
 @media only screen
@@ -2127,6 +2133,7 @@
          width: 145px;
          font-size: 6px;
          font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+            font-size: 1em;
 
        }
        #collapsetab:hover{
@@ -2134,6 +2141,7 @@
          background: linear-gradient(to right, #3CD3AD, #4CB8C4,);
          color: white;
          width: 145px;
+         font-size: 1em;
 
        }
        #charactername{
@@ -2201,7 +2209,7 @@
        }
        #charactercontent{
          color: white;
-         background: url("http://www.designyourway.net/drb/ths/diverse/blacktextures/77461942.jpg?x40569") no-repeat center;
+         background: url("http://www.openkod.com/wp-content/uploads/2014/10/Black-Background-Fabric-2-2560x1600-by-Freeman.jpg") no-repeat center;
          -webkit-background-size: cover; /* For WebKit*/
          -moz-background-size: cover;    /* Mozilla*/
          -o-background-size: cover;      /* Opera*/
@@ -2405,6 +2413,10 @@
       }
       p.company-name{
         color: black;
+      }
+      /*  DESIGN PAGE*/
+      img.design-proect{
+        width:100%;
       }
 
    }
@@ -3326,6 +3338,7 @@ and (max-device-width : 481px) {
       width: 145px;
       font-size: 6px;
       font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+      font-size: 1em;
 
     }
     #collapsetab:hover{
@@ -3333,6 +3346,7 @@ and (max-device-width : 481px) {
       background: linear-gradient(to right, #3CD3AD, #4CB8C4,);
       color: white;
       width: 145px;
+         font-size: 1em;
 
     }
     #charactername{
@@ -3400,7 +3414,7 @@ and (max-device-width : 481px) {
     }
     #charactercontent{
       color: white;
-      background: url("http://www.designyourway.net/drb/ths/diverse/blacktextures/77461942.jpg?x40569") no-repeat center;
+      background: url("http://www.openkod.com/wp-content/uploads/2014/10/Black-Background-Fabric-2-2560x1600-by-Freeman.jpg") no-repeat center;
       -webkit-background-size: cover; /* For WebKit*/
       -moz-background-size: cover;    /* Mozilla*/
       -o-background-size: cover;      /* Opera*/
@@ -3594,6 +3608,9 @@ and (max-device-width : 481px) {
 
      /* Design PAGE*/
 
+     img.design-proect{
+       width:100%;
+     }
 
 }
 /* Smartphones (portrait and landscape) ----------- */
@@ -4519,6 +4536,7 @@ and (max-device-width : 481px) {
          width: 145px;
          font-size: 6px;
          font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+            font-size: 1em;
 
        }
        #collapsetab:hover{
@@ -4526,6 +4544,7 @@ and (max-device-width : 481px) {
          background: linear-gradient(to right, #3CD3AD, #4CB8C4,);
          color: white;
          width: 145px;
+            font-size: 1em;
 
        }
        #charactername{
@@ -4593,7 +4612,7 @@ and (max-device-width : 481px) {
        }
        #charactercontent{
          color: white;
-         background: url("http://www.designyourway.net/drb/ths/diverse/blacktextures/77461942.jpg?x40569") no-repeat center;
+         background: url("http://www.openkod.com/wp-content/uploads/2014/10/Black-Background-Fabric-2-2560x1600-by-Freeman.jpg") no-repeat center;
          -webkit-background-size: cover; /* For WebKit*/
          -moz-background-size: cover;    /* Mozilla*/
          -o-background-size: cover;      /* Opera*/
