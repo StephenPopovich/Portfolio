@@ -118,6 +118,10 @@
       background-color: linear-gradient(to top,  #00FFFF, #53346D) !important;
 
     }
+    .navbar-default .navbar-toggle:visited {
+       background-color: transparent !important;
+    }
+
     .icon-bar:hover{
       border-top: 1.2px groove #25b7c4 !important;
       background: linear-gradient(to right, black, #25b7c4);
@@ -133,6 +137,7 @@
     .navbar-default .navbar-collapse, .navbar-default .navbar-form {
       border-color: #00FFFF;
       overflow: hidden !important;
+      border-top: none;
 
     }
     #slogo{
@@ -530,6 +535,18 @@
       display: table;
          margin-top: 6%;
     }
+    .tiptext {
+         color: #53346D;
+         cursor: pointer;
+         margin-left: auto;
+         margin-right: auto;
+         display: table;
+         font-weight: 800;
+         font-size: 1.75em !important;
+         color: #00FFFF !important;
+         text-shadow: 2px 2px 4px #000000;
+         margin-bottom: 2%;
+     }
     hr#divide{
       color: #1C75BC;
       border-top: 2px solid #1C75BC;
@@ -1204,6 +1221,8 @@
         /*  DESIGN PAGE*/
         img.design-proect{
           width:100%;
+          border: 6px groove teal !important;
+          margin-top: 3%;
         }
 }
 /* Tablets----------- */
@@ -1320,15 +1339,30 @@
        .navbar-default .navbar-toggle {
          border-color: 	#00FFFF !important;
        }
-       .navbar-default .navbar-toggle:hover {
-         background: -webkit-linear-gradient(bottom, #25c481,  #00FFFF) !important;
-         background-color: linear-gradient(to top,  #00FFFF, #53346D) !important;
-
-       }
        .navbar-default .navbar-toggle:visited {
-         background: -webkit-linear-gradient(bottom, #25c481,  #00FFFF) !important;
-         background-color: linear-gradient(to top,  #00FFFF, #53346D) !important;
+           position: relative;
+           float: right;
+           padding: 9px 10px;
+           margin-top: 8px;
+           margin-right: 15px;
+           margin-bottom: 8px;
+           background-color: transparent;
+           background-image: none;
+           border: 1px solid transparent;
+           border-radius: 4px;
+       }
 
+       .navbar-default .navbar-toggle:focus {
+           position: relative;
+           float: right;
+           padding: 9px 10px;
+           margin-top: 8px;
+           margin-right: 15px;
+           margin-bottom: 8px;
+           background-color: transparent;
+           background-image: none;
+           border: 1px solid transparent;
+           border-radius: 4px;
        }
        .icon-bar:hover{
          border-top: 1.2px groove #25b7c4 !important;
@@ -1345,6 +1379,7 @@
        .navbar-default .navbar-collapse, .navbar-default .navbar-form {
          border-color: #00FFFF;
          overflow: hidden !important;
+           border-top: none;
 
        }
        #slogo{
@@ -1525,9 +1560,10 @@
          border-bottom-left-radius: 5px;
          border-bottom-right-radius: 5px;
          margin-bottom: 3%;
+         height: 250px;
        }
        div#terminal{
-         margin-top: 6%;
+         margin-top: 3%;
        }
          h1#type-writter{
            margin-top: 2%;
@@ -1599,8 +1635,8 @@
 
          }
         img.language-icon{
-                height: 250px;
-                width: 250px;
+                height: 225px;
+                width: 225px;
         }
         img.language-icon:hover{
            transform: scale(1.22);
@@ -1739,6 +1775,18 @@
          display: table;
          margin-top: 6%;
        }
+       .tiptext {
+            color: #53346D;
+            cursor: pointer;
+            margin-left: auto;
+            margin-right: auto;
+            display: table;
+            font-weight: 800;
+            font-size: 1.75em !important;
+            color: #00FFFF !important;
+            text-shadow: 2px 2px 4px #000000;
+            margin-bottom: 2%;
+        }
        hr#divide{
          color: #1C75BC;
          border-top: 2px solid #1C75BC;
@@ -2545,6 +2593,12 @@ and (max-device-width : 481px) {
       background-color: linear-gradient(to top,  #00FFFF, #53346D) !important;
 
     }
+
+
+    .navbar-default .navbar-toggle:visited {
+         background: transparent !important;
+    }
+
     .icon-bar:hover{
       border-top: 1.2px groove #25b7c4 !important;
       background: linear-gradient(to right, black, #25b7c4);
@@ -2560,6 +2614,7 @@ and (max-device-width : 481px) {
     .navbar-default .navbar-collapse, .navbar-default .navbar-form {
       border-color: #00FFFF;
       overflow: hidden !important;
+        border-top: none;
 
     }
     #slogo{
@@ -2950,6 +3005,18 @@ and (max-device-width : 481px) {
       display: table;
          margin-top: 6%;
     }
+    .tiptext {
+         color: #53346D;
+         cursor: pointer;
+         margin-left: auto;
+         margin-right: auto;
+         display: table;
+         font-weight: 800;
+         font-size: 1.75em !important;
+         color: #00FFFF !important;
+         text-shadow: 2px 2px 4px #000000;
+         margin-bottom: 2%;
+     }
     hr#divide{
       color: #1C75BC;
       border-top: 2px solid #1C75BC;
@@ -3735,6 +3802,10 @@ and (max-device-width : 481px) {
          background-color: linear-gradient(to top,  #00FFFF, #53346D) !important;
 
        }
+       .navbar-default .navbar-toggle:visited {
+              background: transparent !important;
+       }
+
        .icon-bar:hover{
          border-top: 1.2px groove #25b7c4 !important;
          background: linear-gradient(to right, black, #25b7c4);
@@ -4141,6 +4212,18 @@ and (max-device-width : 481px) {
          display: table;
             margin-top: 6%;
        }
+       .tiptext {
+            color: #53346D;
+            cursor: pointer;
+            margin-left: auto;
+            margin-right: auto;
+            display: table;
+            font-weight: 800;
+            font-size: 1.17em !important;
+            color: #00FFFF !important;
+            text-shadow: 2px 2px 4px #000000;
+            margin-bottom: 2%;
+        }
        hr#divide{
          color: #1C75BC;
          border-top: 2px solid #1C75BC;

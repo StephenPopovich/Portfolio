@@ -133,6 +133,7 @@
     border-color: 	#00FFFF !important;
   }
   .navbar-default .navbar-toggle:hover {
+
   }
   .icon-bar:hover{
     border-top: 1.2px groove #25b7c4 !important;
@@ -920,4 +921,15 @@ div#operating-systems{
   /*  DESIGN PAGE*/
   img.design-proect{
     width:100%;
+    border-radius: 6px;
+    border: 6px groove teal !important;
+    margin-top: 3%;
+  }
+  h3.deisgn-titles{
+    text-align: center;
+    font-style: oblique;
+    color: #53346D;
+      font-size: 2.5em;
+      text-shadow: 2px 2px 4px #000000;;
+
   }
