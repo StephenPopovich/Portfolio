@@ -8,6 +8,7 @@
       -o-background-size: cover;      /* Opera*/
       background-size: cover;         /* Generic*/
       font-size: 16px;
+      margin-bottom: 8%;
   }
 
   ::-webkit-scrollbar {

@@ -681,7 +681,7 @@ div#operating-systems{
     text-align: center;
     text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
  }
- em.info-text{
+ h3.info-text{
     color: #00FFFF !important;
     font-size: 1.25em;
     text-align: center !important;
