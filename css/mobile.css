@@ -44,6 +44,10 @@
     .nav .navbar-nav .navbar-right{
       background: none;
     }
+    a.nav-link{
+        width: 100%;
+
+    }
     nav.navbar.navbar-default{
       background: linear-gradient(to bottom, #000000, #53346D) !important;
       width: 100%;
@@ -609,7 +613,6 @@
     .carousel-inner img {
        width: 100%; /* Set width to 100% */
        margin: auto;
-       max-height:350px;
      }
      .carousel-indicators .active {
        width: 12px;
@@ -622,16 +625,9 @@
        font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 
      }
-     .carousel-inner {
-      position: relative;
-      width: 100%;
-      overflow: hidden;
-      border: 4px groove #25b7c4 !important;
-      height: 300px
-      }
      .carousel-inner>.item>a>img, .carousel-inner>.item>img {
       line-height: 1;
-      height: 380px;
+      height: auto !important;
       }
       .carousel-control {
       position: absolute;
@@ -649,8 +645,8 @@
       }
       .carousel-inner>.item>a>img, .carousel-inner>.item>img {
           line-height: 1;
-          height: 300px !important;
-          max-height: 300px !important;
+          height: auto !important;
+
       }
       .carousel-indicators {
           position: absolute;
@@ -1219,6 +1215,12 @@
       color: black;
     }
         /*  DESIGN PAGE*/
+        img.main-design-img {
+            width: 100%;
+            border: 3px groove #25b7c4 !important;
+            margin-bottom: 3%;
+            margin-top: 15%;
+        }
         img.design-proect{
           width:100%;
           border: 6px groove teal !important;
@@ -1849,7 +1851,6 @@
        .carousel-inner img {
           width: 100%; /* Set width to 100% */
           margin: auto;
-          max-height:350px;
         }
         .carousel-indicators .active {
           width: 12px;
@@ -1867,11 +1868,11 @@
          width: 100%;
          overflow: hidden;
          border: 4px groove #25b7c4 !important;
-         height: 300px;
+         height: auto;
          }
         .carousel-inner>.item>a>img, .carousel-inner>.item>img {
          line-height: 1;
-         height: 380px;
+         height: 350px;
          }
          .carousel-control {
          position: absolute;
@@ -1889,8 +1890,8 @@
          }
          .carousel-inner>.item>a>img, .carousel-inner>.item>img {
              line-height: 1;
-             height: 300px !important;
-             max-height: 300px !important;
+             height: auto !important;
+
          }
          .carousel-indicators {
             position: absolute;
@@ -2004,7 +2005,7 @@
    /*
        GAMING PAGE*/
        div#design-title{
-         margin-top: 43%;
+         margin-top: 9%;
          margin-bottom: 3%;
        }
        #trackcontent {
@@ -2463,6 +2464,11 @@
         color: black;
       }
       /*  DESIGN PAGE*/
+      img.main-design-img {
+          width: 100%;
+          border: 3px groove #25b7c4 !important;
+          margin-bottom: 3%;
+      }
       img.design-proect{
         width:100%;
       }
@@ -3078,7 +3084,7 @@ and (max-device-width : 481px) {
     .carousel-inner img {
        width: 100%; /* Set width to 100% */
        margin: auto;
-       max-height:350px;
+       height:auto;
      }
      .carousel-indicators .active {
        width: 12px;
@@ -3674,6 +3680,12 @@ and (max-device-width : 481px) {
      }
 
      /* Design PAGE*/
+     img.main-design-img {
+         width: 100%;
+         border: 3px groove #25b7c4 !important;
+         margin-bottom: 3%;
+         margin-top: 13%;
+     }
 
      img.design-proect{
        width:100%;
@@ -4285,7 +4297,7 @@ and (max-device-width : 481px) {
        .carousel-inner img {
           width: 100%; /* Set width to 100% */
           margin: auto;
-          max-height:350px;
+
         }
         .carousel-indicators .active {
           width: 12px;

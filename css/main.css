@@ -87,6 +87,10 @@
     background-color:	#B0E0E6 !important;
     z-index: 1000;
   }
+  a.nav-link{
+      width: 100%;
+
+  }
   .dropdown-menu>li>a {
     margin-left: 1%;
     display: block;
@@ -357,7 +361,7 @@
   h1#type-writter{
     color: #00FFFF !important;
     margin-top: 2%;
-    font-size: 5.4em;
+    font-size: 4.2em;
     text-align: center;
     text-shadow:
        -1px -1px 0 black,
@@ -662,7 +666,6 @@ div#operating-systems{
     width: auto;
     padding: 1%;
     border: 6px groove teal !important;
-
   }
   p#bio {
     opacity: 1;

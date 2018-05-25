@@ -82,10 +82,13 @@
     box-shadow: 3px 3px 5px 5px teal;
     height: 65px;
 }
-  }
+
   ul.dropdown-menu {
     background-color:	#B0E0E6 !important;
     z-index: 1000;
+  }
+  a.nav-link{
+        width: 100%;
   }
   .dropdown-menu>li>a {
     margin-left: 1%;
@@ -393,18 +396,7 @@
 .active:after {
   content: '_';
 }
-  h1#type-writter{
-    color: #00FFFF !important;
-    margin-top: 2%;
-    font-size: 5.4em;
-    text-align: center;
-    text-shadow:
-       -1px -1px 0 black,
-       1px -1px 0 black,
-       -1px 1px 0 black,
-       1px 1px 0 black;
 
-  }
  span.wrapper{
    border-color: green !Important;
  }
@@ -424,36 +416,7 @@ div#operating-systems{
   display: table;
   margin-top: -6%;
 }
- div.proficient{
-    background: rgba(255,255,255, 0.7);
-    border-radius: 6px;
-    margin-top: 3%;
-    border: 6px groove teal !important;
-  }
-  div.moderate{
-    background: rgba(255,255,255, 0.7);
-    border-radius: 6px;
-    margin-top: 2%;
-    border: 6px groove teal !important;
 
-  }
-  div.familiar{
-    background: rgba(255,255,255, 0.7);
-    border-radius: 6px;
-    margin-top: 2%;
-    border: 6px groove teal !important;
-
-  }
-
-  div.project-div{
-    background: rgba(255,255,255, 0.7);
-    border-radius: 6px;
-    margin-top: 1%;
-    padding: 1%;
-    height: 225px;
-    border: 6px groove teal !important;
-
-  }
   p.projects{
    font-weight: 800;
    line-height: 1.34em;
@@ -639,8 +602,17 @@ div#operating-systems{
   -webkit-animation-direction: normal, alternate;
   animation-direction: normal, alternate;
 }
+img.main-design-img{
+  width: 100%;
+  border: 3px groove #25b7c4 !important;
+  margin-bottom: 3%;
+}
 
-
+ img.design-proect{
+   width: 100%;
+   border: 3px groove #25b7c4 !important;
+   margin-bottom: 3%;
+ }
   #map{
     margin-top: 2%;
   }
@@ -715,10 +687,10 @@ div#operating-systems{
   }
  em.bio-text{
    color: #00FFFF !important;
-margin-top: 2%;
-font-size: 1.4em;
-text-align: center;
-text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+  margin-top: 2%;
+  font-size: 1.4em;
+  text-align: center;
+  text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
  }
   h4.websites{
     text-align: center;
