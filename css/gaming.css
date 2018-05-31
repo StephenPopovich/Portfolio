@@ -567,7 +567,7 @@ div#myCarousel2{
     position: relative;
     width: 100%;
     overflow: hidden;
-    height: 560px;
+    height: auto;
 }
 .carousel-inner img {
   width: 100%;

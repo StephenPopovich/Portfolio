@@ -999,7 +999,7 @@
       font-family: 'Press Start 2P', cursive;
       color: #FFDF00;
 
-      font-size: 20px;
+      font-size: 1.3em;
       display: run-in;
       text-align: center;
     }
@@ -2236,8 +2236,8 @@
          display: inline;
        }
        img#gamepic{
-         height: 300px;
-         width: 300px !important;
+         height: 200px;
+         width: 200px !important;
          display: table;
          margin-left: auto;
          margin-right: auto;
@@ -2246,7 +2246,7 @@
          font-family: 'Press Start 2P', cursive;
          color: #FFDF00;
 
-         font-size: 20px;
+         font-size: 1.2em;
          display: run-in;
          text-align: center;
        }
@@ -3465,8 +3465,8 @@ and (max-device-width : 481px) {
       display: inline;
     }
     img#gamepic{
-      height: 300px;
-      width: 300px !important;
+      height: 200px;
+      width: 200px !important;
       display: table;
       margin-left: auto;
       margin-right: auto;
@@ -3475,7 +3475,7 @@ and (max-device-width : 481px) {
       font-family: 'Press Start 2P', cursive;
       color: #FFDF00;
 
-      font-size: 20px;
+      font-size: 1.2em;
       display: run-in;
       text-align: center;
     }
@@ -4583,7 +4583,6 @@ and (max-device-width : 481px) {
        .table{
          margin-top: 5%;
          padding: none;
-         margin-left: -10px;
          margin-right: -10px;
          border-radius: 4px;
          background: -webkit-linear-gradient(left, #25c481, #25b7c4);
@@ -4695,7 +4694,7 @@ and (max-device-width : 481px) {
          font-family: 'Press Start 2P', cursive;
          color: #FFDF00;
 
-         font-size: 20px;
+         font-size: 1.2em;
          display: run-in;
          text-align: center;
        }
