@@ -4713,7 +4713,6 @@ and (max-device-width : 481px) {
          background-size: cover;         /* Generic*/
          background-size: 100% 100%;         /* Generic*/
          border: 2px groove #25b7c4 !important;
-
         width: 300px;
        }
 
@@ -4773,6 +4772,18 @@ and (max-device-width : 481px) {
       div#digital-resume {
           margin-top: 2.15%;
           margin-bottom: 4%;
+      }
+      /*  DESIGN PAGE*/
+      img.main-design-img {
+          width: 100%;
+          border: 3px groove #25b7c4 !important;
+          margin-bottom: 3%;
+          margin-top: 15%;
+      }
+      img.design-proect{
+        width:100%;
+        border: 6px groove teal !important;
+        margin-top: 3%;
       }
 
    }
