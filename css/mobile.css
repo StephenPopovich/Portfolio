@@ -226,6 +226,20 @@
     #toprow{
       margin-top: 6%;
     }
+    div.chi-player {
+      border: 40px solid black;
+          border-left: 75px solid black;
+          height: fit-content;
+          border-image: url(https://www.thehairshaman.com/wp-content/uploads/2017/12/video_player4.png) 38 136 46 149;
+          width: fit-content;
+          background: #1a222b;
+          border-radius: 39px;
+          display: table;
+          margin-right: auto;
+          margin-left: -2%;
+          margin-top: 12%;
+          box-shadow: 0 19px 38px rgba(0,0,0,.3), 0 15px 12px rgba(0,0,0,.22);
+  }
     img#mypic {
       width: 100%;
       border: 3px groove #25b7c4 !important;
@@ -1216,7 +1230,7 @@
     }
         /*  DESIGN PAGE*/
         img.main-design-img {
-            width: 100%;
+            width: inherit;
             border: 3px groove #25b7c4 !important;
             margin-bottom: 3%;
             margin-top: 15%;
@@ -1466,6 +1480,20 @@
        #toprow{
          margin-top: 6%;
        }
+       div.chi-player {
+         border: 40px solid black;
+           border-left: 75px solid black;
+           height: fit-content;
+           border-image: url(https://www.thehairshaman.com/wp-content/uploads/2017/12/video_player4.png) 38 136 46 149;
+           width: fit-content;
+           background: #1a222b;
+           border-radius: 39px;
+           display: table;
+           margin-right: auto;
+           margin-left: -2%;
+           margin-top: 12%;
+           box-shadow: 0 19px 38px rgba(0,0,0,.3), 0 15px 12px rgba(0,0,0,.22);
+     }
        img#mypic {
          width: 100%;
          border: 3px groove #25b7c4 !important;
@@ -2705,6 +2733,23 @@ and (max-device-width : 481px) {
     #toprow{
       margin-top: 6%;
     }
+    div.chi-player {
+         border: 40px solid black;
+          border-left: 75px solid black;
+          height: fit-content;
+          border-image: url(https://www.thehairshaman.com/wp-content/uploads/2017/12/video_player4.png) 38 136 46 149;
+          width: fit-content;
+          background: #1a222b;
+          border-radius: 39px;
+          display: table;
+          margin-right: auto;
+          margin-left: -2%;
+          margin-top: 12%;
+          box-shadow: 0 19px 38px rgba(0,0,0,.3), 0 15px 12px rgba(0,0,0,.22);
+  }
+  iframe.chi-intro{
+
+  }
     img#mypic {
       width: 100%;
       border: 3px groove #25b7c4 !important;
@@ -3681,7 +3726,7 @@ and (max-device-width : 481px) {
 
      /* Design PAGE*/
      img.main-design-img {
-         width: 100%;
+         width: inherit;
          border: 3px groove #25b7c4 !important;
          margin-bottom: 3%;
          margin-top: 13%;
@@ -3917,6 +3962,20 @@ and (max-device-width : 481px) {
        #toprow{
          margin-top: 6%;
        }
+       div.chi-player {
+         border: 40px solid black;
+             border-left: 75px solid black;
+             height: fit-content;
+             border-image: url(https://www.thehairshaman.com/wp-content/uploads/2017/12/video_player4.png) 38 136 46 149;
+             width: fit-content;
+             background: #1a222b;
+             border-radius: 39px;
+             display: table;
+             margin-right: auto;
+             margin-left: -2%;
+             margin-top: 12%;
+             box-shadow: 0 19px 38px rgba(0,0,0,.3), 0 15px 12px rgba(0,0,0,.22);
+     }
        img#mypic {
          width: 100%;
          border: 3px groove #25b7c4 !important;
@@ -4775,7 +4834,7 @@ and (max-device-width : 481px) {
       }
       /*  DESIGN PAGE*/
       img.main-design-img {
-          width: 100%;
+          width: inherit;
           border: 3px groove #25b7c4 !important;
           margin-bottom: 3%;
           margin-top: 15%;
