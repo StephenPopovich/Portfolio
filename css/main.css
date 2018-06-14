@@ -254,6 +254,19 @@
   #toprow{
     margin-top: 6%;
   }
+  div.chi-player {
+    border: 40px solid black;
+    border-left: 75px solid black;
+    height: fit-content;
+    border-image: url(https://www.thehairshaman.com/wp-content/uploads/2017/12/video_player4.png) 38 136 46 125;
+    width: initial;
+    margin-left: auto;
+    background: #1a222b;
+    border-radius: 39px;
+    margin-right: auto;
+    box-shadow: 0 19px 38px rgba(0,0,0,.3), 0 15px 12px rgba(0,0,0,.22);
+}
+
   img#mypic {
   width: 100%;
   border-radius: 14px;
