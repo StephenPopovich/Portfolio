@@ -1,0 +1,595 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/mobile.css">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+   <!-- Optional theme -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+  <link href="https://fonts.googleapis.com/css?family=Righteous|Wallpoet" rel="stylesheet">
+  <!-- font-family: 'Righteous', cursive;
+  font-family: 'Wallpoet', cursive; -->
+
+
+  <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Shojumaru" rel="stylesheet">
+  <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
+
+  <link rel="icon" type="image/png" href="https://cdn0.iconfinder.com/data/icons/shift-free/32/Error-128.png" />
+  <title>Error</title>
+
+  <style type="text/css">
+
+    html,body {
+        background: white;
+        color: 	black;
+        font-color: black;
+        font-size: font-family: 'PT Sans', sans-serif;
+        background: -webkit-linear-gradient(bottom, #25c481, #25b7c4) !important;
+        background: linear-gradient(to top, #25b7c4, #25c481) !important;
+        -webkit-background-size: cover; /* For WebKit*/
+        -moz-background-size: cover;    /* Mozilla*/
+        -o-background-size: cover;      /* Opera*/
+        background-size: cover;         /* Generic*/
+        font-size: 16px;
+    }
+    /*.container{
+      margin-left: .7%;
+      margin-right: 1%;
+      padding-left: 9px;
+    }*/
+    nav.navbar.navbar-default{
+      background: linear-gradient(to bottom, #000000, #53346D) !important;
+      width: 100%;
+      border-color: 	#00FFFF;
+      opacity: .8;
+      -webkit-box-shadow: 3px 3px 5px 5px black;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+      -moz-box-shadow:    3px 3px 5px 5px black;  /* Firefox 3.5 - 3.6 */
+      box-shadow:         3px 3px 5px 5px black;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+      position: fixed;
+      z-index: 100;
+
+    }
+    nav.navbar.navbar-default:hover{
+      background: -webkit-linear-gradient(bottom, #25c481, #25b7c4) !important;
+      background: linear-gradient(to top, #000000, #53346D) !important;
+      border-color: 	#00FFFF;
+      opacity: .9;
+      -webkit-box-shadow: 3px 3px 5px 5px teal;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+      -moz-box-shadow:    3px 3px 5px 5px teal;  /* Firefox 3.5 - 3.6 */
+      box-shadow:         3px 3px 5px 5px teal;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+    }
+    ul.dropdown-menu {
+      background-color:	#B0E0E6 !important;
+      z-index: 1000;
+    }
+    .dropdown-menu>li>a {
+      margin-left: 1%;
+      display: block;
+      padding: 3px 20px;
+      clear: both;
+      font-weight: 400;
+      line-height: 1.42857143;
+      background-color:	#B0E0E6 !important;
+      white-space: nowrap;
+      -webkit-box-shadow: 3px 3px 5px 5px teal;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+      -moz-box-shadow:    3px 3px 5px 5px teal;  /* Firefox 3.5 - 3.6 */
+      box-shadow:         3px 3px 5px 5px teal;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+    }
+    .dropdown-menu>li>a:hover {
+      display: block;
+      padding: 3px 20px;
+      clear: both;
+      font-weight: 500;
+      line-height: 1.42857143;
+      background-color:	#53346D !important;
+      white-space: nowrap;
+      -webkit-box-shadow: 3px 3px 5px 5px #53346D;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+      -moz-box-shadow:    3px 3px 5px 5px #53346D;  /* Firefox 3.5 - 3.6 */
+      box-shadow:         3px 3px 5px 5px #53346D;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+    }
+    .dropdown-menu>li>a:focus {
+      display: block;
+      padding: 3px 20px;
+      clear: both;
+      font-weight: 500;
+      line-height: 1.42857143;
+      background-color:	#53346D !important;
+      white-space: nowrap;
+    }
+    .navbar-nav>li>.dropdown-menu {
+      margin-top: 0;
+      border-top-left-radius: 0;
+      border-top-right-radius: 0;
+      border-color: #53346D;
+    }
+    .icon-bar{
+      border-top: 1.2px groove #25b7c4 !important;
+      background: linear-gradient(to right, black, #25b7c4);
+    }
+    .navbar-default .navbar-toggle {
+      border-color: 	#00FFFF;
+    }
+    .navbar-default .navbar-toggle:hover {
+      background: -webkit-linear-gradient(bottom, #25c481,  #00FFFF) !important;
+      background-color: linear-gradient(to top,  #00FFFF, #53346D) !important;
+      -webkit-box-shadow: 3px 3px 1px 3px #53346D;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+      -moz-box-shadow:    3px 3px 1px 3px #53346D;  /* Firefox 3.5 - 3.6 */
+      box-shadow:         3px 3px 1px 3px #53346D;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+      text-shadow:
+         -1px -1px 0 black,
+         1px -1px 0 black,
+         -1px 1px 0 black,
+         1px 1px 0 black;
+    }
+    .icon-bar:hover{
+      border-top: 1.2px groove #25b7c4 !important;
+      background: linear-gradient(to right, black, #25b7c4);
+    }
+    .navbar-brand {
+      color: #00FFFF !important;
+      text-shadow:
+         -1px -1px 0 #000,
+         1px -1px 0 #000,
+         -1px 1px 0 #000,
+         1px 1px 0 #000;
+    }
+    .navbar-default .navbar-collapse, .navbar-default .navbar-form {
+      border-color: #00FFFF;
+    }
+    #slogo{
+      margin-right: 15px;
+      box-shadow: none;
+    }
+    img#slogo:hover{
+      margin-right: 15px;
+      box-shadow: none;
+      border: none !important;
+    }
+    .navbar-nav>li>a {
+      color: #00FFFF !important;
+      text-shadow:
+         -1px -1px 0 black,
+         1px -1px 0 black,
+         -1px 1px 0 black,
+         1px 1px 0 black;
+    }
+    .navbar-nav>li>a:hover {
+      color: #00FFFF !important;
+      background: -webkit-linear-gradient(bottom, #25c481,  #00FFFF) !important;
+      background-color: linear-gradient(to top,  #00FFFF, #53346D) !important;
+      -webkit-box-shadow: 3px 3px 0px 3px #53346D;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+      -moz-box-shadow:    3px 3px 0px 3px #53346D;  /* Firefox 3.5 - 3.6 */
+      box-shadow:         3px 3px 0px 3px #53346D;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+      text-shadow:
+         -1px -1px 0 black,
+         1px -1px 0 black,
+         -1px 1px 0 black,
+         1px 1px 0 black;
+
+    }
+    .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.open>a{
+      background: -webkit-linear-gradient(bottom, #25c481,  #00FFFF) !important;
+      background-color: linear-gradient(to top,  #00FFFF, #53346D) !important;
+      -webkit-box-shadow: 3px 3px 5px 5px #53346D;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+      -moz-box-shadow:    3px 3px 5px 5px #53346D;  /* Firefox 3.5 - 3.6 */
+      box-shadow:         3px 3px 5px 5px #53346D;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+      text-shadow:
+         -1px -1px 0 black,
+         1px -1px 0 black,
+         -1px 1px 0 black,
+         1px 1px 0 black;
+    }
+    .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.open>a:hover{
+      background: -webkit-linear-gradient(bottom, #25c481,  #00FFFF) !important;
+      background-color: linear-gradient(to top,  #00FFFF, #53346D) !important;
+      -webkit-box-shadow: 3px 3px 0px 3px #53346D;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+      -moz-box-shadow:    3px 3px 0px 3px #53346D;  /* Firefox 3.5 - 3.6 */
+      box-shadow:         3px 3px 0px 3px #53346D;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+      text-shadow:
+         -1px -1px 0 black,
+         1px -1px 0 black,
+         -1px 1px 0 black,
+         1px 1px 0 black;
+    }
+    .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.open>a:focus{
+      background: -webkit-linear-gradient(bottom, #25c481,  #00FFFF) !important;
+      background-color: linear-gradient(to top,  #00FFFF, #53346D) !important;
+      -webkit-box-shadow: 3px 3px 1px 3px #53346D;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+      -moz-box-shadow:    3px 3px 1px 3px #53346D;  /* Firefox 3.5 - 3.6 */
+      box-shadow:         3px 3px 1px 3px #53346D;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+      text-shadow:
+         -1px -1px 0 black,
+         1px -1px 0 black,
+         -1px 1px 0 black,
+         1px 1px 0 black;
+    }
+    h1#title{
+      text-align: right;
+      vertical-align: middle;
+      color: #f170ff;
+      font-size: 16px;
+      font-family: 'Righteous', cursive;
+      text-shadow:
+         -1px -1px 0 #00FFFF,
+         1px -1px 0 #00FFFF,
+         -1px 1px 0 #00FFFF,
+         1px 1px 0 #00FFFF;
+      z-index: 10001;
+    }
+    #topheader{
+        line-height: .91;
+    }
+    #toprow{
+      margin-top: 6%;
+    }
+    img#mypic {
+    border: 3px groove #25b7c4 !important;
+    border-radius: 14px;
+    -webkit-transition: all 0.5s ease;
+       -moz-transition: all 0.5s ease;
+         -o-transition: all 0.5s ease;
+        -ms-transition: all 0.5s ease;
+            transition: all 0.5s ease;
+
+    }
+
+    img#mypic:hover {
+      border: 3px groove #25b7c4 !important;
+      border-radius: 50%;
+      -webkit-transform: rotate(360deg);
+         -moz-transform: rotate(360deg);
+           -o-transform: rotate(360deg);
+          -ms-transform: rotate(360deg);
+              transform: rotate(360deg);
+    }
+    #infocontent{
+
+      background: linear-gradient(to bottom, #000000, #53346D) !important;
+      opacity: .85;
+      -webkit-box-shadow: 3px 3px 1px 3px black;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+      -moz-box-shadow:    3px 3px 1px 3px black;  /* Firefox 3.5 - 3.6 */
+      box-shadow:         3px 3px 1px 3px black;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+      border: 3px groove #25b7c4 !important;
+      border-radius: 8%;
+      margin-left: 4%;
+    }
+    p#infocontent{
+      color: #00FFFF !important;
+      text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+    }
+
+    #responsive {
+      overflow: hidden;
+      text-align:center;
+    }
+
+    #responsive img {
+      margin-top: 2%;
+    }
+    #header{
+      font-family: 'Righteous', cursive;
+      text-align: center;
+      vertical-align: middle;
+    }
+    #minititle{
+        font-family: 'Righteous', cursive;
+        text-align: center;
+        font-style: oblique;
+        color: #00FFFF;
+        background: linear-gradient(to bottom, #000000, #53346D) !important;
+        -webkit-box-shadow: 3px 3px 1px 3px black;
+        -moz-box-shadow: 3px 3px 1px 3px black;
+        box-shadow: 3px 3px 1px 3px black;
+        text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+    }
+    #minititle:hover{
+        text-align: center;
+        font-style: oblique;
+        color: #53346D;
+        -webkit-box-shadow: 3px 3px 1px 3px  #53346D;
+        -moz-box-shadow: 3px 3px 1px 3px  #53346D;
+        box-shadow: 3px 3px 1px 3px  #53346D;
+        text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+        border-top: 1.2px groove #25b7c4 !important;
+        background: -webkit-linear-gradient(bottom, #25c481, #00FFFF) !important;
+        background-color: linear-gradient(to top, #00FFFF, #53346D) !important;
+    }
+    .glyphicon {
+      position: relative;
+      top: -3px;
+      font-size: 32px !Important;
+      display: inline-block;
+      padding-left: 1.2px;
+      font-family: 'Glyphicons Halflings';
+      font-style: normal;
+      font-weight: 400;
+      line-height: 1;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+    #instagram{
+
+    }
+    #twitter{
+
+    }
+    #myname{
+      font-size: 40px;
+      line-height: 33px;
+
+    }
+    #biodiv{
+      background: linear-gradient(to bottom, #000000, #53346D) !important;
+      opacity: .85;
+      -webkit-background-size: cover; /* For WebKit*/
+      -moz-background-size: cover;    /* Mozilla*/
+      -o-background-size: cover;      /* Opera*/
+      background-size: cover;         /* Generic*/
+      -webkit-box-shadow: 3px 3px 1px 3px black;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+      -moz-box-shadow:    3px 3px 1px 3px black;  /* Firefox 3.5 - 3.6 */
+      box-shadow:         3px 3px 1px 3px black;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+      border: 3px groove #25b7c4 !important;
+      border-radius: 8%;
+      margin-left: 4%;
+      width: 800px;
+      height: 500px
+    }
+
+    p#bio{
+      opacity: 1;
+      font-size: 21.2px;
+      color: white;
+      margin-left: 4%;
+      margin-right: 4%;
+      margin-top: 4%;
+      line-height: 1.58;
+    }
+    hr#divide{
+      color: #1C75BC;
+      border-top: 2px solid #1C75BC;
+      margin-left: 0%;
+      margin-right: 0.7%;
+      margin-top: -0.6%;
+    }
+    hr#divide2{
+      color: #1C75BC;
+      border-top: 2px solid #1C75BC;
+      margin-left: 0%;
+      margin-right: 2.7%;
+      margin-top: -0.6%;
+    }
+    img{
+      cursor: pointer;
+      -webkit-box-shadow: 3px 3px 4px 4px black;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+      -moz-box-shadow:    3px 3px 4px 4px black;  /* Firefox 3.5 - 3.6 */
+      box-shadow:         3px 3px 4px 4px black;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+
+    }
+    img:hover{
+      border: 3px groove #25b7c4 !important;
+
+    }
+    iframe{
+      cursor: pointer;
+      border: 3px groove #25b7c4 !important;
+      border-radius: 5%;
+      -webkit-box-shadow: 1px 1px 2px 2px black;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+      -moz-box-shadow:    1px 1px 2px 2px black;  /* Firefox 3.5 - 3.6 */
+      box-shadow:         1px 1px 2px 2px black;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+
+    }
+    .carousel-inner img {
+       width: 100%; /* Set width to 100% */
+       margin: auto;
+       min-height:200px;
+     }
+     .carousel-indicators .active {
+       width: 12px;
+       height: 12px;
+       margin: 0;
+       background-color: #4CB8C4 !important;
+     }
+     .carousel-caption{
+       color: #25b7c4 !important;
+       font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+
+     }
+     .carousel-inner {
+      position: relative;
+      width: 100%;
+      overflow: hidden;
+      border: 4px groove #25b7c4 !important;
+      }
+     .carousel-inner>.item>a>img, .carousel-inner>.item>img {
+      line-height: 1;
+      height: 380px;
+      }
+
+    hr{
+      color: #1C75BC;
+      border-top: 2px solid #1C75BC;
+      margin-left: 0%;
+      margin-right: 0.7%;
+      margin-top: -0.6%;
+    }
+    p, h1, h2, h4{
+      color: black;
+      font-family: 'PT Sans', sans-serif;
+    }
+    h1 {
+      color: white;
+    }
+    h2{
+
+    }
+    h3 {
+
+    }
+    h4 {
+
+    }
+    h5 {
+
+    }
+
+    p {
+      font-size: font-family: 'PT Sans', sans-serif !important;
+    }
+    .row {
+      line-height: .91;
+    }
+    li {
+    font-size: 24px;
+    line-height: 0.7;
+    margin-left: -2.7%;
+    }
+    li span {
+      font-size: 16px;
+    }
+
+  </style>
+
+  <!-- Get the JQuery library
+  Jquery 1 & 2 are the same except JQuery 2 doesn't
+  support IE 6, 7, and 8 -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+</head>
+<body>
+
+  <div id="wrapper">
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+              <!-- Brand and toggle get grouped for better mobile display -->
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+
+                <!-- <a class="navbar-brand" href="#">Stephen Popovich</a> -->
+                  <img id="slogo" src="pictures/S.png" width="50" height="50">
+              </div>
+
+              <!-- Collect the nav links, forms, and other content for toggling -->
+              <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                  <li><a href="Index.html">Bio</a></li>
+                  <li><a href="Resume.html">Resume</a></li>
+                  <li><a href="Gaming.html">Front-end</a></li>
+                  <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Websites<span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                      <li><a href="https://www.linkedin.com/in/stephenmpopovich">Linkedin</a></li>
+                      <li role="separator" class="divider"></li>
+                      <li><a href="https://github.com/StephenPopovich">Github</a></li>
+                      <li role="separator" class="divider"></li>
+                      <li><a href="https://www.fanfighttalk.com/StephenPopovich">Fanfighttalk</a></li>
+                    </ul>
+                  </li>
+                </ul>
+                <!-- <form class="navbar-form navbar-left">
+
+
+                </form> -->
+                <ul class="nav navbar-nav navbar-right">
+                  <!-- <li><a href="#">Link</a></li>
+                  <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                      <li><a href="#">Action</a></li>
+                      <li><a href="#">Another action</a></li>
+                      <li><a href="#">Something else here</a></li>
+                      <li role="separator" class="divider"></li>
+                      <li><a href="#">Separated link</a></li>
+                    </ul>
+                  </li> -->
+                </ul>
+              </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+          </nav>
+
+
+        <div class="container">
+
+
+              <div class="row" id="topheader">
+                <br>
+                <br>
+                <br>
+                <div class="col-xs-12 col-sm-12 col-md-12">
+                  <h3 id="minititle">Error Page</h3>
+                </div>
+              </div>
+
+
+                    <div class="row" id="toprow">
+
+                         <div class="col-xs-12 col-sm-12 col-md-12" id="biodiv" >
+                           <h1 id="bio"> Something went wrong! I'm sorry please check you internet connection and refresh the page.
+                             Thank you. 404 ERROR
+
+                             Contact Host if problem continues...
+                           </h1>
+                            <img id="error" src="http://www.palermo4.com/image.axd?picture=SNAGHTML4ad7cb3.png" alt="">
+                          </div>
+                     </div>
+              </div>
+            </div>
+
+
+
+  <script type="text/javascript">
+
+    // When the document is ready execute the JQuery
+    $("document").ready(function() {
+
+
+      // Get the document x and y position on click
+      $(document).click(function(e) {
+        $("#mClickXPos").val(e.pageX);
+        $("#mClickYPos").val(e.pageY);
+      });
+
+      // Get the x and y as the mouse moves
+      // Use screenX and screenY to get x and y for the screen
+      $(document).mousemove(function(e) {
+        $("#mMoveXPos").val(e.screenX);
+        $("#mMoveYPos").val(e.screenY);
+      });
+
+      // Show key pressed on the keyboard
+      // You can also use keydown() and keyup()
+      $(document).keypress(function(e){
+
+        // e.which returns the keycode which we convert into
+        // the key with fromCharCode
+        var keyPressed = String.fromCharCode(e.which)
+        $("#keyPressed").val(keyPressed);
+      });
+
+
+
+    }); <!-- End of JQuery Code -->
+
+  </script>
+
+  </div> <!-- End of wrapper -->
+
+<!-- Most common CSS attributes
+https://developer.mozilla.org/en-US/docs/Web/CSS/Reference
+  background, background-attachment, background-color, background-image, background-repeat, border, border-bottom, border-color, border-style, border-bottom-color, border-bottom-style, border-bottom-width, border-left-color, border-left-style, border-left-width, border-right-color, border-right-style, border-right-width, border-top-color, border-top-style, border-top-width, box-shadow, color, columns, direction, float, font-family, font-size, font-style, font-weight, height, letter-spacing, line-height, list-style-type, list-style-image, list-style-position, margin, margin-bottom, margin-top, margin-right,margin-left, opacity, padding-bottom, padding-top, padding-right, padding-left, text-align, text-decoration, text-decoration-color, text-decoration-line, text-decoration-style, text-indent, text-orientation, text-shadow, text-transform, vertical-align, visibility, width, word-spacing, z-index
+  -->
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</body>
+</html>
