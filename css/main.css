@@ -454,6 +454,8 @@ div#operating-systems{
   }
   img.tool-icon{
       transition: transform .3s; /* Animation */
+      width: 195px;
+      height: 195px;
   }
   img.tool-icon:hover{
      transform: scale(1.22);
@@ -996,14 +998,19 @@ div#operating-systems{
     border: none;
     width: 100%;
   }
+  em {
+    color: -webkit-linear-gradient(left, #25c481, #25b7c4);
+    color: gold !important;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    font-size: 19px;
+  }
   em#frontend{
     margin-bottom: 2%;
-
-  }
-  em{
-
-  }
-  /*  DESIGN PAGE*/
+    text-align: center;
+    font-style: oblique;
+    color: #00FFFF !important;
+    text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+  }  /*  DESIGN PAGE*/
   img.design-proect{
     width:100%;
     border-radius: 6px;
