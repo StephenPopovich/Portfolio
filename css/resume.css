@@ -2,15 +2,14 @@
   html,body {
       background: white !important;
       color: 	black;
-      font-size: font-family: 'PT Sans', sans-serif;
+      font-size: font-family: 'Calbri', sans-serif;
       -webkit-background-size: cover; /* For WebKit*/
       -moz-background-size: cover;    /* Mozilla*/
       -o-background-size: cover;      /* Opera*/
       background-size: cover;         /* Generic*/
       font-size: 16px;
-      margin-bottom: 8%;
+      margin-bottom: -1%;
   }
-
   :-webkit-full-screen-ancestor {
     animation: none;
     -webkit-animation-fill-mode: none;
@@ -69,10 +68,9 @@
     z-index: 100;
     height: 65px;
    border-radius: 0px;
-}
+  }
 
   nav.navbar.navbar-default:hover{
-    background: -webkit-linear-gradient(bottom, #25c481, #25b7c4) !important;
     background: linear-gradient(to top, #000000, #3B5998) !important;
     border: 2px groove white;
     opacity: 1;
@@ -81,7 +79,7 @@
     box-shadow: 3px 3px 5px 5px #000;
     height: 65px;
     border-radius: 0px;
-}
+  }
   }
   ul.dropdown-menu {
     background-color:	#B0E0E6 !important;
@@ -179,6 +177,7 @@
     padding-left: 20px !important;
     padding-right: 20px !important;
     color: white !Important;
+    width: 100%;
 
   }
   .navbar-nav>li>a:hover {
@@ -304,13 +303,15 @@
     line-height: 4.2;
       color: black;
   }
-  #myname{
-    font-size: 40px;
-    line-height: 33px;
+  .full-name{
+    color: #1C75BC !important;
+    font-size: 2.99em;
+    font-weight: 800 !important;
+    text-align: center;
   }
-  h2#careertitle{
-    color: #1C75BC;
-    font-size: 29px;
+  h2.careertitle{
+    text-align: center;
+    font-size: 1.55em;
     line-height: 0px;
   }
   hr#location{
@@ -334,7 +335,7 @@
 
   hr{
     color: #1C75BC;
-    border-top: 2px solid #1C75BC;
+    border-top: 2px solid #1C75BC !important;
     margin-left: 0%;
     margin-right: 0.7%;
     margin-top: -0.6%;
@@ -382,6 +383,9 @@
   .subtitle{
     color: black;
     font-size: 24px;
+    text-align: center;
+    font-weight: 400;
+    margin-bottom: -1%;
 
   }
   .school{
@@ -401,11 +405,16 @@
     color: black;
         font-weight:800;
   }
+  .other-employment{
+    color: black !important;
+    font-weight: 400;
+  }
   .duration{
     text-align: center;
     vertical-align: middle;
     color: black;
     margin-left: 20px;
+    font-weight: 400;
   }
   p.certification{
     color: black;
@@ -441,15 +450,6 @@
   p.projectsubtitle{
       color: #1C75BC;
           font-weight:800;
-  }
-  .progress{
-    background-color: #E6E7E8 !important;
-    background-image: none;
-    color: #E6E7E8;
-  }
-  .progress-bar{
-    background-color: #1C75BC !important;
-    background-image: none;
   }
   #projectsubtitle{
     color:  #1C75BC !important;

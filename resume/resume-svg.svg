@@ -3,665 +3,160 @@
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 612 792" style="enable-background:new 0 0 612 792;" xml:space="preserve">
 <style type="text/css">
-	.st0{enable-background:new    ;}
-	.st1{clip-path:url(#SVGID_2_);}
-	.st2{clip-path:url(#SVGID_4_);}
-	.st3{font-family:'MyriadPro-Regular';}
-	.st4{font-size:27.0424px;}
-	.st5{fill:#1B75BC;}
-	.st6{font-size:19.6723px;}
-	.st7{letter-spacing:-1;}
-	.st8{font-size:14.875px;}
-	.st9{clip-path:url(#SVGID_4_);fill:#1B75BC;}
-	.st10{clip-path:url(#SVGID_4_);fill:none;stroke:#1B75BC;stroke-miterlimit:10;}
-	.st11{clip-path:url(#SVGID_4_);fill:#010101;}
-	.st12{font-size:10.1282px;}
-	.st13{font-size:11.6349px;}
-	.st14{clip-path:url(#SVGID_4_);fill:#FFFFFF;}
-	.st15{clip-path:url(#SVGID_4_);fill:none;stroke:#010203;stroke-miterlimit:10;}
-	.st16{font-size:18px;}
-	.st17{letter-spacing:-0.8;}
-	.st18{font-size:11px;}
-	.st19{letter-spacing:18.5;}
-	.st20{letter-spacing:32.3;}
-	.st21{font-size:17.6411px;}
-	.st22{font-size:11.8969px;}
-	.st23{letter-spacing:32;}
-	.st24{font-size:17.9999px;}
-	.st25{font-size:10px;}
-	.st26{font-size:8.4215px;}
-	.st27{font-size:8.6325px;}
-	.st28{font-size:10.4508px;}
-	.st29{letter-spacing:0.9;}
-	.st30{letter-spacing:18.9;}
-	.st31{fill:none;}
-	.st32{font-size:10.7853px;}
-	.st33{clip-path:url(#SVGID_4_);fill:#E6E7E8;}
-	.st34{clip-path:url(#SVGID_4_);fill:none;stroke:#000000;stroke-linecap:round;stroke-miterlimit:10;}
-	.st35{clip-path:url(#SVGID_4_);fill:#258CC8;}
-	.st36{font-size:12.639px;}
-	.st37{font-size:12px;}
-	.st38{letter-spacing:-0.9;}
-	.st39{fill:#258CC8;}
+	.st0{font-family:'Calibri';}
+	.st1{font-size:21px;}
+	.st2{font-size:14.875px;}
+	.st3{letter-spacing:-1;}
+	.st4{fill:none;stroke:#1B75BC;stroke-miterlimit:10;}
+	.st5{font-size:10.1282px;}
+	.st6{font-size:11.6349px;}
+	.st7{font-size:8.4215px;}
+	.st8{font-family:'MyriadPro-Regular';}
+	.st9{font-size:8.6325px;}
+	.st10{font-size:10.45px;}
+	.st11{font-size:11.8969px;}
+	.st12{font-size:18px;}
+	.st13{letter-spacing:-0.8;}
+	.st14{fill:#1B75BC;}
+	.st15{font-size:11px;}
+	.st16{letter-spacing:18.5;}
+	.st17{letter-spacing:32.3;}
+	.st18{font-size:10.4508px;}
+	.st19{font-family:'Calibri-Bold';}
+	.st20{font-size:36px;}
 </style>
-<g class="st0">
-	<g>
-		<defs>
-			<polyline id="SVGID_1_" points="8,787 612,787 612,0 8,0 			"/>
-		</defs>
-		<clipPath id="SVGID_2_">
-			<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
-		</clipPath>
-		<g class="st1">
-			<defs>
-				<rect id="SVGID_3_" width="612" height="792"/>
-			</defs>
-			<clipPath id="SVGID_4_">
-				<use xlink:href="#SVGID_3_"  style="overflow:visible;"/>
-			</clipPath>
-			<g class="st2">
-				<text transform="matrix(1 0 0 1.4244 160.7529 33.7456)"><tspan x="0" y="0" class="st3 st4">S</tspan><tspan x="13.3" y="0" class="st3 st4">t</tspan><tspan x="22" y="0" class="st3 st4">ephen </tspan><tspan x="100.2" y="0" class="st3 st4">P</tspan><tspan x="113.7" y="0" class="st3 st4">op</tspan><tspan x="143.9" y="0" class="st3 st4">o</tspan><tspan x="158.5" y="0" class="st3 st4">vich</tspan></text>
-			</g>
-			<g class="st2">
-				<text transform="matrix(1 0 0 1.0343 141.5957 59.1787)"><tspan x="0" y="0" class="st5 st3 st6">         </tspan><tspan x="37.5" y="0" class="st5 st3 st6"> </tspan><tspan x="41.3" y="0" class="st5 st3 st6">WEB DEVE</tspan><tspan x="125.9" y="0" class="st5 st3 st6 st7">L</tspan><tspan x="133.9" y="0" class="st5 st3 st6">OPER</tspan></text>
-			</g>
-			<g class="st2">
-				<text transform="matrix(1.0459 0 0 1 414.3242 17.0723)"><tspan x="0" y="0" class="st3 st8">San Jose</tspan><tspan x="52.9" y="0" class="st3 st8 st7">,</tspan><tspan x="55" y="0" class="st3 st8"> </tspan><tspan x="58" y="0" class="st3 st8">C</tspan><tspan x="65.9" y="0" class="st3 st8">A</tspan></text>
-			</g>
-			<path class="st9" d="M413.4,20.7L532,20.5L413.4,20.7z"/>
-			<line class="st10" x1="413.4" y1="20.7" x2="532" y2="20.5"/>
-			<path class="st11" d="M401.1,64.7c-0.9,0-1.5,0.8-1.5,1.7v10.8c0,0.8,0.6,1.7,1.5,1.7h15.3c0.9,0,1.5-0.8,1.5-1.7V66.3
-				c0-0.9-0.6-1.7-1.5-1.7H401.1z M401.1,65.9h15.3c0.1,0,0.3,0.1,0.3,0.4v10.8c0,0.3-0.2,0.4-0.3,0.4h-15.3c-0.1,0-0.3-0.1-0.3-0.4
-				V66.3C400.8,66,401,65.9,401.1,65.9 M403.3,67.1c-0.4,0-0.8,0.4-0.8,0.8s0.4,0.8,0.8,0.8c0.4,0,0.8-0.4,0.8-0.8
-				S403.7,67.1,403.3,67.1 M406.1,67.1c-0.4,0-0.8,0.4-0.8,0.8s0.4,0.8,0.8,0.8c0.4,0,0.8-0.4,0.8-0.8S406.6,67.1,406.1,67.1
-				 M409,67.1c-0.4,0-0.8,0.4-0.8,0.8s0.4,0.8,0.8,0.8c0.5,0,0.8-0.4,0.8-0.8S409.4,67.1,409,67.1"/>
-			<g class="st2">
-				<text transform="matrix(1.0411 0 0 1 423.4297 74.4902)"><tspan x="0" y="0" class="st3 st12">W</tspan><tspan x="8.2" y="0" class="st3 st12">ebsi</tspan><tspan x="25.4" y="0" class="st3 st12">t</tspan><tspan x="28.6" y="0" class="st3 st12">e:</tspan></text>
-			</g>
-			<g class="st2">
-				<text transform="matrix(1.0411 0 0 1 423.4297 88.4521)"><tspan x="0" y="0" class="st3 st13">www.s</tspan><tspan x="32.7" y="0" class="st3 st13">t</tspan><tspan x="36.4" y="0" class="st3 st13">ephenmpop</tspan><tspan x="97" y="0" class="st3 st13">o</tspan><tspan x="103.2" y="0" class="st3 st13">vich.</tspan><tspan x="125.6" y="0" class="st3 st13">c</tspan><tspan x="130.6" y="0" class="st3 st13">om</tspan></text>
-			</g>
-			<path class="st11" d="M209.7,66.9c-0.3-0.3-0.7-0.5-1.1-0.5h-16.1c-0.4,0-0.8,0.2-1.1,0.5c-0.3,0.3-0.4,0.7-0.4,1.2v12.4
-				c0,0.5,0.2,0.9,0.4,1.2c0.3,0.3,0.7,0.5,1.1,0.5h16.1c0.4,0,0.8-0.2,1.1-0.5c0.3-0.3,0.4-0.7,0.4-1.2V68
-				C210.1,67.6,209.9,67.2,209.7,66.9 M208.8,79.6l-5.2-5.2l5.2-5.2V79.6z M192.5,67.8h16.1c0.1,0,0.1,0,0.2,0.1c0,0,0,0,0,0
-				l-7.2,7.3c-0.2,0.2-0.5,0.4-0.9,0.4c-0.3,0-0.6-0.1-0.8-0.3l-7.6-7.3c0,0,0,0,0,0C192.4,67.8,192.4,67.8,192.5,67.8 M192.3,79.7
-				V69.1l5.5,5.3L192.3,79.7z M192.5,80.7l5.9-5.7l0.9,0.9c0.4,0.4,0.9,0.6,1.4,0.6c0.5,0,1-0.2,1.4-0.6L203,75l5.6,5.7c0,0,0,0,0,0
-				H192.5z"/>
-			<g class="st2">
-				<text transform="matrix(1.0411 0 0 1 215.0181 75.1147)" class="st3 st12">Email:</text>
-			</g>
-			<g class="st2">
-				<text transform="matrix(1.0411 0 0 1 215.0181 89.0767)"><tspan x="0" y="0" class="st3 st13">s</tspan><tspan x="4.6" y="0" class="st3 st13">t</tspan><tspan x="8.3" y="0" class="st3 st13">ephenpop</tspan><tspan x="59.2" y="0" class="st3 st13">o</tspan><tspan x="65.4" y="0" class="st3 st13">vich16@gmail.</tspan><tspan x="135.6" y="0" class="st3 st13">c</tspan><tspan x="140.6" y="0" class="st3 st13">om</tspan></text>
-			</g>
-			<path class="st14" d="M72.6,66.7h-11c-1.4,0-2.6,0.6-2.6,1.4V84c0,0.8,1.2,1.4,2.6,1.4h11c1.4,0,2.6-0.6,2.6-1.4V68.1
-				C75.2,67.3,74,66.7,72.6,66.7 M74,82.8H60.3V69.4H74V82.8z"/>
-			<path class="st15" d="M72.6,66.7h-11c-1.4,0-2.6,0.6-2.6,1.4V84c0,0.8,1.2,1.4,2.6,1.4h11c1.4,0,2.6-0.6,2.6-1.4V68.1
-				C75.2,67.3,74,66.7,72.6,66.7z M74,82.8H60.3V69.4H74V82.8z"/>
-			<path class="st14" d="M67.1,83.2c0.8,0,1.5,0.4,1.5,0.8c0,0.5-0.7,0.8-1.5,0.8c-0.8,0-1.5-0.4-1.5-0.8
-				C65.6,83.6,66.3,83.2,67.1,83.2"/>
-			<path class="st15" d="M67.1,83.2c0.8,0,1.5,0.4,1.5,0.8c0,0.5-0.7,0.8-1.5,0.8c-0.8,0-1.5-0.4-1.5-0.8
-				C65.6,83.6,66.3,83.2,67.1,83.2z"/>
-			<path class="st14" d="M65.9,68.5h2.4c0.2,0,0.3-0.1,0.3-0.2c0-0.1-0.1-0.2-0.3-0.2h-2.4c-0.2,0-0.3,0.1-0.3,0.2
-				S65.7,68.5,65.9,68.5"/>
-			<path class="st15" d="M65.9,68.5h2.4c0.2,0,0.3-0.1,0.3-0.2c0-0.1-0.1-0.2-0.3-0.2h-2.4c-0.2,0-0.3,0.1-0.3,0.2
-				S65.7,68.5,65.9,68.5z"/>
-			<path class="st14" d="M67.1,67.5c0.2,0,0.3,0.1,0.3,0.2c0,0.1-0.1,0.2-0.3,0.2s-0.3-0.1-0.3-0.2C66.8,67.5,66.9,67.5,67.1,67.5"
-				/>
-			<path class="st15" d="M67.1,67.5c0.2,0,0.3,0.1,0.3,0.2c0,0.1-0.1,0.2-0.3,0.2c-0.2,0-0.3-0.1-0.3-0.2
-				C66.8,67.5,66.9,67.5,67.1,67.5z"/>
-			<g class="st2">
-				<text transform="matrix(1.0411 0 0 1 80.3784 75.3579)" class="st3 st12">Phone:</text>
-			</g>
-			<g class="st2">
-				<text transform="matrix(1.0411 0 0 1 80.3784 89.3198)" class="st3 st13">408-613-4849</text>
-			</g>
-			<line class="st10" x1="17.9" y1="217.9" x2="303.1" y2="217.8"/>
-			<g class="st2">
-				<text transform="matrix(1.2401 0 0 1 16.8633 210.8926)"><tspan x="0" y="0" class="st3 st16">EDU</tspan><tspan x="32.5" y="0" class="st3 st16">C</tspan><tspan x="42.4" y="0" class="st3 st16 st17">A</tspan><tspan x="52.3" y="0" class="st3 st16">TION</tspan></text>
-			</g>
-			<g class="st2">
-				<text transform="matrix(1.2401 0 0 1 17.5342 231.6665)"><tspan x="0" y="0" class="st5 st3 st18">W</tspan><tspan x="8.9" y="0" class="st5 st3 st18">eb D</tspan><tspan x="30.3" y="0" class="st5 st3 st18">e</tspan><tspan x="35.6" y="0" class="st5 st3 st18">v</tspan><tspan x="40.7" y="0" class="st5 st3 st18">elopment</tspan></text>
-			</g>
-			<g class="st2">
-				<text transform="matrix(1.2401 0 0 1 123.8667 231.6665)"><tspan x="0" y="0" class="st3 st18 st19"> </tspan><tspan x="21.6" y="0" class="st3 st18 st20">  </tspan><tspan x="92.4" y="0" class="st3 st18">   March 2016</tspan></text>
-			</g>
-			<g class="st2">
-				<text transform="matrix(1.2401 0 0 1 17.5342 244.8667)"><tspan x="0" y="0" class="st3 st18">C</tspan><tspan x="6" y="0" class="st3 st18">oding Doj</tspan><tspan x="51.4" y="0" class="st3 st18">o</tspan><tspan x="57.4" y="0" class="st3 st18 st17">,</tspan><tspan x="58.8" y="0" class="st3 st18"> Sili</tspan><tspan x="74.3" y="0" class="st3 st18">c</tspan><tspan x="79" y="0" class="st3 st18">on</tspan><tspan x="91.1" y="0" class="st3 st18"> </tspan><tspan x="93.1" y="0" class="st3 st18">V</tspan><tspan x="98.7" y="0" class="st3 st18">all</tspan><tspan x="109.2" y="0" class="st3 st18">e</tspan><tspan x="114.5" y="0" class="st3 st18">y</tspan></text>
-			</g>
-			<g class="st2">
-				<text transform="matrix(1.2401 0 0 1 17.5342 258.0664)"><tspan x="0" y="0" class="st3 st18">Python</tspan><tspan x="32.9" y="0" class="st3 st18 st17">,</tspan><tspan x="34.4" y="0" class="st3 st18"> PH</tspan><tspan x="49.7" y="0" class="st3 st18">P</tspan><tspan x="55.1" y="0" class="st3 st18"> and MEAN</tspan></text>
-			</g>
-			<g class="st2">
-				<text transform="matrix(1.2401 0 0 1 16.8794 274.9956)"><tspan x="0" y="0" class="st5 st3 st18">Bachelor </tspan><tspan x="42.4" y="0" class="st5 st3 st18">o</tspan><tspan x="48.3" y="0" class="st5 st3 st18">f Scien</tspan><tspan x="78.4" y="0" class="st5 st3 st18">c</tspan><tspan x="83" y="0" class="st5 st3 st18">e</tspan><tspan x="88.6" y="0" class="st5 st3 st18 st17">,</tspan><tspan x="90" y="0" class="st5 st3 st18"> Business Management</tspan></text>
-			</g>
-			<g class="st2">
-				<text transform="matrix(1.2401 0 0 1 266.689 274.9956)"><tspan x="0" y="0" class="st3 st18"> Ma</tspan><tspan x="16.5" y="0" class="st3 st18">y</tspan><tspan x="21.3" y="0" class="st3 st18"> 2013</tspan></text>
-			</g>
-			<g class="st2">
-				<text transform="matrix(1.2401 0 0 1 16.8794 288.1953)"><tspan x="0" y="0" class="st3 st18">San Jose Sta</tspan><tspan x="55.8" y="0" class="st3 st18">t</tspan><tspan x="59.4" y="0" class="st3 st18">e Uni</tspan><tspan x="83" y="0" class="st3 st18">v</tspan><tspan x="88.2" y="0" class="st3 st18">ersit</tspan><tspan x="107.9" y="0" class="st3 st18">y</tspan><tspan x="112.3" y="0" class="st3 st18 st17">,</tspan><tspan x="113.7" y="0" class="st3 st18">  </tspan><tspan x="118.3" y="0" class="st3 st18">C</tspan><tspan x="124.4" y="0" class="st3 st18">A</tspan></text>
-			</g>
-			<line class="st10" x1="18.4" y1="127.9" x2="585" y2="126.7"/>
-			<g class="st2">
-				<text transform="matrix(1 0 0 1.2471 234.356 123.2212)"><tspan x="0" y="0" class="st3 st21">SUMMA</tspan><tspan x="59.3" y="0" class="st3 st21 st7">R</tspan><tspan x="67.7" y="0" class="st3 st21">Y</tspan></text>
-			</g>
-			<g class="st2">
-				<text transform="matrix(1 0 0 1.2608 17.3325 143.3306)"><tspan x="0" y="0" class="st3 st22">Web Developer with exceptional front-end development skills. Highly motivated to strengthen any organization. Strong </tspan><tspan x="0" y="11.3" class="st3 st22">leadership and communication skills with a mind for business backed by over four years of management experience. </tspan><tspan x="0" y="22.6" class="st3 st22">I&apos;m pursuing a development opportunity where I can make a positive contribution towards success and growth. </tspan></text>
-			</g>
-			<g class="st2">
-				<text transform="matrix(1 0 0 1.2608 17.3325 161.3306)" class="st3 st22"> </text>
-			</g>
-			<g class="st2">
-				<text transform="matrix(1 0 0 1.2608 17.3325 179.3306)"><tspan x="0" y="0" class="st3 st22 st23"> </tspan><tspan x="35.4" y="0" class="st3 st22"> </tspan></text>
-			</g>
-			<line class="st10" x1="354.1" y1="541.7" x2="584.1" y2="541.6"/>
-			<g class="st2">
-				<text transform="matrix(1 0 0 1.149 354.1074 532.5596)"><tspan x="0" y="0" class="st3 st24">P</tspan><tspan x="9" y="0" class="st3 st24">roj</tspan><tspan x="29.1" y="0" class="st3 st24">e</tspan><tspan x="37.9" y="0" class="st3 st24">cts</tspan></text>
-			</g>
-			<g class="st2">
-				<text transform="matrix(1 0 0 1.5201 353.6484 674.8271)" class="st5 st3 st25">Solar-link.net (Java, Spring, PHP)</text>
-			</g>
-			<g class="st2">
-				<text transform="matrix(1 0 0 1.5201 353.6484 693.0684)"><tspan x="0" y="0" class="st3 st25">Solar-link.net a solar monitoring portal that gives the user </tspan><tspan x="0" y="7.9" class="st3 st25">information on their solar panels and sites. Information such as </tspan><tspan x="0" y="15.8" class="st3 st25">enviromental benefits, energy usage, site status and weather.</tspan></text>
-			</g>
-			<g class="st2">
-			</g>
-			<g class="st2">
-				<text transform="matrix(1 0 0 1.3894 438.7227 50.9595)"><tspan x="0" y="0" class="st3 st26">s</tspan><tspan x="3.3" y="0" class="st3 st26">t</tspan><tspan x="6.1" y="0" class="st3 st26">ephenpop</tspan><tspan x="42.9" y="0" class="st3 st26">o</tspan><tspan x="47.4" y="0" class="st3 st26">vich </tspan></text>
-			</g>
-			<g class="st2">
-				<text transform="matrix(1 0 0 1.4598 520.7236 7.085)" class="st3 st27">        </text>
-			</g>
-			<g class="st2">
-				<text transform="matrix(1 0 0 1.4598 520.7236 22.2065)" class="st3 st27">          </text>
-			</g>
-			<g class="st2">
-				<text transform="matrix(1 0 0 1.4598 520.7236 37.3281)" class="st3 st27">        </text>
-			</g>
-			<g class="st2">
-				<text transform="matrix(1 0 0 1.4598 520.7236 52.4497)"><tspan x="0" y="0" class="st3 st27">        s</tspan><tspan x="18.1" y="0" class="st3 st27">t</tspan><tspan x="20.9" y="0" class="st3 st27">ephenmpop</tspan><tspan x="65.8" y="0" class="st3 st27">o</tspan><tspan x="70.5" y="0" class="st3 st27">vich</tspan></text>
-			</g>
-			<g class="st2">
-				<text transform="matrix(1 0 0 1.5201 353.6484 613.8848)" class="st5 st3 st25">QigongMastery.com (Wordpress, Javascript, HTML/CSS)</text>
-			</g>
-			<g class="st2">
-				<text transform="matrix(1 0 0 1.5201 353.6484 632.126)" class="st3 st25">A non-profit qigong e-commerce website, back by 40 years of</text>
-			</g>
-			<g class="st2">
-				<text transform="matrix(1 0 0 1.5201 353.1484 643.8662)"><tspan x="0" y="0" class="st3 st25">experience. A Fully functional shop, introduction videos,</tspan><tspan x="0" y="7.9" class="st3 st25">relaxing qigong courses, tools and much more.</tspan><tspan x="0" y="15.8" class="st3 st25"> </tspan><tspan x="2" y="15.8" class="st3 st25"> </tspan></text>
-			</g>
-			<g class="st2">
-			</g>
-			<g class="st2">
-			</g>
-			<g class="st2">
-				<text transform="matrix(1 0 0 1.5201 354.6484 740.3223)" class="st5 st3 st25">FanFightTalk.com (HTML/CSS, Javascript)</text>
-			</g>
-			<g class="st2">
-				<text transform="matrix(1 0 0 1.5201 354.6484 758.5635)" class="st3 st25">A mixed martial arts news website. Articles, videos and pictures </text>
-			</g>
-			<g class="st2">
-				<text transform="matrix(1 0 0 1.5201 354.6484 770.8047)" class="st3 st25">and a chatroom all surrounding the MMA world.</text>
-			</g>
-			<path class="st10" d="M15,321.2c97.1,0.5,193.4-1.5,290.4-0.1"/>
-			<g class="st2">
-				<text transform="matrix(1 0 0 1 15 314.5098)"><tspan x="0" y="0" class="st3 st16">EMP</tspan><tspan x="32.9" y="0" class="st3 st16 st7">L</tspan><tspan x="40.2" y="0" class="st3 st16">O</tspan><tspan x="51.9" y="0" class="st3 st16">YMENT</tspan></text>
-			</g>
-			<g class="st2">
-				<text transform="matrix(1.1652 0 0 1 15.5008 487.0848)"><tspan x="0" y="0" class="st5 st3 st18">W</tspan><tspan x="8.9" y="0" class="st5 st3 st18">eb D</tspan><tspan x="30.3" y="0" class="st5 st3 st18">e</tspan><tspan x="35.6" y="0" class="st5 st3 st18">v</tspan><tspan x="40.7" y="0" class="st5 st3 st18">eloper/Software Engineer</tspan></text>
-			</g>
-			<g class="st2">
-				<text transform="matrix(1.1652 0 0 1 205.0013 487.0848)"><tspan x="0" y="0" class="st3 st28 st29"> </tspan><tspan x="3.9" y="0" class="st3 st28">   06/2016</tspan><tspan x="46.3" y="0" class="st3 st28"> –</tspan><tspan x="52" y="0" class="st3 st28"> 11/2016</tspan></text>
-			</g>
-			<g class="st2">
-				<text transform="matrix(1.1652 0 0 1 15.5022 499.6258)"><tspan x="0" y="0" class="st3 st28">L</tspan><tspan x="4.7" y="0" class="st3 st28">apla</tspan><tspan x="23.2" y="0" class="st3 st28">c</tspan><tspan x="27.7" y="0" class="st3 st28">e Sys</tspan><tspan x="49.3" y="0" class="st3 st28">t</tspan><tspan x="52.7" y="0" class="st3 st28">ems Inc</tspan><tspan x="86" y="0" class="st3 st28">.  - Solar-Link.net</tspan><tspan x="142.5" y="0" class="st3 st28 st30">   </tspan><tspan x="206.4" y="0" class="st3 st28">C</tspan><tspan x="212.3" y="0" class="st3 st28">ampbell</tspan><tspan x="248.1" y="0" class="st3 st28">,</tspan><tspan x="249.5" y="0" class="st3 st28"> </tspan><tspan x="251.7" y="0" class="st3 st28">C</tspan><tspan x="257.5" y="0" class="st3 st28">A</tspan></text>
-			</g>
-			<g class="st2">
-				<text transform="matrix(1.1652 0 0 1 15.5022 524.7078)"><tspan x="0" y="0" class="st3 st28">-Data mining, debugging, progress reporting, monitoring </tspan><tspan x="0" y="12.5" class="st3 st28">several sites daily, demoed prototypes and customer support.</tspan></text>
-			</g>
-			<g class="st2">
-				<text transform="matrix(1.1652 0 0 1 15.5022 537.2484)"><tspan x="0" y="0" class="st3 st28">.</tspan><tspan x="1.4" y="0" class="st3 st28"> </tspan></text>
-			</g>
-			<g class="st2">
-				<text transform="matrix(1.1652 0 0 1 15.5022 549.7899)"><tspan x="0" y="0" class="st3 st28">-</tspan><tspan x="3.2" y="0" class="st3 st28">Back and front-end developer with an emphasis on creating </tspan><tspan x="0" y="12.5" class="st3 st28">front-end UI features.  </tspan></text>
-			</g>
-			<g class="st2">
-			</g>
-			<g class="st2">
-				<text transform="matrix(1.1652 0 0 1 15.5022 574.8719)"><tspan x="0" y="0" class="st3 st28">-</tspan><tspan x="3.2" y="0" class="st3 st28">E</tspan><tspan x="8.2" y="0" class="st3 st28">nhan</tspan><tspan x="30.6" y="0" class="st3 st28">c</tspan><tspan x="35.1" y="0" class="st3 st28">ed the </tspan><tspan x="65.1" y="0" class="st3 st28">o</tspan><tspan x="70.8" y="0" class="st3 st28">v</tspan><tspan x="75.7" y="0" class="st3 st28">erall su</tspan><tspan x="106.4" y="0" class="st3 st28">cc</tspan><tspan x="115.3" y="0" class="st3 st28">ess </tspan><tspan x="131" y="0" class="st3 st28">o</tspan><tspan x="136.7" y="0" class="st3 st28">f the business and software </tspan><tspan x="0" y="12.5" class="st3 st28">interface </tspan></text>
-			</g>
-			<g class="st2">
-				<text transform="matrix(1.1652 0 0 1 61.5022 587.4129)"><tspan x="0" y="0" class="st3 st28">through updates to the front and back end of website.</tspan><tspan x="0" y="12.5" class="st3 st28"> </tspan></text>
-			</g>
-			<g class="st2">
-				<path id="SVGID_x5F_5_x5F_" class="st31" d="M19.5,571.1c0,1.7-1.3,3-3,3s-3-1.3-3-3c0-1.7,1.3-3,3-3S19.5,569.5,19.5,571.1"/>
-				<text>				<textPath  xlink:href="#SVGID_x5F_5_x5F_" startOffset="9.375%">
-				</textPath>
-</text>
-			</g>
-			<path class="st2" d="M19.5,546.1c0,1.7-1.3,3-3,3s-3-1.3-3-3c0-1.7,1.3-3,3-3S19.5,544.5,19.5,546.1"/>
-			<path class="st2" d="M15,574.7c-1.6-0.5-2.4-2.3-1.8-3.8c0.5-1.6,2.3-2.4,3.8-1.8c1.6,0.5,2.4,2.3,1.8,3.8
-				C18.3,574.4,16.6,575.3,15,574.7"/>
-			<line class="st10" x1="348.8" y1="218.2" x2="578.8" y2="218.1"/>
-			<g class="st2">
-				<text transform="matrix(1 0 0 1.149 348.793 210.1719)"><tspan x="0" y="0" class="st3 st24">P</tspan><tspan x="9.6" y="0" class="st3 st24">R</tspan><tspan x="18.5" y="0" class="st3 st24">OFESSIONA</tspan><tspan x="105.8" y="0" class="st3 st24">L</tspan><tspan x="113.6" y="0" class="st3 st24"> SKILLS</tspan></text>
-			</g>
-			<g class="st2">
-				<text transform="matrix(1 0 0 1.1719 352.9922 238.2544)"><tspan x="0" y="0" class="st5 st3 st32">Fron</tspan><tspan x="20.7" y="0" class="st5 st3 st32">t</tspan><tspan x="23.9" y="0" class="st5 st3 st32">-End</tspan></text>
-			</g>
-			<g class="st2">
-				<text transform="matrix(1 0 0 1.1719 352.9922 253.4214)"><tspan x="0" y="0" class="st3 st32">HTM</tspan><tspan x="21.1" y="0" class="st3 st32">L</tspan><tspan x="25.7" y="0" class="st3 st32"> / CSS</tspan></text>
-			</g>
-			<g class="st2">
-				<text transform="matrix(1 0 0 1.1719 352.9922 268.5879)" class="st3 st32">AngularJS</text>
-			</g>
-			<g class="st2">
-				<text transform="matrix(1 0 0 1.1719 352.9922 283.7549)" class="st3 st32">Photoshop</text>
-			</g>
-			<g class="st2">
-				<text transform="matrix(1 0 0 1.1719 352.9922 298.9214)" class="st3 st32">JQuery</text>
-			</g>
-			<g class="st2">
-				<text transform="matrix(1 0 0 1.1719 352.9922 314.0884)" class="st3 st32">WordPress</text>
-			</g>
-			<rect x="438.8" y="242.1" class="st33" width="141.2" height="11.5"/>
-			<rect x="438.8" y="242.1" class="st34" width="141.2" height="11.5"/>
-			<rect x="438.8" y="242.1" class="st35" width="141.2" height="11.5"/>
-			<rect x="438.8" y="259.5" class="st33" width="141.2" height="11.5"/>
-			<rect x="438.8" y="259.5" class="st34" width="141.2" height="11.5"/>
-			<rect x="438.8" y="259.5" class="st35" width="70.6" height="11.5"/>
-			<rect x="438.8" y="274.9" class="st33" width="141.2" height="11.5"/>
-			<rect x="438.8" y="274.9" class="st34" width="141.2" height="11.5"/>
-			<rect x="438.8" y="292" class="st33" width="141.2" height="11.5"/>
-			<rect x="438.8" y="292" class="st34" width="141.2" height="11.5"/>
-			<rect x="438.8" y="292" class="st35" width="141.2" height="11.5"/>
-			<rect x="438.8" y="307.7" class="st33" width="141.2" height="11.5"/>
-			<rect x="438.8" y="307.7" class="st34" width="141.2" height="11.5"/>
-			<rect x="438.8" y="307.7" class="st35" width="141.2" height="11.5"/>
-			<g class="st2">
-				<text transform="matrix(1.1403 0 0 1 354.0586 352.6177)" class="st3 st36">JavaScript</text>
-			</g>
-			<g class="st2">
-				<text transform="matrix(1.1403 0 0 1 354.0586 367.7842)" class="st3 st36">Python</text>
-			</g>
-			<g class="st2">
-				<text transform="matrix(1.1403 0 0 1 354.0586 382.9512)" class="st3 st36">PHP</text>
-			</g>
-			<rect x="438.8" y="343.1" class="st33" width="141.2" height="12.2"/>
-			<rect x="438.8" y="343.1" class="st34" width="141.2" height="12.2"/>
-			<rect x="438.8" y="343.1" class="st35" width="141.2" height="12.2"/>
-			<rect x="438.8" y="376.4" class="st33" width="141.2" height="12.2"/>
-			<rect x="438.8" y="376.4" class="st34" width="141.2" height="12.2"/>
-			<rect x="438.8" y="359.6" class="st33" width="141.2" height="12.2"/>
-			<rect x="438.8" y="359.6" class="st34" width="141.2" height="12.2"/>
-			<rect x="438.8" y="359.6" class="st35" width="37.6" height="12.2"/>
-			<g class="st2">
-				<text transform="matrix(1.1844 0 0 1 354 403.2422)" class="st5 st3 st36">Databases</text>
-			</g>
-			<g class="st2">
-				<text transform="matrix(1.1844 0 0 1 354 418.4092)" class="st3 st36">MySQL</text>
-			</g>
-			<g class="st2">
-				<text transform="matrix(1.1844 0 0 1 354 433.5762)"><tspan x="0" y="0" class="st3 st36">SQLi</tspan><tspan x="23.9" y="0" class="st3 st36">t</tspan><tspan x="27.9" y="0" class="st3 st36">e3</tspan></text>
-			</g>
-			<g class="st2">
-				<text transform="matrix(1.1844 0 0 1 354 448.7422)" class="st3 st36">MongoDB</text>
-			</g>
-			<rect x="438.8" y="406.6" class="st33" width="141.2" height="12.3"/>
-			<rect x="438.8" y="406.6" class="st34" width="141.2" height="12.3"/>
-			<rect x="438.8" y="406.6" class="st35" width="86.7" height="12.3"/>
-			<rect x="438.8" y="440.4" class="st33" width="141.2" height="12.3"/>
-			<rect x="438.8" y="440.4" class="st34" width="141.2" height="12.3"/>
-			<rect x="438.8" y="440.4" class="st35" width="88.2" height="12.3"/>
-			<rect x="438.8" y="423.3" class="st33" width="141.2" height="12.3"/>
-			<rect x="438.8" y="423.3" class="st34" width="141.2" height="12.3"/>
-			<rect x="438.8" y="423.3" class="st35" width="40.8" height="12.3"/>
-			<g class="st2">
-				<text transform="matrix(1.1163 -9.946767e-03 6.680000e-03 1 354.2284 472.6869)"><tspan x="0" y="0" class="st5 st3 st37">Other</tspan><tspan x="28.8" y="0" class="st5 st3 st37"> </tspan><tspan x="31" y="0" class="st5 st3 st37 st38">T</tspan><tspan x="35.5" y="0" class="st5 st3 st37">e</tspan><tspan x="41.4" y="0" class="st5 st3 st37">chnologies</tspan></text>
-			</g>
-			<g class="st2">
-				<text transform="matrix(1.1163 -5.258056e-03 2.480000e-03 1 354.4497 487.0016)"><tspan x="0" y="0" class="st3 st37">NetSuite</tspan><tspan x="43.2" y="0" class="st3 st37 st38"> -</tspan><tspan x="47.5" y="0" class="st3 st37"> MongoDB</tspan><tspan x="100.8" y="0" class="st3 st37 st38"> </tspan><tspan x="102.3" y="0" class="st3 st37 st38">-</tspan><tspan x="105.1" y="0" class="st3 st37"> Node.js </tspan><tspan x="147.6" y="0" class="st3 st37 st38">-</tspan><tspan x="150.3" y="0" class="st3 st37"> MailChimp</tspan></text>
-			</g>
-			<g class="st2">
-				<text transform="matrix(1.1163 -5.258056e-03 2.480000e-03 1 354.4858 501.4023)"><tspan x="0" y="0" class="st3 st37">Bronto</tspan><tspan x="34.2" y="0" class="st3 st37 st38"> </tspan><tspan x="35.8" y="0" class="st3 st37 st38">-</tspan><tspan x="38.6" y="0" class="st3 st37"> </tspan><tspan x="41.1" y="0" class="st3 st37">Microsoft Suite</tspan><tspan x="110" y="0" class="st3 st37 st38"> -</tspan><tspan x="114.3" y="0" class="st3 st37"> Illustrator </tspan><tspan x="167.5" y="0" class="st3 st37 st38">-</tspan><tspan x="170.2" y="0" class="st3 st37"> MySQL</tspan></text>
-			</g>
-			<g class="st2">
-				<text transform="matrix(1.1403 0 0 1 354.0586 337.4507)"><tspan x="0" y="0" class="st5 st3 st36">L</tspan><tspan x="5.7" y="0" class="st5 st3 st36">anguages</tspan></text>
-			</g>
-		</g>
-		<g class="st1">
-		</g>
-	</g>
-	<rect x="438.8" y="274.9" class="st39" width="130.5" height="11.5"/>
-	<rect x="438.8" y="376.4" class="st39" width="52.7" height="12"/>
-</g>
-<path d="M15,524.5c-1.6-0.5-2.4-2.3-1.8-3.8c0.5-1.6,2.3-2.4,3.8-1.8c1.6,0.5,2.4,2.3,1.8,3.8C18.3,524.3,16.6,525.1,15,524.5"/>
-<text transform="matrix(1.1652 0 0 1 15.5008 337.9155)"><tspan x="0" y="0" class="st5 st3 st18">W</tspan><tspan x="8.9" y="0" class="st5 st3 st18">eb D</tspan><tspan x="30.3" y="0" class="st5 st3 st18">e</tspan><tspan x="35.6" y="0" class="st5 st3 st18">v</tspan><tspan x="40.7" y="0" class="st5 st3 st18">eloper/Manager</tspan></text>
-<text transform="matrix(1.1652 0 0 1 176.0013 337.9155)"><tspan x="0" y="0" class="st3 st28">   04/2017</tspan><tspan x="42.4" y="0" class="st3 st28"> –</tspan><tspan x="48.2" y="0" class="st3 st28"> 06/2018</tspan></text>
-<text transform="matrix(1.1652 0 0 1 15.5022 350.4565)" class="st3 st28">Morrocco Method Int’l - Morroccomethod.com</text>
-<text transform="matrix(1.1652 0 0 1 15.5022 368.5386)"><tspan x="0" y="0" class="st3 st28">- In charge of complete redesign, developement, monitoring</tspan><tspan x="0" y="12.5" class="st3 st28">and any adminstrative duties of website.</tspan></text>
-<text transform="matrix(1.1652 0 0 1 15.5022 393.6206)" class="st3 st28">  Helped design ads, web pages, labels, products e-mail blasts.</text>
-<text transform="matrix(1.1652 0 0 1 15.5022 432.7026)"><tspan x="0" y="0" class="st3 st28">-</tspan><tspan x="3.2" y="0" class="st3 st28">C</tspan><tspan x="9.1" y="0" class="st3 st28">reati</tspan><tspan x="28.7" y="0" class="st3 st28">v</tspan><tspan x="33.6" y="0" class="st3 st28">ely increased web traffic, UI/UX and revenue of the site</tspan></text>
-<text transform="matrix(1.1652 0 0 1 15.5022 445.2437)"><tspan x="0" y="0" class="st3 st28">through digital marketing</tspan><tspan x="112.7" y="0" class="st3 st28">,</tspan><tspan x="114" y="0" class="st3 st28"> e-mails, and </tspan><tspan x="170.8" y="0" class="st3 st28">content updates</tspan><tspan x="239.1" y="0" class="st3 st28">.</tspan><tspan x="0" y="12.5" class="st3 st28">*Also lead developer for www.morroccomethod.com/blog,</tspan><tspan x="0" y="25.1" class="st3 st28">qigongmastery.com, thehairshaman.com</tspan></text>
-<path id="SVGID_x5F_6_x5F_" class="st31" d="M19.5,429c0,1.7-1.3,3-3,3s-3-1.3-3-3s1.3-3,3-3S19.5,427.3,19.5,429"/>
-<text><textPath  xlink:href="#SVGID_x5F_6_x5F_" startOffset="9.375%">
-</textPath>
-</text>
-<path d="M19.5,390c0,1.7-1.3,3-3,3s-3-1.3-3-3s1.3-3,3-3S19.5,388.3,19.5,390"/>
-<path d="M15,432.6c-1.6-0.5-2.4-2.3-1.8-3.8c0.5-1.6,2.3-2.4,3.8-1.8c1.6,0.5,2.4,2.3,1.8,3.8C18.3,432.3,16.6,433.1,15,432.6"/>
-<path d="M15,367.4c-1.6-0.5-2.4-2.3-1.8-3.8c0.5-1.6,2.3-2.4,3.8-1.8c1.6,0.5,2.4,2.3,1.8,3.8C18.3,367.1,16.6,367.9,15,367.4"/>
-<text transform="matrix(1.1652 -4.660680e-04 4.000000e-04 1 13.3946 408.1755)"><tspan x="0" y="0" class="st3 st28">   Duties consist of SEO, mobile responsiveness, developement, </tspan><tspan x="0" y="12.5" class="st3 st28">debugging, and analytics of four seperate websites.</tspan></text>
-<path d="M19.5,405.6c0,1.7-1.3,3-3,3c-1.7,0-3-1.3-3-3s1.3-3,3-3C18.2,402.6,19.5,403.9,19.5,405.6"/>
-<image style="overflow:visible;" width="512" height="512" xlink:href="data:image/png;base64,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
-AgAAMiQAACBDAgAAMiQAACBDAgAAMiQAACBDAgAAMiQAACBDAgAAMiQAACBDAgAAMiQAACBDAgAA
-MiQAACBDAgAAMiQAACBDAgAAMiQAACBDAgAAMiQAACBDAgAAMiQAACBDAgAAMiQAACBDAgAAMiQA
-ACBDAgAAMiQAACBDAgAAMiQAACBDAgAAMiQAACBDAgAAMiQAACBDAgAAMiQAACBDAgAAMiQAACBD
-AgAAMiQAACBDAgAAMiQAACBDAgAAMiQAACBDAgAAMiQAACBDAgAAMiQAACBDAgAAMiQAACBDAgAA
-MiQAACBDAgAAMiQAACBDAgAAMiQAACBDAgAAMiQAACBDAgAAMlTE+2+qph4BADSWMwAAkCEBAAAZ
-EgAAkCEBAAAZEgAAkCEBAAAZEgAAkCEBAAAZEgAAkCEBAAAZEgAAkCEBAAAZEgAAkCEBAAAZEgAA
-kCEBAAAZEgAAkCEBAAAZEgAAkCEBAAAZEgAAkCEBAAAZEgAAkCEBAAAZEgAAkCEBAAAZEgAAkCEB
-AAAZEgAAkCEBAAAZEgAAkCEBAAAZEgAAkCEBAAAZEgAAkCEBAAAZEgAAkCEBAAAZEgAAkCEBAAAZ
-EgAAkCEBAAAZEgAAkCEBAAAZEgAAkCEBAAAZEgAAkCEBAAAZEgAAkCEBAAAZEgAAkCEBAAAZEgAA
-kCEBAAAZEgAAkCEBAAAZEgAAkCEBAAAZEgAAkCEBAAAZEgAAkCEBAAAZEgAAkCEBAAAZEgAAkCEB
-AAAZEgAAkCEBAAAZEgAAkCEBAAAZEgAAkCEBAAAZEgAAkCEBAAAZEgAAkCEBAAAZEgAAkCEBAAAZ
-EgAAkKEyKlFJPQIAaKBKVMqISl/qHQBAQ+0qoyi3pl4BADRQGVvKiNiQegcA0FAbyiji0dQrAIBG
-qqwpI6oPpp4BADRQtVxZRiXuTb0DAGioe8so21ekXgEANFJ5WxkfPvexiOpDqacAAI1QeTA+8qp1
-v7kTYDVuSrwGAGiI4paIZ28FXC2WJ90CADRGtbwh4tkA6LxjRUQ8knIPAFBvlVXxkVf9NOLZALj6
-6kpEfD7lJACgzirltRFFNeK57wY4UL0uorI92SgAoJ62RaXz+md/8N8BcM0FW6JafibJJACgvqrx
-yfj7c55+9ofl836xo+1jUalsbvgoAKCOKhtjoPMTz/2Z5wfA1edujqL4YEM3AQB1Vr7/uf/6j3hh
-AERErN7x+Yhwd0AAaAWV6q3Rfsc/vfCni71+8HtuWhxF3BNljK77MACgPirV3qjGsXHNBS96qf+L
-zwBERFxz/qooq39U92EAQB1VL9/bwT9iXwEQEfHhC/45Ij5Vr0kAQF19LP7u1f+2r1/cdwBERKza
-/q6I+EatFwEAdbU82u94z/4+YO/XADzXn908KsZWvxlFnFuzWQBAfVSrN0fHjovi6tf17e/D9n8G
-ICLiM+ftjm3FhVGNr9dsHABQD8sP5uAfcTABEPGbCFi9/XVRjU8OexoAUHvV6kej/Y5LD+bgH3Ew
-TwG80Hu/86Yoq/8YUY4Z9O8FAGqrUu2NqF6+vwv+9mbwARAR8YEbF8VA+YUo4/Qh/X4AYPgq1Vuj
-Gpft66V++3NwTwG80IdevTo67zgzqvHHEbFpSJ8DABiiysaIuCI67zx7KAf/iKGeAXiu93xnYpTF
-O6NavSrKomfYnw8A2JdtUY1PxkDnJ154b//BGn4APGvZNyZEf8flUcQVEcXCmn1eAMheZVVUymuj
-0nn9cA/8z6pdAPxWtYj33XJqVCuXRFmcFxGH1/5rAECrqzwYUdwS1fKG+MirfhpRVGv52esQAC+w
-7JszY6Dz9KhUj42IIyIq86Mop0XEpKjEqCiHeB0CADSzSlQiYleUsSUiNkRU1kS1XBkR90aUt8VH
-XrWunl/+/wPsrdy+HAIfwQAAAABJRU5ErkJggg==" transform="matrix(4.998302e-02 0 0 4.882813e-02 506.2043 27.4375)">
+<text transform="matrix(1 0 0 1 99.9076 58.9661)" class="st0 st1">Web Developer/Software Enigneer</text>
+<text transform="matrix(1.0459 0 0 1 462.9909 26.7389)"><tspan x="0" y="0" class="st0 st2">Location: San Jose</tspan><tspan x="109.7" y="0" class="st0 st2 st3">,</tspan><tspan x="112.4" y="0" class="st0 st2"> </tspan><tspan x="115.6" y="0" class="st0 st2">C</tspan><tspan x="122.9" y="0" class="st0 st2">A</tspan></text>
+<line class="st4" x1="463" y1="30.5" x2="600.3" y2="30.3"/>
+<text transform="matrix(1.0411 0 0 1 426.4297 75.4902)"><tspan x="0" y="0" class="st0 st5">Portfolio</tspan><tspan x="32.3" y="0" class="st0 st5">:</tspan></text>
+<text transform="matrix(1.0411 0 0 1 426.4297 91.4148)"><tspan x="0" y="0" class="st0 st6">www.s</tspan><tspan x="32.4" y="0" class="st0 st6">t</tspan><tspan x="36.2" y="0" class="st0 st6">ephenmpop</tspan><tspan x="93.8" y="0" class="st0 st6">o</tspan><tspan x="99.8" y="0" class="st0 st6">vich.</tspan><tspan x="121.7" y="0" class="st0 st6">c</tspan><tspan x="126.3" y="0" class="st0 st6">om</tspan></text>
+<text transform="matrix(1.0411 0 0 1 218.0181 76.1147)" class="st0 st5">Email:</text>
+<text transform="matrix(1.0411 0 0 1 218.0181 91.4148)"><tspan x="0" y="0" class="st0 st6">s</tspan><tspan x="4.6" y="0" class="st0 st6">t</tspan><tspan x="8.3" y="0" class="st0 st6">ephenpop</tspan><tspan x="56.6" y="0" class="st0 st6">o</tspan><tspan x="62.6" y="0" class="st0 st6">vich16@gmail.</tspan><tspan x="132.4" y="0" class="st0 st6">c</tspan><tspan x="137.1" y="0" class="st0 st6">om</tspan></text>
+<text transform="matrix(1.0411 0 0 1 83.3784 76.3579)" class="st0 st5">Phone:</text>
+<text transform="matrix(1.0411 0 0 1 83.3784 91.4148)" class="st0 st6">408-613-4849</text>
+<text transform="matrix(1 0 0 1.3894 437.7227 47.4345)"><tspan x="0" y="0" class="st0 st7">s</tspan><tspan x="3.3" y="0" class="st0 st7">t</tspan><tspan x="6.1" y="0" class="st0 st7">ephenpop</tspan><tspan x="41" y="0" class="st0 st7">o</tspan><tspan x="45.4" y="0" class="st0 st7">vich </tspan></text>
+<text transform="matrix(1 0 0 1.4598 519.7236 47.6986)"><tspan x="0" y="0" class="st8 st9">        </tspan><tspan x="14.6" y="0" class="st0 st9">s</tspan><tspan x="18" y="0" class="st0 st9">t</tspan><tspan x="20.9" y="0" class="st0 st9">ephenmpop</tspan><tspan x="63.6" y="0" class="st0 st9">o</tspan><tspan x="68.1" y="0" class="st0 st9">vich</tspan></text>
+<line class="st4" x1="28" y1="115.9" x2="594.6" y2="114.7"/>
+<text transform="matrix(1 0 0 1.2608 26.9992 131.3853)"><tspan x="0" y="0" class="st0 st10">An engineer with exceptional front-end development skills and a passion for user experience. I’m highly motivated to strengthen  any organization. </tspan><tspan x="0" y="9.9" class="st0 st10">Strong leadership and communication skills with a mind for business backed by over four years of management experience. I&apos;m pursuing a </tspan><tspan x="0" y="19.9" class="st0 st10">development opportunity where I can make a positive contribution towards success and growth. </tspan></text>
+<text transform="matrix(1 0 0 1.2608 26.9992 167.3853)" class="st8 st11"> </text>
+<line class="st4" x1="28" y1="182.2" x2="594.6" y2="182.1"/>
+<text transform="matrix(1.2401 0 0 1 250.3415 176.2153)"><tspan x="0" y="0" class="st0 st12">EDU</tspan><tspan x="31.4" y="0" class="st0 st12">C</tspan><tspan x="40.5" y="0" class="st0 st12 st13">A</tspan><tspan x="49.8" y="0" class="st0 st12">TION</tspan></text>
+<text transform="matrix(1.2401 0 0 1 28.9995 195.989)"><tspan x="0" y="0" class="st14 st0 st15">W</tspan><tspan x="9.3" y="0" class="st14 st0 st15">eb D</tspan><tspan x="29.8" y="0" class="st14 st0 st15">e</tspan><tspan x="35.1" y="0" class="st14 st0 st15">v</tspan><tspan x="39.9" y="0" class="st14 st0 st15">elopment</tspan></text>
+<text transform="matrix(1.2401 0 0 1 86.0026 195.9893)"><tspan x="0" y="0" class="st0 st15 st16"> </tspan><tspan x="21.8" y="0" class="st0 st15 st17">  </tspan><tspan x="92.9" y="0" class="st0 st15">   March 2016</tspan></text>
+<text transform="matrix(1.2401 0 0 1 29.3368 209.1887)"><tspan x="0" y="0" class="st0 st15">C</tspan><tspan x="5.5" y="0" class="st0 st15">oding Doj</tspan><tspan x="48.2" y="0" class="st0 st15">o</tspan><tspan x="53.9" y="0" class="st0 st15 st13">,</tspan><tspan x="55.8" y="0" class="st0 st15"> Sili</tspan><tspan x="70.9" y="0" class="st0 st15">c</tspan><tspan x="75.3" y="0" class="st0 st15">on</tspan><tspan x="86.9" y="0" class="st0 st15"> </tspan><tspan x="89.1" y="0" class="st0 st15">V</tspan><tspan x="94.8" y="0" class="st0 st15">all</tspan><tspan x="105.1" y="0" class="st0 st15">e</tspan><tspan x="110.3" y="0" class="st0 st15">y</tspan></text>
+<text transform="matrix(1.2401 0 0 1 27.6701 222.3892)"><tspan x="0" y="0" class="st0 st15">Python</tspan><tspan x="31.7" y="0" class="st0 st15 st13">,</tspan><tspan x="33.6" y="0" class="st0 st15"> PH</tspan><tspan x="48.6" y="0" class="st0 st15">P</tspan><tspan x="53.9" y="0" class="st0 st15"> and MEAN</tspan></text>
+<text transform="matrix(1.2401 0 0 1 301.8209 195.989)"><tspan x="0" y="0" class="st14 st0 st15">B.S.</tspan><tspan x="16.6" y="0" class="st14 st0 st15 st13">,</tspan><tspan x="18.5" y="0" class="st14 st0 st15"> Business Management</tspan></text>
+<text transform="matrix(1.2401 0 0 1 525.6305 195.989)"><tspan x="0" y="0" class="st0 st15"> Ma</tspan><tspan x="17.2" y="0" class="st0 st15">y</tspan><tspan x="21.8" y="0" class="st0 st15"> 2013</tspan></text>
+<text transform="matrix(1.2401 0 0 1 301.8209 209.1887)"><tspan x="0" y="0" class="st0 st15">San Jose Sta</tspan><tspan x="54.2" y="0" class="st0 st15">t</tspan><tspan x="57.7" y="0" class="st0 st15">e Uni</tspan><tspan x="81.1" y="0" class="st0 st15">v</tspan><tspan x="85.9" y="0" class="st0 st15">ersit</tspan><tspan x="105.7" y="0" class="st0 st15">y</tspan><tspan x="109.9" y="0" class="st0 st15 st13">,</tspan><tspan x="111.8" y="0" class="st0 st15">  </tspan><tspan x="116.8" y="0" class="st0 st15">C</tspan><tspan x="122.4" y="0" class="st0 st15">A</tspan></text>
+<text transform="matrix(1.2401 0 0 1 256.4573 110.2759)" class="st0 st12">SUMMARY</text>
+<path class="st4" d="M27,238.6c189.8,0.5,377.9-1.5,567.6-0.1"/>
+<text transform="matrix(1 0 0 1 253.1078 231.9208)"><tspan x="0" y="0" class="st0 st12">EMP</tspan><tspan x="33.5" y="0" class="st0 st12 st3">L</tspan><tspan x="39.9" y="0" class="st0 st12">O</tspan><tspan x="51.1" y="0" class="st0 st12">YMENT</tspan></text>
+<text transform="matrix(1.1652 0 0 1 28.0219 252.2489)"><tspan x="0" y="0" class="st14 st0 st15">Lead W</tspan><tspan x="30.7" y="0" class="st14 st0 st15">eb D</tspan><tspan x="51.2" y="0" class="st14 st0 st15">e</tspan><tspan x="56.5" y="0" class="st14 st0 st15">v</tspan><tspan x="61.3" y="0" class="st14 st0 st15">eloper/Manager</tspan></text>
+<text transform="matrix(1.1652 0 0 1 188.5223 252.2489)"><tspan x="0" y="0" class="st0 st18">   04/2017</tspan><tspan x="42.9" y="0" class="st0 st18"> –</tspan><tspan x="48.8" y="0" class="st0 st18"> 06/2018</tspan></text>
+<text transform="matrix(1.1652 0 0 1 26.999 265.7899)"><tspan x="0" y="0" class="st19 st18">Morrocco Method Int’l - shop. Morroccomethod.com, www.morroccomethod.com/blog,</tspan><tspan x="0" y="12.5" class="st19 st18">www.qigongmastery.com, www.thehairshaman.com</tspan></text>
+<text transform="matrix(1.1652 0 0 1 477.8211 265.7897)"><tspan x="0" y="0" class="st0 st18">Grover Beach</tspan><tspan x="55.3" y="0" class="st0 st18">,</tspan><tspan x="57.1" y="0" class="st0 st18"> </tspan><tspan x="59.5" y="0" class="st0 st18">C</tspan><tspan x="64.8" y="0" class="st0 st18">A</tspan></text>
+<text transform="matrix(1.1652 0 0 1 27.6701 316.1244)"><tspan x="0" y="0" class="st0 st18">- In charge of the redesigning of four websites, front-end/back-end development, website security, reducing page </tspan><tspan x="0" y="12.5" class="st0 st18">load times, improving overall user experience and any other administrative duties of website.</tspan><tspan x="0" y="25.1" class="st0 st18">- Lead a team of eight to creating beautiful product ads, web pages, e-mail blasts and set up sales campaigns.</tspan><tspan x="0" y="37.6" class="st0 st18">- Improved SEO, mobile responsiveness, UI/UX design, front-end and back-end development, </tspan><tspan x="0" y="50.2" class="st0 st18">debugging for four separate websites, adding products to shop, content management and A/B testing.</tspan><tspan x="0" y="62.7" class="st0 st18">*Notable Achievements: Completely redesigned four separate websites, increased web traffic significantly, </tspan><tspan x="0" y="75.2" class="st0 st18">created new product categories, improved load time of all pages and improved SEO rankings.  </tspan></text>
+<text transform="matrix(1 0 0 1 26.999 290)"><tspan x="0" y="0" class="st0 st10">Technologies: PHP, WordPress, JavaScript, Jquery, HTML, CSS, PhotoShop, Illustrator, NetSuite, Bronto, SurveyMonkey, </tspan><tspan x="0" y="12.5" class="st0 st10">WooCommerce, Google Analytics </tspan></text>
+<text transform="matrix(1.1652 0 0 1 28.6929 411.2489)" class="st14 st0 st15">Front-end Software Engineer</text>
+<text transform="matrix(1.1652 0 0 1 189.1934 411.2489)"><tspan x="0" y="0" class="st0 st18">   06/2016</tspan><tspan x="42.9" y="0" class="st0 st18"> –</tspan><tspan x="48.8" y="0" class="st0 st18"> 11/2016</tspan></text>
+<text transform="matrix(1.1652 0 0 1 27.67 424.7899)" class="st19 st18">Laplace Systems - www.Solar-Link.net</text>
+<text transform="matrix(1.1652 0 0 1 302.4921 424.7897)"><tspan x="0" y="0" class="st0 st18">Campbell</tspan><tspan x="38.5" y="0" class="st0 st18">,</tspan><tspan x="40.3" y="0" class="st0 st18"> </tspan><tspan x="42.6" y="0" class="st0 st18">C</tspan><tspan x="47.9" y="0" class="st0 st18">A</tspan></text>
+<text transform="matrix(1.1652 0 0 1 28.3411 452.1243)"><tspan x="0" y="0" class="st0 st18">- Data mining, debugging, progress reporting, monitoring solar site activities, demoing prototype hardware, </tspan><tspan x="0" y="12.5" class="st0 st18">code reviewing and customer support.</tspan><tspan x="0" y="25.1" class="st0 st18">- Back and front-end development with an emphasis on creating new front-end UI features and customer support.</tspan><tspan x="0" y="37.6" class="st0 st18">- Enhanced the overall success of the business and software interface through updates to the front and back end</tspan><tspan x="0" y="50.2" class="st0 st18">of the website.</tspan><tspan x="0" y="62.7" class="st0 st18">*Notable Achievements: Made software entirely mobile responsive and cross-browser compatible, updated entire</tspan><tspan x="0" y="75.2" class="st0 st18">database to include all models of solar panels, improved load time of software and revised SEO of application.</tspan></text>
+<text transform="matrix(1 0 0 1 27.9995 437)" class="st0 st10">Technologies: Java, Spring, Apache, PHP, MySQL, JavaScript, Jquery, HTML, SASS, AWS, Xcode, Google Analytics </text>
+<text transform="matrix(1.1652 0 0 1 28.0222 547.9155)" class="st14 st0 st15">Lead Front-end Developer</text>
+<text transform="matrix(1.1652 0 0 1 188.5226 547.9155)"><tspan x="0" y="0" class="st8 st18">  </tspan><tspan x="4.4" y="0" class="st0 st18"> 05/2016</tspan><tspan x="42.6" y="0" class="st0 st18"> –</tspan><tspan x="48.5" y="0" class="st0 st18"> 05/2016</tspan></text>
+<text transform="matrix(1.1652 0 0 1 26.9993 561.4565)" class="st19 st18">Good Karma Bikes - www.GoodKarmaBikes.org</text>
+<text transform="matrix(1.1652 0 0 1 301.8214 561.4564)"><tspan x="0" y="0" class="st0 st18">San Jose,</tspan><tspan x="36.8" y="0" class="st0 st18"> </tspan><tspan x="39.2" y="0" class="st0 st18">C</tspan><tspan x="44.5" y="0" class="st0 st18">A</tspan></text>
+<text transform="matrix(1.1652 0 0 1 27.6704 588.791)"><tspan x="0" y="0" class="st0 st18">- Lead a team of twelve to develop the UI/UX of the front-end and admin front-end of the website.</tspan><tspan x="0" y="12.5" class="st0 st18">- Duties included: implementing SEO, analytics, front-end development, debugging and creating mobile features.</tspan><tspan x="0" y="25.1" class="st0 st18">*Notable Achievements: Helped create a back-end portal, so the owners could edit and update their website freely</tspan><tspan x="0" y="37.6" class="st0 st18">with any coding knowledge. </tspan></text>
+<text transform="matrix(1 0 0 1 27.3287 573.6666)" class="st0 st10">Technologies: Ruby on Rails, Angular.js, MySQL, JavaScript, Jquery, HTML, CSS, Google Analytics </text>
+<text transform="matrix(1.1652 0 0 1 26.9992 663.9155)"><tspan x="0" y="0" class="st14 st0 st15">Branch Manager </tspan><tspan x="69.7" y="0" class="st0 st15">- River City Building Supply Inc.</tspan></text>
+<text transform="matrix(1.1652 0 0 1 277.4996 663.9155)"><tspan x="0" y="0" class="st0 st18">San Jose, CA   08/2013</tspan><tspan x="95.3" y="0" class="st0 st18"> –</tspan><tspan x="101.2" y="0" class="st0 st18"> 10/2015</tspan></text>
+<text transform="matrix(1.1652 0 0 1 26.9992 681.2489)"><tspan x="0" y="0" class="st14 st0 st15">Restaurante Manager </tspan><tspan x="90.7" y="0" class="st0 st15">- Michi</tspan></text>
+<text transform="matrix(1.1652 0 0 1 233.4996 681.2489)"><tspan x="0" y="0" class="st0 st18">San Jose, CA    02/2013</tspan><tspan x="97.7" y="0" class="st0 st18"> –</tspan><tspan x="103.6" y="0" class="st0 st18"> 08/2016</tspan></text>
+<text transform="matrix(1.1652 0 0 1 26.9992 699.2489)"><tspan x="0" y="0" class="st14 st0 st15">Lead Sale Associate </tspan><tspan x="80.3" y="0" class="st0 st15">- Orchard Supply Hardware</tspan></text>
+<text transform="matrix(1.1652 0 0 1 267.4996 699.2489)"><tspan x="0" y="0" class="st8 st18">San Jose, CA    06/2009</tspan><tspan x="98.6" y="0" class="st8 st18"> –</tspan><tspan x="104.4" y="0" class="st8 st18"> 10/2012</tspan></text>
+<line class="st4" x1="28.7" y1="645.5" x2="595.3" y2="645.4"/>
+<text transform="matrix(1.2401 0 0 1 219.2414 639.4979)" class="st0 st12">OTHER EMPLOYMENT</text>
+<text transform="matrix(1.1652 0 0 1 28.6931 717.5822)"><tspan x="0" y="0" class="st14 st8 st15">Concession </tspan><tspan x="49.8" y="0" class="st8 st15">- Century Theaters</tspan></text>
+<text transform="matrix(1.1652 0 0 1 215.1935 717.5822)"><tspan x="0" y="0" class="st8 st18">San Jose, CA    04/2007</tspan><tspan x="98.6" y="0" class="st8 st18"> –</tspan><tspan x="104.4" y="0" class="st8 st18"> 06/2008</tspan></text>
+<image style="overflow:visible;" width="50" height="50" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGOSURBVGhD7do/K4VhGMfx408KKVlkwcCEDGSS
+hRQm4QWQTV6EJAblDZiUlHgDDAab1YxBTPK3lInvvd09Xc+5nLvrPtP1rc/2dK5+dBjOqdRYAxZx
+iTf8ZvCFa6yiGeY14QjS8TLvuIu8QHquzAXaYdoepGNl7tGKuPATvoL0fJkTmNWDH0iHynxiFmOR
+aTxAer6acZi0BulAvWzDpC3EL/yKc5xm8oz4XnhvmrSL+IWXkbMRxPeOYVJxyCRy1ov4ng8p5kMS
+8yFaPiQxH6LlQxLzIVo+JDEfouVDEvMhWj4kMR+i5UMS8yFaPiQxH6LlQxLzIVo+JLG6DZlCzvoR
+38s25AwTiD8ftBI+L9xHfC/bkHrzIcVSh4SPqNcxiBUUP+T8L7MhO5AOaDYQNw/pOY3ZkE1IBzTh
+zRvXCek5zQFMGoJ0QFP8jcxBek6zALPCn1zpSDUfCN/y6cMSniA9V80NGmFWF24hHcvlEQMwrwPh
+n1X4+pJ02Mo3DtGNrLVgGOHbPjPGRtGGGqpU/gAjYa4+wL8XVQAAAABJRU5ErkJggg==" transform="matrix(0.44 0 0 0.44 55.6667 69.4148)">
 </image>
-<image style="overflow:visible;" width="512" height="512" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACAMAAADDpiTIAAAAA3NCSVQICAjb4U/gAAAACXBIWXMA
-ABApAAAQKQH1eOIPAAAAGXRFWHRTb2Z0d2FyZQB3d3cuaW5rc2NhcGUub3Jnm+48GgAAAwBQTFRF
-////AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACyO34QAAAP90Uk5TAAECAwQFBgcICQoLDA0ODxAR
-EhMUFRYXGBkaGxwdHh8gISIjJCUmJygpKissLS4vMDEyMzQ1Njc4OTo7PD0+P0BBQkNERUZHSElK
-S0xNTk9QUVJTVFVWV1hZWltcXV5fYGFiY2RlZmdoaWprbG1ub3BxcnN0dXZ3eHl6e3x9fn+AgYKD
-hIWGh4iJiouMjY6PkJGSk5SVlpeYmZqbnJ2en6ChoqOkpaanqKmqq6ytrq+wsbKztLW2t7i5uru8
-vb6/wMHCw8TFxsfIycrLzM3Oz9DR0tPU1dbX2Nna29zd3t/g4eLj5OXm5+jp6uvs7e7v8PHy8/T1
-9vf4+fr7/P3+6wjZNQAAHSdJREFUGBntwQmAjeX+B/DvmX0Y+y6uJcWkst3rRqVCJColOSnRLksk
-xLWUErlFruUvtLi2CrnKUpIWomyVLEkkstwZhmEss5w53/+V69rmnDnv+z6/933PmefzATRN0zRN
-0zRN0yJXieSGTVrc1aFz194Dh40aN2X63IXLli2cO33KuFHDBvbu2qXDXS2aNEwuAS2iJFS9rm3X
-YZM/XLM7iyHJ2r3mw8nDura9rmoCtPBVpGGXUe9+sS2dFqRv++LdUV0aFoEWTkrd+MTYT3+nQr9/
-OvaJG0tBc7uKzXtO+jKVQlK/nNSzeUVorpTUbOjSI7TBkaVDmyVBc5NKHcZt8NFGvg3jOlSC5gJR
-dbvP3k1H7J7dvU4UNOckNhu69BgddWzp0GaJ0BxQ9pEFJ+gKJxY8UhaarZKfW51LF8ld/VwyNHtE
-3zT6F7rQL6NvioYmrEj7GWl0rbQZ7YtAE1Om2ydZdLmsT7qVgSYg5q5/ZTMsZP/rrhhoal0zJoVh
-JGXMNdCUKdljPcPO+h4loSkQffucTIalzDm3R0OzptYr+xnG9r9SC5pp8Y9+w7D3zaPx0MwoPvAA
-I8KBgcWhGVV5dAYjRsboytCMuGZ6NiNK9vRroIXqliWMQEtugRaC6PbrGKHWtY+GFlxitx2MYDu6
-JUILrMiQVEa41CFFoOUttkcKC4CUHrHQLuXx7mABscPrgXaRZutZgKxvBu189ZaygFlaD9pZ1Wb5
-WeD4Z1WDdlrpsVkskLLGloZWePBRFlhHBxdGweZ5/AALtAOPe1CAXb2KBd6qq1FQJY7IpsbsEYko
-kFrspPaHnS1Q8JSdRe1/ZpVFweJ57DC18xx+zIMCJHkFtYusSEZBkfBSFrVLZL2UgAKh2XZqedre
-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" transform="matrix(4.945135e-02 0 0 4.847479e-02 409.8405 27.528)">
+<image style="overflow:visible;" width="50" height="50" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAANOSURBVGhD7Zm3qlRRFIbH9ASmwsZKzHZaaqmV
+oK9gDo9gQBRszKC1WYyohQlBVLBRwVLsVAyNoVDM+n8wPyw2+9w7c86ZcPH88MG5a+299tlzd1iz
+ptWoUaNG/7XGi0Viozgkzos7bXg+KDYI2owTQ6eF4oh4J/52CG2Z2AIxcM0T18UfkXvZTqDvVTFH
+9F2TxG7xQ+ReznwseM7xXRBzouiLpotHIvcy5oNYLo4GG8/YRpvQfTFN9FQzxQsRB37Zxn9/EYsF
+SieClgja2J72h+eCsXqiqSKdxGmxVMQ9skZYuYmgdcJ2+i4TZ4INGIsxaxV74qGIA20T6LKwjSUX
+j9WiidAmLs9LAu0QtsEDMUHUpj0iDrBdoBnil7B9pYgqmgiirX3EIBbaJWwH/q5FHLHxdHol1guW
+x6m2Db4KLjvs5p6wn+fooy197D8psBObMWz/JmaLyuKecNBBcUVUEjd2lcuuLngHVkZpHRYO9lo4
+b4Jnwj6O0+gzcYnwnGsTj2JiRh9j2ndAlBIJ4HvhQPFYRVuFfQya00ib3bor3IaYUYxp31tRKtEk
+Q3UQNvtkEXVM2L8PQ0adTIS+RW2miJ/C/lIJJqm4AzzGkOiWsJ+2OXUykc3CbW5gSPRE2M+J1rX4
+PuEAxzEkigOswpBRJxNZLdwm94GdEPaX2ifctg7Arb434bOwn/Qi9cNT4TY859rE1ORT2xaJGcUF
+0bXi0hkWboquRadcsEFSaiIXhQOM6aXF92kHGJbNvh9DtyKpG2mAuIc2Yciok4lsEW7Tk+O3Xxci
+R2pRm/RCnC+6FulALO8MOkV5I0rXwuKlOOiksdT+sPhXDksaP1dU0jWRC95P/J2+kqgADvqr7ixR
+i9KCwE6BelF8SAsdVFZqE2VMSjO5AeosB6UfGP/FWstBKFegOysorsUDYa2wiiYSL1v6EuNcsEFP
+CnQWZUzKmXFA1nNaMqUsinITSUum9I97AnpaMrX4lCg0x4FTiorYKwSJYWybwnLiRu+L2DOsZ34K
+yL2M6fZnBcqwte+JTkQFkOJZlUvzt2Cz13bEVhEZACkEJZvcy+Ygd6LPQH6pGk0cq5RsOJV4SX4A
+vd2GZ2xceEy8dALYqFGjRmNdrdY/WJkn27lpBpMAAAAASUVORK5CYII=" transform="matrix(0.4933 0 0 0.4933 398.3893 68.0815)">
 </image>
-<text transform="matrix(1 0 0 1.5201 354.0332 554.8937)" class="st5 st3 st25">shop.MorroccoMethod.com (NetSuite, Javascript, HTML/CSS)</text>
-<text transform="matrix(1 0 0 1.5201 354.0332 573.1349)" class="st3 st25">An all natural luxury hair care e-commerce website backed</text>
-<text transform="matrix(1 0 0 1.5201 353.5332 584.8752)"><tspan x="0" y="0" class="st3 st25">by over  </tspan><tspan x="31.7" y="0" class="st3 st25">50 years of business. A website that averages</tspan><tspan x="0" y="7.9" class="st3 st25">1.2 million visits a year from all over the world.</tspan><tspan x="0" y="15.8" class="st3 st25"> </tspan><tspan x="2" y="15.8" class="st3 st25"> </tspan></text>
-<text transform="matrix(1.1652 0 0 1 15.5008 620.0848)" class="st5 st3 st18">Branch Manager</text>
-<text transform="matrix(1.1652 0 0 1 98.0013 620.0848)"><tspan x="0" y="0" class="st3 st28 st29"> </tspan><tspan x="3.9" y="0" class="st3 st28">   03/2013</tspan><tspan x="46.3" y="0" class="st3 st28"> –</tspan><tspan x="52" y="0" class="st3 st28"> 10/2016</tspan></text>
-<text transform="matrix(1.1652 0 0 1 15.5022 632.6259)"><tspan x="0" y="0" class="st3 st28">River City Build Supply </tspan><tspan x="95.2" y="0" class="st3 st28">Inc</tspan><tspan x="108.1" y="0" class="st3 st28">.</tspan><tspan x="109.5" y="0" class="st3 st28 st30">     </tspan><tspan x="216.1" y="0" class="st3 st28">San Jose</tspan><tspan x="251.9" y="0" class="st3 st28">,</tspan><tspan x="253.3" y="0" class="st3 st28"> </tspan><tspan x="255.5" y="0" class="st3 st28">C</tspan><tspan x="261.3" y="0" class="st3 st28">A</tspan></text>
-<text transform="matrix(1.1652 0 0 1 15.5022 657.7079)"><tspan x="0" y="0" class="st3 st28">-Increased overall production and efficiency through managing a</tspan><tspan x="0" y="12.5" class="st3 st28">team of 16 employees in various roles including sales, dispatch, </tspan><tspan x="0" y="25.1" class="st3 st28">purchasing, warehouse, and delivery.</tspan></text>
-<text transform="matrix(1.1652 0 0 1 15.5022 670.2484)"><tspan x="0" y="0" class="st3 st28">.</tspan><tspan x="1.4" y="0" class="st3 st28"> </tspan></text>
-<text transform="matrix(1.1652 0 0 1 14.2657 696.0341)"><tspan x="0" y="0" class="st3 st28">  Practiced leadership and contributed to a dynamic team through</tspan><tspan x="0" y="12.5" class="st3 st28">effective recruiting, hiring, training, and motivating of all staff</tspan><tspan x="0" y="25.1" class="st3 st28">members.  </tspan></text>
-<text transform="matrix(1.1652 0 0 1 14.2657 734.4495)"><tspan x="0" y="0" class="st3 st28">-</tspan><tspan x="3.2" y="0" class="st3 st28">Increased orders through developing and implementing strong </tspan><tspan x="0" y="12.5" class="st3 st28">business controls and maintaining the branch in an audit-ready</tspan><tspan x="0" y="25.1" class="st3 st28">status.  </tspan></text>
-<text transform="matrix(1.1652 0 0 1 14.2657 746.9905)" class="st3 st28"> </text>
-<path id="SVGID_x5F_7_x5F_" class="st31" d="M18.3,730.7c0,1.7-1.3,3-3,3s-3-1.3-3-3c0-1.7,1.3-3,3-3S18.3,729.1,18.3,730.7"/>
-<text><textPath  xlink:href="#SVGID_x5F_7_x5F_" startOffset="9.375%">
-</textPath>
-</text>
-<path d="M18.3,692.4c0,1.7-1.3,3-3,3s-3-1.3-3-3c0-1.7,1.3-3,3-3S18.3,690.7,18.3,692.4"/>
-<path d="M11.9,730.5c0.5-1.6,2.3-2.4,3.8-1.8c1.6,0.5,2.4,2.3,1.8,3.8c-0.5,1.6-2.3,2.4-3.8,1.8"/>
-<path d="M13.8,734.3c-1.6-0.5-2.4-2.3-1.8-3.8"/>
-<path d="M13.2,653.7c0.5-1.6,2.3-2.4,3.8-1.8c1.6,0.5,2.4,2.3,1.8,3.8c-0.5,1.6-2.3,2.4-3.8,1.8"/>
-<path d="M15,657.5c-1.6-0.5-2.4-2.3-1.8-3.8"/>
-<text transform="matrix(1.1652 0 0 1 249.3335 350.4565)"><tspan x="0" y="0" class="st3 st28">Grover Beach</tspan><tspan x="56.1" y="0" class="st3 st28">,</tspan><tspan x="57.4" y="0" class="st3 st28"> </tspan><tspan x="59.7" y="0" class="st3 st28">C</tspan><tspan x="65.4" y="0" class="st3 st28">A</tspan></text>
+<image style="overflow:visible;" width="50" height="50" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFySURBVGhD7ZhNSsRAEEYDegW9gC5U8CRu/TmI
+f2fxBoqeQ12Le5ei7nWp34MpKJsOmWTSScPUgwdDpbu6v9RihmmCIAiCIAiCSdmR15XLHTs5kr+V
+yx07WYsgb/JmIjkrdwccZSK3ckuWgt6ckTvb7B3kVZ7Lb1fDD3ksx4ae9PZncTZ34C5W6x3khYLY
+k4/S6uad3JarQg96pf05k7OBu1h9cBDYkBcyN50TORT25qbAWZxpjBbEaJvOvewzHdayJ+3jp+AZ
+PQjwpi7lj7S1+ClPZResYa3fSy96+il4igQxeHNP0tabbdNpmwI9clPwFA0CvMErmU7nS55Jg8/U
+/Br2sLdtCp7iQYx9+Sxtr/mwMK2zlj3LMlkQ4M3yoy6djpdnrFlmCp5JgxgHMjcdajwbwixBYFPa
+dGwK1IYyWxBjd+GqzB5kLCJIBClEBIkghYgg+C75Rq5B7jI4SK2uV5BDmfvDrCa5YxAEQRAE/2ma
+PxYl+YzsJYOPAAAAAElFTkSuQmCC" transform="matrix(0.48 0 0 0.48 188.5223 68.4148)">
+</image>
+<image style="overflow:visible;" width="50" height="50" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAQ5SURBVGhD7dlZqFVVHMfxW1Y2UWphFBEVKSqK
+0UBz0EBFllAOKAriSIRYBFEU0UsPzURU1EMPQfVQREUWiVhpD0FYNhnRPFHRTCPNfb90FmzW+e99
+977ufZS4P/jAvfecvdY+++y91n+tOzSa/3EOwRLcg2fxGX7AP/gT3+ItPIbrcCb2xA6RCbgEm+EJ
+N/ULHsA52AkDz/64AemKt+EVzMVAPpCdrMRXiE6mDd6WU9FZ9sNaRJ237VesQuuZgg8Rddqle7EL
+Wskx+BpRR4PwBHbDNmUavkTUwSA9hDEYUXwmPkbU8PZwMxrH0anqwf4Nf2R/a8PPwd+SvzEbjeIQ
+GzWWnA+/6sNxGd5B9D45ozvxRa95Me7DWdgHtvkCovfK29xJuFa8paoe7t+xM4rxYbwW7+EOnI2D
+UXxIPVHnh4vwNF7GdOS5HFG/yd2oFWfsqIHEq9JlliHqN7Fum4TK+LX9iKiB5Ht0GSfCqN8i55fK
+rEF0YG48usqNiPoscuYfh9K8hOjA3BnoKtZaUZ+50hLG9UR0QMR1R1dxwIj6zD2FMJ5cdEDuDeyK
+rrIAUb85lxDhebiyiw7IdVKVFuLQ/hGivnNHoS8bEb25yNnVRVXXca6I+s8tRF8+RfTmIq/UIHIp
+ov5z16AvdZatr2MQuRhR/7mwkCy+wTLEGul9fNH7WW9iEHF2d0NDz2M9nuv9/i6+ged5F/ri/e+L
+Y3usuSwK5QSYjHhd0CCTcXTP6XDr6LTe75YnV6H0g3wHX4zKc8sW96nclzoVXcYlxDo4n1jXlVXO
+uh598bbxxVswD8fiADgcWrkeCK+GQ16XWzZOzEfCO2EiUnlvNX0yFiOV+u6p9cW1sS8+ApeWL6Js
+mbsaXcSTjZYQVryfwOflfqT1zyz05UrkDZSxYb+1NuM37qgY9Rf5Cz7HfTkR0QFlHBwc/vbGtuZc
+fI6onzKvIox1S9ma2ecnjWo5T8DV4WFoEi+AdVXdajd3O0rjhnJ0kPXVDHgVoteTt/EgrsYiHATj
+w3oCXO+4FLYccgMjaqOuytHzeEQH+W1cgH3xWu9vVZ6Bo0+eC+EKMzqmCdf7w6ZsceW47valI4uz
+a/QebULVzuBxqNr2qWMFhs0cRAfLK2qc4Z1dH8XD8Ja8E9ZIlUvQXq5A1H4d7kHvgVp5ElEjG9BG
+/MasFKI+hnMeaudQlH39S9FGbkPUfhUn68Yp25bxwfeWcjfSSTEJZ9mKzEfUfhln9jQKNs5wm3VF
+W9EkDp9RO5Gf4PA/4jj+P46o8ZzDcpNYAEbt5CyHGm9eR/HBdKM56qSoiw/i8qHpLVsZy3bXx2Vl
+itr+ID4TlvOdxH8nlG3VtPlBHJ2shjuNxd5NyFeSTT/ISSgerw/QaJ5oI0fgVqQlsht8TeLOfzp2
+C5Zjd2y37AXnhNplQyEzccp/P45mNDtghob+BWm8vkDPJb3BAAAAAElFTkSuQmCC" transform="matrix(0.4467 0 0 0.4467 412.8893 32.5104)">
+</image>
+<image style="overflow:visible;" width="50" height="50" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAKaSURBVGhD7ZnPa9RAFMezKV70ol78cRIFT4Je
+vAoeRP0D/HUUPerBkwiCIGpSKXhQrBWF1oronvRQDypqUbuWoptsV6WlK1htrVIrC1vwR7vPednJ
+Nsm81WxMNkOZD3xhd+flzfsmM8NsRlMoFIpFRjbbppvW/oxp92ZM62FLZdg39HPWPu0U6LyaiJwZ
+WqMb1pBu2pCqDHtQO19czatqEudJ2C+FpKnJGoj0ZHA40QlTFA6zZsE5QSZLUThneHnhYRc9ppKl
+KayJlxceNsGeUclQKy4U4dD9j3DkwSfY0PmOjElErCZeXngaGUETpe8/waXyax42Xx8R4hJRnEYO
+sycR5MrraSEuEcVp5CgbTkF6izNCXCKK08i6y2+d4eRSZdp5570Ql4jiNILawuZEV34aeoZnYFer
+TKDiNpKa4jSy9uIb2No96tPGroUleFnHsNCOWtJeqMcsZysfrnSbro3ASvbZ/f2fitPIiaefa5PD
+Q99Yud6OBVLgso2F3x0twzxOLM5ctQr94xXYcbvk64eUDEZwQSj/mOPfRNDb8SeTvr4EyWBkqvKb
+f2oMmvnr4iGDkbDkJmZ9/fkki5Gr+W+w/VYJtt0cg062G/BMFR/rG+3fZDBy6ZW4jTnZL+ZCDtz7
+IMQ6ksEIdZeXdhTIBeDYowkh1pEMRnD59eZxNTg5yyMWOP18ioyV2gheG8TMfSFjlREqmTKijHik
+jBDJlBFlxKM4jeCmrz331aeDfeP1dvwHGWxH4XbEm8cVXhuM3Z1tsJWPYmTRvDLFF8ZUsjSFNfHy
+wiPjsUKbUdjDy2uC2pHbAJUwHUU86HGoHb3l6MQtlGG90M4WVvGqIsLugm7m92YMq5s8sExSrE/s
++/8PQxUKhUIuNO0PiU/8nT0pxdcAAAAASUVORK5CYII=" transform="matrix(0.4926 0 0 0.4926 508.4084 31.3619)">
+</image>
+<line class="st4" x1="27" y1="746.1" x2="593.6" y2="746"/>
+<text transform="matrix(1.2401 0 0 1 209.6991 740.0953)" class="st0 st12">TECHNOLOGIES &amp; TOOLS </text>
+<text transform="matrix(1 0 0 1 29.3335 759.333)"><tspan x="0" y="0" class="st19 st10">- JavaScript   - Bootstrap   -WordPress   - jQuery   - HTML   - CSS   - SASS/LESS  - NPM/Grunt   - NetSuite   - PHP   - Node.js   - Xcode   </tspan><tspan x="0" y="12.5" class="st19 st10">- PhotoShop   - Google Analytics   - Bronto   - AWS  - MySQL   - MongoDB   - GitHub   - Illustrator   - AngularJS   - AWS   - React   - Java</tspan></text>
+<text transform="matrix(1 0 0 1 1280 720)" class="st8" style="font-size:12px;">separate </text>
+<text transform="matrix(1 0 0 1 115.7018 38.7389)" class="st14 st19 st20">Stephen Popovich</text>
 </svg>

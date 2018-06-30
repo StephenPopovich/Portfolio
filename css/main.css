@@ -76,7 +76,6 @@
 }
 
   nav.navbar.navbar-default:hover{
-    background: -webkit-linear-gradient(bottom, #25c481, #25b7c4) !important;
     background: linear-gradient(to top, #000000, #3B5998) !important;
     border: 2px groove white;
     opacity: 1;
@@ -987,7 +986,8 @@ div#operating-systems{
     text-align: left;
   }
   li span {
-    font-size: 16px;
+    font-size: 1em;
+    line-height: 1em;
   }
   img#error{
     box-shadow: none;
