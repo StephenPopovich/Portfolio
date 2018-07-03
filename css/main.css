@@ -411,6 +411,11 @@ div#operating-systems{
   margin-top: -6%;
   margin-left: -1.5%;
 }
+.comfortable{
+  text-align: center;
+  color: gold !important;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000 !important;
+}
  div.proficient{
     background: rgba(255,255,255, 0.7);
     border-radius: 6px;
